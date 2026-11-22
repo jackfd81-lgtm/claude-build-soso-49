@@ -1,0 +1,22 @@
+[Unit]
+Description=MUSE Build 030 local HTTP runtime
+After=local-fs.target
+
+[Service]
+User=muse
+Group=muse
+WorkingDirectory=/opt/muse030/current
+StateDirectory=muse030
+StateDirectoryMode=0700
+UMask=0077
+ExecStart=/usr/bin/python3 -m muse024 --state /var/lib/muse030/state serve --port 8000
+Restart=on-failure
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+NoNewPrivileges=true
+IPAddressDeny=any
+IPAddressAllow=localhost
+
+[Install]
+WantedBy=multi-user.target

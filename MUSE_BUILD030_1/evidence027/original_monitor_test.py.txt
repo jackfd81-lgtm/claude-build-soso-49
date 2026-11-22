@@ -1,0 +1,133 @@
+"""Suit 6.1 <-> PH6 Closet reference router (v0.1, vendored). Real router code; in-memory (its documented limit)."""
+import hashlib
+from pathlib import Path
+import pytest
+
+from eval061 import run as E
+from suit61.agent import Agent
+from suit61.closet_port import ClosetPort, VENDORED_SHA256
+from suit61.vendor import ph6_closet_router as R
+
+TASKS = {t["id"]: t for t in E.TASKS}
+
+
+@pytest.fixture
+def agent(tmp_path):
+    root, tok = E.station(tmp_path)
+    E.train(root, tok, transfers=True)
+    ports = []
+
+    def make(principal):
+        ports.append(ClosetPort(principal))
+        return ports[-1]
+    a = Agent(root, suit_token=tok["agent"], brain_token=tok["brain"], suit=True, mask=True, transfer=True, closet=make)
+    return a, ports, root, tok
+
+
+def test_vendored_router_is_byte_identical_to_the_supplied_reference():
+    p = Path(R.__file__)
+    assert hashlib.sha256(p.read_bytes()).hexdigest() == VENDORED_SHA256
+
+
+def test_without_a_closet_the_status_is_explicit_not_silent(tmp_path):
+    root, tok = E.station(tmp_path)
+    E.train(root, tok, transfers=False)
+    a = Agent(root, suit_token=tok["agent"], brain_token=tok["brain"])
+    assert a.handle(TASKS["F1"]["target"])["closet"] == {"status": "NOT_CONNECTED"}
+
+
+def test_evidence_gap_becomes_a_pending_iou_and_decision_is_audited_with_authenticated_identity(agent):
+    a, ports, *_ = agent
+    out = a.handle(TASKS["U1"]["target"])                       # unfamiliar: evidence required
+    port = ports[0]
+    assert out["closet"]["status"] == "ACKED" and out["evidence_requests"] > 0
+    kinds = [m["response_kind"] for m in out["closet"]["messages"]]
+    assert kinds == ["AUDIT_ACK", "IOU_ACK"]
+    assert set(port.pending_ious().values()) == {"PENDING"}      # an IOU is never evidence
+    assert port.principal == "agent"            # the principal Build 025 authenticated, reported by the server
+    assert {e.client_id for e in port.router.ledger._entries.values()} == {port.principal}
+    assert len(port.dispatched) == 1 and port.dispatched[0] > 0   # the AUDIT receipt reached the dispatch stub
+
+
+def test_closet_never_changes_the_suit_decision_or_grants_anything(agent):
+    a, ports, root, tok = agent
+    first = a.handle(TASKS["P1B"]["target"])
+    assert first["mode"] == "REUSE_QUALIFIED_TRANSFER" and first["closet"]["status"] == "ACKED"
+    assert first["qualification"] == "TRANSFER_QUALIFIED"
+    assert "execution_authorization" not in first or first["execution_authorization"] == "NOT_GRANTED"
+
+
+def test_closet_refusal_is_reported_and_the_suit_decision_is_unchanged(agent):
+    a, ports, *_ = agent
+    a.handle(TASKS["F1"]["target"])                              # creates the port
+    baseline = a.handle(TASKS["P1B"]["target"])
+    port = ports[0]
+
+    def refuse(env):
+        raise RuntimeError("closet down")
+    port.router.submit = refuse
+    out = a.handle(TASKS["P1B"]["target"])
+    assert out["closet"]["status"] == "FAILED" and out["closet"]["messages"][0]["error"] == "CLOSET_EXCEPTION"
+    assert out["mode"] == baseline["mode"] and out["usable_plan"] == baseline["usable_plan"]
+
+
+def test_duplicate_submission_is_an_idempotent_replay_not_a_second_effect(agent):
+    a, ports, *_ = agent
+    a.handle(TASKS["U1"]["target"])
+    before = len(ports[0].router.ious._ious)
+    # the same retrieval receipt cannot be re-sent as a new message: same key -> idempotent replay
+    again = ports[0]._send("AUDIT", {"receipt_seq": 1, "context_digest": "x", "mode": "m", "execution_authorization": "NOT_GRANTED"}, ["k"])
+    again2 = ports[0]._send("AUDIT", {"receipt_seq": 1, "context_digest": "x", "mode": "m", "execution_authorization": "NOT_GRANTED"}, ["k"])
+    assert again2["replay"] is True and len(ports[0].router.ious._ious) == before
+
+
+def test_forged_origin_in_payload_cannot_choose_the_ledger_identity(agent):
+    a, ports, *_ = agent
+    a.handle(TASKS["U1"]["target"])
+    port = ports[0]
+    port._send("AUDIT", {"receipt_seq": 2, "origin_identity": "someone-else", "execution_authorization": "NOT_GRANTED"}, ["f"])
+    assert {e.client_id for e in port.router.ledger._entries.values()} == {port.principal}
+
+
+def test_port_requires_an_authenticated_principal():
+    with pytest.raises(ValueError):
+        ClosetPort("")
+
+
+# ------------------------------------------------------------------ SoSo Suit v3.2.3 closed-vocabulary records
+from suit61 import disposition as D
+
+
+def test_vendored_monitor_sources_match_the_recorded_hashes():
+    assert all(D.verify_vendored().values())
+
+
+def test_every_mapped_mode_builds_a_valid_closed_record_with_no_state_change():
+    for mode in D.MAP:
+        r = D.record_for(mode, {"seq": 3}, "ctx")
+        d = r.as_dict()
+        assert d["state_change"] is False and d["authority_level"] == "AUTH:0" and d["record_digest"].startswith("sha256:")
+
+
+def test_unmappable_mode_is_an_error_not_a_guess():
+    with pytest.raises(ValueError):
+        D.record_for("SOMETHING_NEW", {"seq": 1}, "c")
+
+
+def test_closet_audit_carries_the_v323_record_and_its_digest_recomputes(agent):
+    a, ports, *_ = agent
+    out = a.handle(TASKS["N1"]["target"])                       # structurally similar but incompatible -> refusal
+    audit = out["closet"]["messages"][0]
+    assert audit["status"] == "ACKED" and audit["response_kind"] == "AUDIT_ACK"
+    seq = ports[0].dispatched[0]
+    rec = D.record_for(out["mode"], {"seq": seq}, a._got["context_digest"])
+    assert rec.canonical_digest() == audit["record_digest"]
+    assert rec.disposition.value in ("DISP_REFUSED", "DISP_IOU") and rec.state_change is False
+
+
+def test_handshake_failure_maps_to_hash_mismatch_refusal():
+    r = D.record_for("HANDSHAKE_FAILED", {"seq": 9}, "c").as_dict()
+    assert (r["observation"], r["disposition"], r["reason"]) == ("OBS_HASH_MISMATCH", "DISP_REFUSED", "REASON_HASH_MISMATCH")
+    # and the monitor's own primitive agrees that one differing byte is a mismatch
+    obs, _ = D.M.verify_hash("0" * 64, b"x")
+    assert obs.value == "OBS_HASH_MISMATCH"

@@ -1,0 +1,439 @@
+{
+  "assertion_status": "PASS",
+  "cases": [
+    {
+      "control": {
+        "case": "training-pump",
+        "expected": "valve",
+        "steps": [
+          {
+            "request_feature": "a_pressure",
+            "status_after": "HOLD"
+          },
+          {
+            "request_feature": "m_vibration",
+            "status_after": "SUPPORTED"
+          }
+        ],
+        "negatives": {},
+        "initial": "HOLD",
+        "requests": 2,
+        "terminal": "SUPPORTED",
+        "answer": "valve",
+        "verdict": "SUPPORTED_CORRECT"
+      },
+      "fault_injected": {
+        "case": "training-pump",
+        "expected": "valve",
+        "steps": [
+          {
+            "request_feature": "a_pressure",
+            "status_after": "HOLD"
+          },
+          {
+            "request_feature": "m_vibration",
+            "status_after": "SUPPORTED"
+          }
+        ],
+        "negatives": {
+          "wrong_request_id": {
+            "outcome": "REJECTED",
+            "error": "ValueError"
+          },
+          "wrong_feature": {
+            "outcome": "REJECTED",
+            "error": "ValueError"
+          },
+          "duplicate_after_terminal": {
+            "outcome": "ACCEPTED",
+            "status": "HOLD",
+            "decision": {
+              "request": {
+                "feature": "m_vibration",
+                "id": "c16147936c4a755d1d740e0aae189b1adedccf1922266a5f61eb324f64d405f9",
+                "profile": [
+                  1,
+                  1
+                ],
+                "release": "matching sourced measurement",
+                "remaining": 2,
+                "termination": "explicit expire or activation budget"
+              },
+              "status": "HOLD"
+            }
+          },
+          "conflicting_after_terminal": {
+            "outcome": "REJECTED",
+            "error": "ValueError"
+          },
+          "stale_wrong_id_after_terminal": {
+            "outcome": "REJECTED",
+            "error": "ValueError"
+          }
+        },
+        "initial": "HOLD",
+        "requests": 2,
+        "terminal": "SUPPORTED",
+        "answer": "valve",
+        "verdict": "SUPPORTED_CORRECT",
+        "terminal_unchanged_after_negatives": true,
+        "replay_of_early_request_returns": "HOLD",
+        "state_not_mutated_by_rejections": true,
+        "terminal_survives": true,
+        "rejections_ok": true
+      }
+    },
+    {
+      "control": {
+        "case": "kiln",
+        "expected": "vent",
+        "steps": [
+          {
+            "request_feature": "air_color",
+            "status_after": "HOLD"
+          },
+          {
+            "request_feature": "heat_gradient",
+            "status_after": "HOLD"
+          },
+          {
+            "request_feature": "wing_flux",
+            "status_after": "SUPPORTED"
+          }
+        ],
+        "negatives": {},
+        "initial": "HOLD",
+        "requests": 3,
+        "terminal": "SUPPORTED",
+        "answer": "vent",
+        "verdict": "SUPPORTED_CORRECT"
+      },
+      "fault_injected": {
+        "case": "kiln",
+        "expected": "vent",
+        "steps": [
+          {
+            "request_feature": "air_color",
+            "status_after": "HOLD"
+          },
+          {
+            "request_feature": "heat_gradient",
+            "status_after": "HOLD"
+          },
+          {
+            "request_feature": "wing_flux",
+            "status_after": "SUPPORTED"
+          }
+        ],
+        "negatives": {
+          "wrong_request_id": {
+            "outcome": "REJECTED",
+            "error": "ValueError"
+          },
+          "wrong_feature": {
+            "outcome": "REJECTED",
+            "error": "ValueError"
+          },
+          "duplicate_after_terminal": {
+            "outcome": "ACCEPTED",
+            "status": "HOLD",
+            "decision": {
+              "request": {
+                "feature": "heat_gradient",
+                "id": "43287d2941a3636502ebc313defee19750eb1f18e4fb41ffaeff7637ae02d9ad",
+                "profile": [
+                  1,
+                  2
+                ],
+                "release": "matching sourced measurement",
+                "remaining": 3,
+                "termination": "explicit expire or activation budget"
+              },
+              "status": "HOLD"
+            }
+          },
+          "conflicting_after_terminal": {
+            "outcome": "REJECTED",
+            "error": "ValueError"
+          },
+          "stale_wrong_id_after_terminal": {
+            "outcome": "REJECTED",
+            "error": "ValueError"
+          }
+        },
+        "initial": "HOLD",
+        "requests": 3,
+        "terminal": "SUPPORTED",
+        "answer": "vent",
+        "verdict": "SUPPORTED_CORRECT",
+        "terminal_unchanged_after_negatives": true,
+        "replay_of_early_request_returns": "HOLD",
+        "state_not_mutated_by_rejections": true,
+        "terminal_survives": true,
+        "rejections_ok": true
+      }
+    },
+    {
+      "control": {
+        "case": "marsh",
+        "expected": "salt_pulse",
+        "steps": [
+          {
+            "request_feature": "algae",
+            "status_after": "HOLD"
+          },
+          {
+            "request_feature": "brine_trace",
+            "status_after": "HOLD"
+          },
+          {
+            "request_feature": "soil_shift",
+            "status_after": "SUPPORTED"
+          }
+        ],
+        "negatives": {},
+        "initial": "HOLD",
+        "requests": 3,
+        "terminal": "SUPPORTED",
+        "answer": "salt_pulse",
+        "verdict": "SUPPORTED_CORRECT"
+      },
+      "fault_injected": {
+        "case": "marsh",
+        "expected": "salt_pulse",
+        "steps": [
+          {
+            "request_feature": "algae",
+            "status_after": "HOLD"
+          },
+          {
+            "request_feature": "brine_trace",
+            "status_after": "HOLD"
+          },
+          {
+            "request_feature": "soil_shift",
+            "status_after": "SUPPORTED"
+          }
+        ],
+        "negatives": {
+          "wrong_request_id": {
+            "outcome": "REJECTED",
+            "error": "ValueError"
+          },
+          "wrong_feature": {
+            "outcome": "REJECTED",
+            "error": "ValueError"
+          },
+          "duplicate_after_terminal": {
+            "outcome": "ACCEPTED",
+            "status": "HOLD",
+            "decision": {
+              "request": {
+                "feature": "brine_trace",
+                "id": "2a523f79ba04f43952d4b65c3891ebecf200b604a07fbc283f1314b55d23f39f",
+                "profile": [
+                  1,
+                  2
+                ],
+                "release": "matching sourced measurement",
+                "remaining": 3,
+                "termination": "explicit expire or activation budget"
+              },
+              "status": "HOLD"
+            }
+          },
+          "conflicting_after_terminal": {
+            "outcome": "REJECTED",
+            "error": "ValueError"
+          },
+          "stale_wrong_id_after_terminal": {
+            "outcome": "REJECTED",
+            "error": "ValueError"
+          }
+        },
+        "initial": "HOLD",
+        "requests": 3,
+        "terminal": "SUPPORTED",
+        "answer": "salt_pulse",
+        "verdict": "SUPPORTED_CORRECT",
+        "terminal_unchanged_after_negatives": true,
+        "replay_of_early_request_returns": "HOLD",
+        "state_not_mutated_by_rejections": true,
+        "terminal_survives": true,
+        "rejections_ok": true
+      }
+    },
+    {
+      "control": {
+        "case": "archive",
+        "expected": "mold",
+        "steps": [
+          {
+            "request_feature": "acid",
+            "status_after": "HOLD"
+          },
+          {
+            "request_feature": "fiber_color",
+            "status_after": "HOLD"
+          },
+          {
+            "request_feature": "wall_residue",
+            "status_after": "SUPPORTED"
+          }
+        ],
+        "negatives": {},
+        "initial": "HOLD",
+        "requests": 3,
+        "terminal": "SUPPORTED",
+        "answer": "mold",
+        "verdict": "SUPPORTED_CORRECT"
+      },
+      "fault_injected": {
+        "case": "archive",
+        "expected": "mold",
+        "steps": [
+          {
+            "request_feature": "acid",
+            "status_after": "HOLD"
+          },
+          {
+            "request_feature": "fiber_color",
+            "status_after": "HOLD"
+          },
+          {
+            "request_feature": "wall_residue",
+            "status_after": "SUPPORTED"
+          }
+        ],
+        "negatives": {
+          "wrong_request_id": {
+            "outcome": "REJECTED",
+            "error": "ValueError"
+          },
+          "wrong_feature": {
+            "outcome": "REJECTED",
+            "error": "ValueError"
+          },
+          "duplicate_after_terminal": {
+            "outcome": "ACCEPTED",
+            "status": "HOLD",
+            "decision": {
+              "request": {
+                "feature": "fiber_color",
+                "id": "65664fc5f69d393cce6455315df4d26455b9224e6894c95f83285caaf85ec73a",
+                "profile": [
+                  1,
+                  2
+                ],
+                "release": "matching sourced measurement",
+                "remaining": 3,
+                "termination": "explicit expire or activation budget"
+              },
+              "status": "HOLD"
+            }
+          },
+          "conflicting_after_terminal": {
+            "outcome": "REJECTED",
+            "error": "ValueError"
+          },
+          "stale_wrong_id_after_terminal": {
+            "outcome": "REJECTED",
+            "error": "ValueError"
+          }
+        },
+        "initial": "HOLD",
+        "requests": 3,
+        "terminal": "SUPPORTED",
+        "answer": "mold",
+        "verdict": "SUPPORTED_CORRECT",
+        "terminal_unchanged_after_negatives": true,
+        "replay_of_early_request_returns": "HOLD",
+        "state_not_mutated_by_rejections": true,
+        "terminal_survives": true,
+        "rejections_ok": true
+      }
+    },
+    {
+      "control": {
+        "case": "loom",
+        "expected": "spindle",
+        "steps": [
+          {
+            "request_feature": "bobbin",
+            "status_after": "HOLD"
+          },
+          {
+            "request_feature": "pick_shift",
+            "status_after": "SUPPORTED"
+          }
+        ],
+        "negatives": {},
+        "initial": "HOLD",
+        "requests": 2,
+        "terminal": "SUPPORTED",
+        "answer": "spindle",
+        "verdict": "SUPPORTED_CORRECT"
+      },
+      "fault_injected": {
+        "case": "loom",
+        "expected": "spindle",
+        "steps": [
+          {
+            "request_feature": "bobbin",
+            "status_after": "HOLD"
+          },
+          {
+            "request_feature": "pick_shift",
+            "status_after": "SUPPORTED"
+          }
+        ],
+        "negatives": {
+          "wrong_request_id": {
+            "outcome": "REJECTED",
+            "error": "ValueError"
+          },
+          "wrong_feature": {
+            "outcome": "REJECTED",
+            "error": "ValueError"
+          },
+          "duplicate_after_terminal": {
+            "outcome": "ACCEPTED",
+            "status": "HOLD",
+            "decision": {
+              "request": {
+                "feature": "pick_shift",
+                "id": "d64e3b6d8dddd02a7f379d695561462bf730caf85275e96e208fedb046e4e40a",
+                "profile": [
+                  1,
+                  2
+                ],
+                "release": "matching sourced measurement",
+                "remaining": 3,
+                "termination": "explicit expire or activation budget"
+              },
+              "status": "HOLD"
+            }
+          },
+          "conflicting_after_terminal": {
+            "outcome": "REJECTED",
+            "error": "ValueError"
+          },
+          "stale_wrong_id_after_terminal": {
+            "outcome": "REJECTED",
+            "error": "ValueError"
+          }
+        },
+        "initial": "HOLD",
+        "requests": 2,
+        "terminal": "SUPPORTED",
+        "answer": "spindle",
+        "verdict": "SUPPORTED_CORRECT",
+        "terminal_unchanged_after_negatives": true,
+        "replay_of_early_request_returns": "HOLD",
+        "state_not_mutated_by_rejections": true,
+        "terminal_survives": true,
+        "rejections_ok": true
+      }
+    }
+  ]
+}

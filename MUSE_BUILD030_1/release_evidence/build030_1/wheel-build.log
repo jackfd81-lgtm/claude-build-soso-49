@@ -1,0 +1,9 @@
+Processing ./.
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: muse-build030
+  Building wheel for muse-build030 (pyproject.toml): started
+  Building wheel for muse-build030 (pyproject.toml): finished with status 'done'
+  Created wheel for muse-build030: filename=muse_build030-30.0.1-py3-none-any.whl size=400688 sha256=be403cb051231b13394dec8fb38d2727fb0a88bbae5fb14f18be2b9dc8f5a2e5
+  Stored in directory: /tmp/pip-ephem-wheel-cache-kavo594s/wheels/76/a9/b0/391d0440cc8576f64c2132235968bf933230d3bf639143561d
+Successfully built muse-build030

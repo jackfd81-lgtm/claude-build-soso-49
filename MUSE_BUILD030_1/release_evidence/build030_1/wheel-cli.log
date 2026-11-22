@@ -1,0 +1,14 @@
+usage: muse030 [-h] --state STATE [--json JSON] [--port PORT] [--recover]
+               {init,call,serve}
+
+Local authenticated MUSE runtime command line.
+
+positional arguments:
+  {init,call,serve}
+
+options:
+  -h, --help         show this help message and exit
+  --state STATE
+  --json JSON
+  --port PORT
+  --recover

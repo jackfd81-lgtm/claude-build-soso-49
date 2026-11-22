@@ -1,0 +1,359 @@
+{
+  "training": {
+    "id": "training-pump",
+    "problem": {
+      "pathway": "C",
+      "premises": [
+        "start"
+      ],
+      "rules": [
+        {
+          "if": [
+            "start"
+          ],
+          "then": "ready"
+        },
+        {
+          "if": [
+            "ready"
+          ],
+          "then": "observable"
+        }
+      ],
+      "hypotheses": {
+        "gasket": {
+          "requires": [
+            "observable"
+          ],
+          "predicts": {
+            "z_leak": 1,
+            "a_pressure": 0,
+            "m_vibration": 0
+          }
+        },
+        "shaft": {
+          "requires": [
+            "observable"
+          ],
+          "predicts": {
+            "z_leak": 0,
+            "a_pressure": 0,
+            "m_vibration": 1
+          }
+        },
+        "valve": {
+          "requires": [
+            "observable"
+          ],
+          "predicts": {
+            "z_leak": 0,
+            "a_pressure": 1,
+            "m_vibration": 0
+          }
+        },
+        "filter": {
+          "requires": [
+            "observable"
+          ],
+          "predicts": {
+            "z_leak": 0,
+            "a_pressure": 1,
+            "m_vibration": 1
+          }
+        }
+      }
+    },
+    "measurements": {
+      "z_leak": 0,
+      "a_pressure": 1,
+      "m_vibration": 0
+    },
+    "answer": "valve"
+  },
+  "heldout": [
+    {
+      "id": "kiln",
+      "problem": {
+        "pathway": "C",
+        "premises": [
+          "start"
+        ],
+        "rules": [
+          {
+            "if": [
+              "start"
+            ],
+            "then": "ready"
+          },
+          {
+            "if": [
+              "ready"
+            ],
+            "then": "observable"
+          }
+        ],
+        "hypotheses": {
+          "glaze": {
+            "requires": [
+              "observable"
+            ],
+            "predicts": {
+              "air_color": 1,
+              "heat_gradient": 0,
+              "wing_flux": 0
+            }
+          },
+          "lining": {
+            "requires": [
+              "observable"
+            ],
+            "predicts": {
+              "air_color": 0,
+              "heat_gradient": 0,
+              "wing_flux": 1
+            }
+          },
+          "coil": {
+            "requires": [
+              "observable"
+            ],
+            "predicts": {
+              "air_color": 0,
+              "heat_gradient": 1,
+              "wing_flux": 0
+            }
+          },
+          "vent": {
+            "requires": [
+              "observable"
+            ],
+            "predicts": {
+              "air_color": 0,
+              "heat_gradient": 1,
+              "wing_flux": 1
+            }
+          }
+        }
+      },
+      "measurements": {
+        "air_color": 0,
+        "heat_gradient": 1,
+        "wing_flux": 1
+      },
+      "answer": "vent"
+    },
+    {
+      "id": "marsh",
+      "problem": {
+        "pathway": "C",
+        "premises": [
+          "start"
+        ],
+        "rules": [
+          {
+            "if": [
+              "start"
+            ],
+            "then": "ready"
+          },
+          {
+            "if": [
+              "ready"
+            ],
+            "then": "observable"
+          }
+        ],
+        "hypotheses": {
+          "reed_loss": {
+            "requires": [
+              "observable"
+            ],
+            "predicts": {
+              "algae": 1,
+              "brine_trace": 0,
+              "soil_shift": 0
+            }
+          },
+          "silt_load": {
+            "requires": [
+              "observable"
+            ],
+            "predicts": {
+              "algae": 0,
+              "brine_trace": 0,
+              "soil_shift": 1
+            }
+          },
+          "salt_pulse": {
+            "requires": [
+              "observable"
+            ],
+            "predicts": {
+              "algae": 0,
+              "brine_trace": 1,
+              "soil_shift": 0
+            }
+          },
+          "cold_snap": {
+            "requires": [
+              "observable"
+            ],
+            "predicts": {
+              "algae": 0,
+              "brine_trace": 1,
+              "soil_shift": 1
+            }
+          }
+        }
+      },
+      "measurements": {
+        "algae": 0,
+        "brine_trace": 1,
+        "soil_shift": 0
+      },
+      "answer": "salt_pulse"
+    },
+    {
+      "id": "archive",
+      "problem": {
+        "pathway": "C",
+        "premises": [
+          "start"
+        ],
+        "rules": [
+          {
+            "if": [
+              "start"
+            ],
+            "then": "ready"
+          },
+          {
+            "if": [
+              "ready"
+            ],
+            "then": "observable"
+          }
+        ],
+        "hypotheses": {
+          "seal": {
+            "requires": [
+              "observable"
+            ],
+            "predicts": {
+              "acid": 1,
+              "fiber_color": 0,
+              "wall_residue": 0
+            }
+          },
+          "binder": {
+            "requires": [
+              "observable"
+            ],
+            "predicts": {
+              "acid": 0,
+              "fiber_color": 0,
+              "wall_residue": 1
+            }
+          },
+          "mold": {
+            "requires": [
+              "observable"
+            ],
+            "predicts": {
+              "acid": 0,
+              "fiber_color": 1,
+              "wall_residue": 0
+            }
+          },
+          "ink": {
+            "requires": [
+              "observable"
+            ],
+            "predicts": {
+              "acid": 0,
+              "fiber_color": 1,
+              "wall_residue": 1
+            }
+          }
+        }
+      },
+      "measurements": {
+        "acid": 0,
+        "fiber_color": 1,
+        "wall_residue": 0
+      },
+      "answer": "mold"
+    },
+    {
+      "id": "loom",
+      "problem": {
+        "pathway": "C",
+        "premises": [
+          "start"
+        ],
+        "rules": [
+          {
+            "if": [
+              "start"
+            ],
+            "then": "ready"
+          },
+          {
+            "if": [
+              "ready"
+            ],
+            "then": "observable"
+          }
+        ],
+        "hypotheses": {
+          "shuttle": {
+            "requires": [
+              "observable"
+            ],
+            "predicts": {
+              "bobbin": 1,
+              "pick_shift": 0,
+              "yarn_counts": 0
+            }
+          },
+          "spindle": {
+            "requires": [
+              "observable"
+            ],
+            "predicts": {
+              "bobbin": 0,
+              "pick_shift": 0,
+              "yarn_counts": 1
+            }
+          },
+          "tensioner": {
+            "requires": [
+              "observable"
+            ],
+            "predicts": {
+              "bobbin": 0,
+              "pick_shift": 1,
+              "yarn_counts": 0
+            }
+          },
+          "warp": {
+            "requires": [
+              "observable"
+            ],
+            "predicts": {
+              "bobbin": 0,
+              "pick_shift": 1,
+              "yarn_counts": 1
+            }
+          }
+        }
+      },
+      "measurements": {
+        "bobbin": 0,
+        "pick_shift": 0,
+        "yarn_counts": 1
+      },
+      "answer": "spindle"
+    }
+  ]
+}

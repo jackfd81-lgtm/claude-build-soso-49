@@ -1,0 +1,32 @@
+{
+  "scope": "Build 030 source-tree qualification",
+  "status": "PASS",
+  "python": "3.12.14",
+  "machine": "x86_64",
+  "sqlite": "3.53.1",
+  "checks": {
+    "phase_d": "PASS",
+    "suit42": "PASS",
+    "legacy_monitor": "PASS",
+    "continuity": "PASS",
+    "t12": "PASS",
+    "t12_all_cases": "PASS",
+    "memory_write": "PASS",
+    "memory_read": "PASS",
+    "memory_restart_and_isolation": "PASS",
+    "eval025": "PASS",
+    "eval025_arm_parity": "PASS",
+    "eval026_baseline_1": "PASS",
+    "eval026_baseline_2": "PASS",
+    "eval026_baseline_repeatability": "PASS",
+    "eval026_shadow_1": "PASS",
+    "eval026_shadow_2": "PASS",
+    "eval026_shadow_repeatability": "PASS",
+    "shadow_advisory_parity": "PASS",
+    "adv002": "PASS",
+    "adv002_fixture_and_restart": "PASS",
+    "adv003": "PASS",
+    "adv003_archived_fixture_parity": "PASS"
+  },
+  "error": null
+}

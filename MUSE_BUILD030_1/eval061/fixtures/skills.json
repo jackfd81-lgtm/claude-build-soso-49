@@ -1,0 +1,197 @@
+[
+ {
+  "context": {
+   "authorization": [
+    "basic_tools"
+   ],
+   "capabilities": [
+    "grip_torque",
+    "alignment_guide"
+   ],
+   "categorical": {
+    "material": "steel"
+   },
+   "effects": [
+    "fastener_released"
+   ],
+   "hazard": 1,
+   "incompatible": {
+    "material": [
+     "glass"
+    ]
+   },
+   "numeric": {
+    "force": {
+     "feasible": 15,
+     "sense": "max",
+     "value": 60
+    },
+    "tolerance_um": {
+     "feasible": 50,
+     "sense": "max",
+     "value": 500
+    }
+   },
+   "precedence": [
+    [
+     "ALIGN",
+     "APPLY_FORCE"
+    ]
+   ],
+   "preconditions": [
+    "tool_selected"
+   ],
+   "substitutable": {
+    "material": [
+     "aluminium"
+    ]
+   }
+  },
+  "failure_modes": [
+   "strip_thread"
+  ],
+  "label": "mechanic: remove a fastener with a hand driver",
+  "skill_id": "fastener-release-v1",
+  "steps": [
+   {
+    "params": {},
+    "verb": "SELECT_TOOL"
+   },
+   {
+    "params": {},
+    "verb": "ALIGN"
+   },
+   {
+    "params": {},
+    "verb": "GRIP"
+   },
+   {
+    "params": {},
+    "verb": "ROTATE"
+   },
+   {
+    "params": {
+     "setpoint": 40
+    },
+    "verb": "APPLY_FORCE"
+   },
+   {
+    "params": {},
+    "verb": "DETECT_RESISTANCE"
+   },
+   {
+    "params": {},
+    "verb": "VERIFY"
+   }
+  ]
+ },
+ {
+  "context": {
+   "authorization": [
+    "basic_tools"
+   ],
+   "capabilities": [
+    "fine_positioning"
+   ],
+   "categorical": {
+    "material": "plastic"
+   },
+   "effects": [
+    "component_seated"
+   ],
+   "hazard": 1,
+   "incompatible": {},
+   "numeric": {
+    "force": {
+     "feasible": 5,
+     "sense": "max",
+     "value": 20
+    },
+    "tolerance_um": {
+     "feasible": 20,
+     "sense": "max",
+     "value": 100
+    }
+   },
+   "precedence": [
+    [
+     "POSITION",
+     "INSERT"
+    ]
+   ],
+   "preconditions": [],
+   "substitutable": {}
+  },
+  "failure_modes": [
+   "misseat"
+  ],
+  "label": "assembler: position a part and verify seating",
+  "skill_id": "component-seat-v1",
+  "steps": [
+   {
+    "params": {},
+    "verb": "PREPARE"
+   },
+   {
+    "params": {},
+    "verb": "POSITION"
+   },
+   {
+    "params": {},
+    "verb": "ALIGN"
+   },
+   {
+    "params": {},
+    "verb": "INSERT"
+   },
+   {
+    "params": {},
+    "verb": "VERIFY"
+   },
+   {
+    "params": {},
+    "verb": "CONFIRM"
+   }
+  ]
+ },
+ {
+  "context": {
+   "authorization": [],
+   "capabilities": [
+    "illumination",
+    "magnification"
+   ],
+   "categorical": {},
+   "effects": [
+    "connection_verified"
+   ],
+   "hazard": 0,
+   "incompatible": {},
+   "numeric": {},
+   "precedence": [],
+   "preconditions": [],
+   "substitutable": {}
+  },
+  "failure_modes": [],
+  "label": "inspector: examine a connection under magnification",
+  "skill_id": "connection-inspect-v1",
+  "steps": [
+   {
+    "params": {},
+    "verb": "INSPECT"
+   },
+   {
+    "params": {},
+    "verb": "DETECT_RESISTANCE"
+   },
+   {
+    "params": {},
+    "verb": "VERIFY"
+   },
+   {
+    "params": {},
+    "verb": "CONFIRM"
+   }
+  ]
+ }
+]

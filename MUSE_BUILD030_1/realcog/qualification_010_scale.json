@@ -1,0 +1,187 @@
+[
+ {
+  "id": "scale-semantic",
+  "size": 40,
+  "task": {
+   "domain": "semantic",
+   "query": "zed possesses hat",
+   "statements": [
+    "erin supports relay",
+    "carol backs shop",
+    "jon owns shop",
+    "jon possesses port",
+    "iris backs mill",
+    "kay supports gate",
+    "dave visits lab",
+    "carol possesses yard",
+    "frank possesses widget",
+    "gina goes to shop",
+    "liam owns mill",
+    "kay supports port",
+    "iris owns bridge",
+    "iris possesses widget",
+    "erin backs dock",
+    "gina backs yard",
+    "iris supports tower",
+    "hugo possesses tower",
+    "gina visits shop",
+    "dave owns port",
+    "liam visits widget",
+    "frank goes to shop",
+    "jon goes to widget",
+    "kay visits lab",
+    "iris goes to relay",
+    "frank supports gate",
+    "alice supports tower",
+    "alice possesses bridge",
+    "alice visits shop",
+    "liam supports lab",
+    "erin possesses bridge",
+    "erin visits mill",
+    "alice goes to widget",
+    "bob goes to yard",
+    "iris supports bridge",
+    "liam visits dock",
+    "liam goes to dock",
+    "kay possesses tower",
+    "carol visits tower",
+    "zed owns hat"
+   ]
+  }
+ },
+ {
+  "id": "scale-temporal",
+  "size": 20,
+  "task": {
+   "before": [
+    [
+     "e00",
+     "e01"
+    ],
+    [
+     "e01",
+     "e02"
+    ],
+    [
+     "e02",
+     "e03"
+    ],
+    [
+     "e03",
+     "e04"
+    ],
+    [
+     "e04",
+     "e05"
+    ],
+    [
+     "e05",
+     "e06"
+    ],
+    [
+     "e06",
+     "e07"
+    ],
+    [
+     "e07",
+     "e08"
+    ],
+    [
+     "e08",
+     "e09"
+    ],
+    [
+     "e09",
+     "e10"
+    ],
+    [
+     "e10",
+     "e11"
+    ],
+    [
+     "e11",
+     "e12"
+    ],
+    [
+     "e12",
+     "e13"
+    ],
+    [
+     "e13",
+     "e14"
+    ],
+    [
+     "e14",
+     "e15"
+    ],
+    [
+     "e15",
+     "e16"
+    ],
+    [
+     "e16",
+     "e17"
+    ],
+    [
+     "e17",
+     "e18"
+    ],
+    [
+     "e18",
+     "e19"
+    ]
+   ],
+   "domain": "temporal",
+   "events": {
+    "e00": "2025-01-01T00:00:00+00:00",
+    "e01": "2025-01-01T00:00:40+00:00",
+    "e02": "2025-01-01T00:01:20+00:00",
+    "e03": null,
+    "e04": "2025-01-01T00:02:40+00:00",
+    "e05": "2025-01-01T00:03:20+00:00",
+    "e06": "2025-01-01T00:04:00+00:00",
+    "e07": "2025-01-01T00:04:40+00:00",
+    "e08": null,
+    "e09": "2025-01-01T00:06:00+00:00",
+    "e10": "2025-01-01T00:06:40+00:00",
+    "e11": "2025-01-01T00:07:20+00:00",
+    "e12": "2025-01-01T00:08:00+00:00",
+    "e13": null,
+    "e14": "2025-01-01T00:09:20+00:00",
+    "e15": "2025-01-01T00:10:00+00:00",
+    "e16": "2025-01-01T00:10:40+00:00",
+    "e17": "2025-01-01T00:11:20+00:00",
+    "e18": null,
+    "e19": "2025-01-01T00:12:40+00:00"
+   },
+   "query": [
+    "e00",
+    "e19"
+   ]
+  }
+ },
+ {
+  "id": "scale-linear-unit",
+  "size": 1,
+  "task": {
+   "domain": "mathematics",
+   "text": "x=123456"
+  }
+ },
+ {
+  "id": "scale-linear-general",
+  "size": 1,
+  "task": {
+   "domain": "mathematics",
+   "text": "7x+3=24"
+  }
+ },
+ {
+  "id": "scale-pair",
+  "size": 1,
+  "task": {
+   "domain": "mathematics",
+   "text": "sum=1000,difference=-24"
+  }
+ }
+]

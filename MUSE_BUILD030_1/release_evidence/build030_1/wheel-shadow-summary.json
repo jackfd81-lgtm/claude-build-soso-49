@@ -1,0 +1,21 @@
+{
+  "shadow_iou_count": 12,
+  "arms": {
+    "on": {
+      "requests": 2,
+      "complete": true
+    },
+    "off": {
+      "requests": 2,
+      "complete": false
+    },
+    "restored": {
+      "requests": 2,
+      "complete": true
+    },
+    "unlimited_control": {
+      "requests": 3,
+      "complete": true
+    }
+  }
+}

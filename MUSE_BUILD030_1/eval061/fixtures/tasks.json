@@ -1,0 +1,842 @@
+[
+ {
+  "gold": "REUSE_QUALIFIED_SKILL",
+  "id": "F1",
+  "kind": "familiar",
+  "target": {
+   "available_preconditions": [
+    "tool_selected"
+   ],
+   "context": {
+    "authorization": [
+     "basic_tools"
+    ],
+    "capabilities": [
+     "grip_torque",
+     "alignment_guide"
+    ],
+    "categorical": {
+     "material": "steel"
+    },
+    "effects": [
+     "fastener_released"
+    ],
+    "hazard": 1,
+    "incompatible": {},
+    "numeric": {
+     "force": {
+      "sense": "max",
+      "value": 60
+     },
+     "tolerance_um": {
+      "sense": "max",
+      "value": 500
+     }
+    },
+    "precedence": [],
+    "preconditions": [],
+    "substitutable": {}
+   },
+   "label": "same-context fastener task",
+   "precedence": [
+    [
+     "ALIGN",
+     "APPLY_FORCE"
+    ]
+   ],
+   "required_verbs": [
+    "SELECT_TOOL",
+    "ALIGN",
+    "GRIP",
+    "ROTATE",
+    "APPLY_FORCE",
+    "DETECT_RESISTANCE",
+    "VERIFY"
+   ]
+  }
+ },
+ {
+  "gold": "REUSE_QUALIFIED_SKILL",
+  "id": "F2",
+  "kind": "familiar",
+  "target": {
+   "available_preconditions": [],
+   "context": {
+    "authorization": [
+     "basic_tools"
+    ],
+    "capabilities": [
+     "fine_positioning"
+    ],
+    "categorical": {
+     "material": "plastic"
+    },
+    "effects": [
+     "component_seated"
+    ],
+    "hazard": 1,
+    "incompatible": {},
+    "numeric": {
+     "force": {
+      "sense": "max",
+      "value": 20
+     },
+     "tolerance_um": {
+      "sense": "max",
+      "value": 100
+     }
+    },
+    "precedence": [],
+    "preconditions": [],
+    "substitutable": {}
+   },
+   "label": "same-context seating task",
+   "precedence": [
+    [
+     "POSITION",
+     "INSERT"
+    ]
+   ],
+   "required_verbs": [
+    "PREPARE",
+    "POSITION",
+    "ALIGN",
+    "INSERT",
+    "VERIFY",
+    "CONFIRM"
+   ]
+  }
+ },
+ {
+  "gold": "REUSE_QUALIFIED_SKILL",
+  "id": "F3",
+  "kind": "familiar",
+  "target": {
+   "available_preconditions": [],
+   "context": {
+    "authorization": [],
+    "capabilities": [
+     "illumination",
+     "magnification"
+    ],
+    "categorical": {},
+    "effects": [
+     "connection_verified"
+    ],
+    "hazard": 0,
+    "incompatible": {},
+    "numeric": {},
+    "precedence": [],
+    "preconditions": [],
+    "substitutable": {}
+   },
+   "label": "same-context inspection",
+   "precedence": [],
+   "required_verbs": [
+    "INSPECT",
+    "DETECT_RESISTANCE",
+    "VERIFY",
+    "CONFIRM"
+   ]
+  }
+ },
+ {
+  "gold": "REUSE_QUALIFIED_SKILL",
+  "id": "P4",
+  "kind": "positive_reuse_subset",
+  "target": {
+   "available_preconditions": [],
+   "context": {
+    "authorization": [],
+    "capabilities": [
+     "magnification"
+    ],
+    "categorical": {},
+    "effects": [
+     "connection_verified"
+    ],
+    "hazard": 0,
+    "incompatible": {},
+    "numeric": {},
+    "precedence": [],
+    "preconditions": [],
+    "substitutable": {}
+   },
+   "label": "cross-domain inspection needing only a subset",
+   "precedence": [],
+   "required_verbs": [
+    "INSPECT",
+    "VERIFY"
+   ]
+  }
+ },
+ {
+  "gold": "REUSE_QUALIFIED_TRANSFER",
+  "id": "P1B",
+  "kind": "transfer_learned_reuse",
+  "target": {
+   "available_preconditions": [
+    "tool_selected"
+   ],
+   "context": {
+    "authorization": [
+     "basic_tools"
+    ],
+    "capabilities": [
+     "grip_torque",
+     "alignment_guide"
+    ],
+    "categorical": {
+     "material": "aluminium"
+    },
+    "effects": [
+     "fastener_released"
+    ],
+    "hazard": 1,
+    "incompatible": {},
+    "numeric": {
+     "force": {
+      "sense": "max",
+      "value": 30
+     },
+     "tolerance_um": {
+      "sense": "max",
+      "value": 500
+     }
+    },
+    "precedence": [],
+    "preconditions": [],
+    "substitutable": {}
+   },
+   "label": "looser small-screw task in a different domain",
+   "precedence": [
+    [
+     "ALIGN",
+     "APPLY_FORCE"
+    ]
+   ],
+   "required_verbs": [
+    "SELECT_TOOL",
+    "ALIGN",
+    "GRIP",
+    "ROTATE",
+    "APPLY_FORCE",
+    "DETECT_RESISTANCE",
+    "VERIFY"
+   ]
+  }
+ },
+ {
+  "gold": "PROPOSE_TRANSFER:TRANSFER_PROPOSED_ADAPTATION",
+  "id": "P1C",
+  "kind": "positive_transfer",
+  "target": {
+   "available_preconditions": [
+    "tool_selected"
+   ],
+   "context": {
+    "authorization": [
+     "basic_tools"
+    ],
+    "capabilities": [
+     "grip_torque",
+     "alignment_guide"
+    ],
+    "categorical": {
+     "material": "aluminium"
+    },
+    "effects": [
+     "fastener_released"
+    ],
+    "hazard": 1,
+    "incompatible": {},
+    "numeric": {
+     "force": {
+      "sense": "max",
+      "value": 18
+     },
+     "tolerance_um": {
+      "sense": "max",
+      "value": 500
+     }
+    },
+    "precedence": [],
+    "preconditions": [],
+    "substitutable": {}
+   },
+   "label": "stricter small-screw task (outside the qualified envelope)",
+   "precedence": [
+    [
+     "ALIGN",
+     "APPLY_FORCE"
+    ]
+   ],
+   "required_verbs": [
+    "SELECT_TOOL",
+    "ALIGN",
+    "GRIP",
+    "ROTATE",
+    "APPLY_FORCE",
+    "DETECT_RESISTANCE",
+    "VERIFY"
+   ]
+  }
+ },
+ {
+  "gold": "PROPOSE_TRANSFER:TRANSFER_PROPOSED_ADAPTATION",
+  "id": "P3",
+  "kind": "positive_transfer_reorder",
+  "target": {
+   "available_preconditions": [],
+   "context": {
+    "authorization": [
+     "basic_tools"
+    ],
+    "capabilities": [
+     "fine_positioning"
+    ],
+    "categorical": {
+     "material": "plastic"
+    },
+    "effects": [
+     "component_seated"
+    ],
+    "hazard": 1,
+    "incompatible": {},
+    "numeric": {
+     "force": {
+      "sense": "max",
+      "value": 20
+     },
+     "tolerance_um": {
+      "sense": "max",
+      "value": 100
+     }
+    },
+    "precedence": [],
+    "preconditions": [],
+    "substitutable": {}
+   },
+   "label": "seat a delicate part: verify alignment before insertion",
+   "precedence": [
+    [
+     "VERIFY",
+     "INSERT"
+    ]
+   ],
+   "required_verbs": [
+    "PREPARE",
+    "POSITION",
+    "ALIGN",
+    "INSERT",
+    "VERIFY",
+    "CONFIRM"
+   ]
+  }
+ },
+ {
+  "gold": "PROPOSE_TRANSFER:TRANSFER_PROPOSED_ADAPTATION",
+  "id": "P5",
+  "kind": "positive_transfer",
+  "target": {
+   "available_preconditions": [
+    "tool_selected"
+   ],
+   "context": {
+    "authorization": [
+     "basic_tools"
+    ],
+    "capabilities": [
+     "grip_torque",
+     "alignment_guide"
+    ],
+    "categorical": {
+     "material": "steel"
+    },
+    "effects": [
+     "fastener_released"
+    ],
+    "hazard": 2,
+    "incompatible": {},
+    "numeric": {
+     "force": {
+      "sense": "max",
+      "value": 60
+     },
+     "tolerance_um": {
+      "sense": "max",
+      "value": 500
+     }
+    },
+    "precedence": [],
+    "preconditions": [],
+    "substitutable": {}
+   },
+   "label": "fastener task with one level higher consequences",
+   "precedence": [
+    [
+     "ALIGN",
+     "APPLY_FORCE"
+    ]
+   ],
+   "required_verbs": [
+    "SELECT_TOOL",
+    "ALIGN",
+    "GRIP",
+    "ROTATE",
+    "APPLY_FORCE",
+    "DETECT_RESISTANCE",
+    "VERIFY"
+   ]
+  }
+ },
+ {
+  "gold": "DO_NOT_TRANSFER",
+  "id": "X2",
+  "kind": "failed_transfer_retained",
+  "target": {
+   "available_preconditions": [
+    "tool_selected"
+   ],
+   "context": {
+    "authorization": [
+     "basic_tools"
+    ],
+    "capabilities": [
+     "grip_torque",
+     "alignment_guide"
+    ],
+    "categorical": {
+     "material": "steel"
+    },
+    "effects": [
+     "fastener_released"
+    ],
+    "hazard": 1,
+    "incompatible": {},
+    "numeric": {
+     "force": {
+      "sense": "max",
+      "value": 60
+     },
+     "tolerance_um": {
+      "sense": "max",
+      "value": 200
+     }
+    },
+    "precedence": [],
+    "preconditions": [],
+    "substitutable": {}
+   },
+   "label": "tolerance-tight fastener task (an earlier attempt failed)",
+   "precedence": [
+    [
+     "ALIGN",
+     "APPLY_FORCE"
+    ]
+   ],
+   "required_verbs": [
+    "SELECT_TOOL",
+    "ALIGN",
+    "GRIP",
+    "ROTATE",
+    "APPLY_FORCE",
+    "DETECT_RESISTANCE",
+    "VERIFY"
+   ]
+  }
+ },
+ {
+  "gold": "DO_NOT_TRANSFER",
+  "id": "N1",
+  "kind": "negative",
+  "target": {
+   "available_preconditions": [
+    "tool_selected"
+   ],
+   "context": {
+    "authorization": [
+     "basic_tools",
+     "sterile_procedure"
+    ],
+    "capabilities": [
+     "grip_torque",
+     "alignment_guide"
+    ],
+    "categorical": {
+     "material": "steel"
+    },
+    "effects": [
+     "fastener_released"
+    ],
+    "hazard": 1,
+    "incompatible": {},
+    "numeric": {
+     "force": {
+      "sense": "max",
+      "value": 60
+     },
+     "tolerance_um": {
+      "sense": "max",
+      "value": 500
+     }
+    },
+    "precedence": [],
+    "preconditions": [],
+    "substitutable": {}
+   },
+   "label": "looks identical, but needs a sterile-procedure authorization",
+   "precedence": [
+    [
+     "ALIGN",
+     "APPLY_FORCE"
+    ]
+   ],
+   "required_verbs": [
+    "SELECT_TOOL",
+    "ALIGN",
+    "GRIP",
+    "ROTATE",
+    "APPLY_FORCE",
+    "DETECT_RESISTANCE",
+    "VERIFY"
+   ]
+  }
+ },
+ {
+  "gold": "DO_NOT_TRANSFER",
+  "id": "N2",
+  "kind": "negative",
+  "target": {
+   "available_preconditions": [
+    "tool_selected"
+   ],
+   "context": {
+    "authorization": [
+     "basic_tools"
+    ],
+    "capabilities": [
+     "grip_torque",
+     "alignment_guide"
+    ],
+    "categorical": {
+     "material": "steel"
+    },
+    "effects": [
+     "fastener_released"
+    ],
+    "hazard": 3,
+    "incompatible": {},
+    "numeric": {
+     "force": {
+      "sense": "max",
+      "value": 60
+     },
+     "tolerance_um": {
+      "sense": "max",
+      "value": 500
+     }
+    },
+    "precedence": [],
+    "preconditions": [],
+    "substitutable": {}
+   },
+   "label": "same operation, severe consequences",
+   "precedence": [
+    [
+     "ALIGN",
+     "APPLY_FORCE"
+    ]
+   ],
+   "required_verbs": [
+    "SELECT_TOOL",
+    "ALIGN",
+    "GRIP",
+    "ROTATE",
+    "APPLY_FORCE",
+    "DETECT_RESISTANCE",
+    "VERIFY"
+   ]
+  }
+ },
+ {
+  "gold": "DO_NOT_TRANSFER",
+  "id": "N3",
+  "kind": "negative",
+  "target": {
+   "available_preconditions": [
+    "tool_selected"
+   ],
+   "context": {
+    "authorization": [
+     "basic_tools"
+    ],
+    "capabilities": [
+     "grip_torque",
+     "alignment_guide"
+    ],
+    "categorical": {
+     "material": "steel"
+    },
+    "effects": [
+     "fastener_released"
+    ],
+    "hazard": 1,
+    "incompatible": {},
+    "numeric": {
+     "force": {
+      "sense": "max",
+      "value": 8
+     },
+     "tolerance_um": {
+      "sense": "max",
+      "value": 500
+     }
+    },
+    "precedence": [],
+    "preconditions": [],
+    "substitutable": {}
+   },
+   "label": "force budget below the level at which the procedure works",
+   "precedence": [
+    [
+     "ALIGN",
+     "APPLY_FORCE"
+    ]
+   ],
+   "required_verbs": [
+    "SELECT_TOOL",
+    "ALIGN",
+    "GRIP",
+    "ROTATE",
+    "APPLY_FORCE",
+    "DETECT_RESISTANCE",
+    "VERIFY"
+   ]
+  }
+ },
+ {
+  "gold": "DO_NOT_TRANSFER",
+  "id": "N4",
+  "kind": "negative",
+  "target": {
+   "available_preconditions": [
+    "tool_selected"
+   ],
+   "context": {
+    "authorization": [
+     "basic_tools"
+    ],
+    "capabilities": [
+     "grip_torque",
+     "alignment_guide"
+    ],
+    "categorical": {
+     "material": "glass"
+    },
+    "effects": [
+     "fastener_released"
+    ],
+    "hazard": 1,
+    "incompatible": {},
+    "numeric": {
+     "force": {
+      "sense": "max",
+      "value": 60
+     },
+     "tolerance_um": {
+      "sense": "max",
+      "value": 500
+     }
+    },
+    "precedence": [],
+    "preconditions": [],
+    "substitutable": {}
+   },
+   "label": "declared-incompatible material",
+   "precedence": [
+    [
+     "ALIGN",
+     "APPLY_FORCE"
+    ]
+   ],
+   "required_verbs": [
+    "SELECT_TOOL",
+    "ALIGN",
+    "GRIP",
+    "ROTATE",
+    "APPLY_FORCE",
+    "DETECT_RESISTANCE",
+    "VERIFY"
+   ]
+  }
+ },
+ {
+  "gold": "DO_NOT_TRANSFER",
+  "id": "N5",
+  "kind": "negative",
+  "target": {
+   "available_preconditions": [
+    "tool_selected"
+   ],
+   "context": {
+    "authorization": [
+     "basic_tools"
+    ],
+    "capabilities": [
+     "grip_torque",
+     "alignment_guide"
+    ],
+    "categorical": {
+     "material": "steel"
+    },
+    "effects": [
+     "fastener_released"
+    ],
+    "hazard": 1,
+    "incompatible": {},
+    "numeric": {
+     "force": {
+      "sense": "min",
+      "value": 60
+     },
+     "tolerance_um": {
+      "sense": "max",
+      "value": 500
+     }
+    },
+    "precedence": [],
+    "preconditions": [],
+    "substitutable": {}
+   },
+   "label": "minimum-force requirement where the skill is limited by a maximum",
+   "precedence": [
+    [
+     "ALIGN",
+     "APPLY_FORCE"
+    ]
+   ],
+   "required_verbs": [
+    "SELECT_TOOL",
+    "ALIGN",
+    "GRIP",
+    "ROTATE",
+    "APPLY_FORCE",
+    "DETECT_RESISTANCE",
+    "VERIFY"
+   ]
+  }
+ },
+ {
+  "gold": "DO_NOT_TRANSFER",
+  "id": "N6",
+  "kind": "negative",
+  "target": {
+   "available_preconditions": [],
+   "context": {
+    "authorization": [
+     "basic_tools"
+    ],
+    "capabilities": [
+     "fine_positioning"
+    ],
+    "categorical": {
+     "material": "plastic"
+    },
+    "effects": [
+     "component_seated"
+    ],
+    "hazard": 1,
+    "incompatible": {},
+    "numeric": {
+     "force": {
+      "sense": "max",
+      "value": 20
+     },
+     "tolerance_um": {
+      "sense": "max",
+      "value": 10
+     }
+    },
+    "precedence": [],
+    "preconditions": [],
+    "substitutable": {}
+   },
+   "label": "tolerance tighter than the procedure can achieve",
+   "precedence": [
+    [
+     "POSITION",
+     "INSERT"
+    ]
+   ],
+   "required_verbs": [
+    "PREPARE",
+    "POSITION",
+    "ALIGN",
+    "INSERT",
+    "VERIFY",
+    "CONFIRM"
+   ]
+  }
+ },
+ {
+  "gold": "UNFAMILIAR_REDISCOVERY_REQUIRED",
+  "id": "U1",
+  "kind": "unfamiliar",
+  "target": {
+   "available_preconditions": [],
+   "context": {
+    "authorization": [],
+    "capabilities": [
+     "suction"
+    ],
+    "categorical": {},
+    "effects": [
+     "particle_cleared"
+    ],
+    "hazard": 0,
+    "incompatible": {},
+    "numeric": {},
+    "precedence": [],
+    "preconditions": [],
+    "substitutable": {}
+   },
+   "label": "specialised suction instrument",
+   "precedence": [],
+   "required_verbs": [
+    "REMOVE",
+    "STOP_ON"
+   ]
+  }
+ },
+ {
+  "gold": "UNFAMILIAR_REDISCOVERY_REQUIRED",
+  "id": "U2",
+  "kind": "unfamiliar",
+  "target": {
+   "available_preconditions": [],
+   "context": {
+    "authorization": [],
+    "capabilities": [
+     "suction"
+    ],
+    "categorical": {},
+    "effects": [
+     "particle_cleared"
+    ],
+    "hazard": 2,
+    "incompatible": {},
+    "numeric": {},
+    "precedence": [],
+    "preconditions": [],
+    "substitutable": {}
+   },
+   "label": "unfamiliar instrument, permitted by the environment",
+   "precedence": [],
+   "required_verbs": [
+    "REMOVE",
+    "STOP_ON"
+   ]
+  }
+ }
+]
