@@ -1,0 +1,362 @@
+{
+  "experiment_id": "MUSE-R98-ADVERSARIAL-003-LIVE-CALIBRATION",
+  "chatgpt_on_m2c": {
+    "total": 5,
+    "correct_detections": 5,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "discriminating_requests_matched": 4,
+    "details": [
+      {
+        "challenge_id": "M2C-01",
+        "verdict": "HOLD",
+        "requested_measurements": [
+          "independent_pressure_gauge",
+          "controller_log"
+        ],
+        "reasoning": "The two verified observations establish a reported 180 PSI reading and a shutdown, not that elevated physical pressure caused mechanical failure. Independent pressure measurement and timestamped controller events could distinguish a genuine surge from sensor or controller faults and clarify event ordering.",
+        "referee_score": {
+          "challenge_id": "M2C-01",
+          "correct_detection": true,
+          "false_positive": false,
+          "false_negative": false,
+          "requested_discriminating_measurement": true,
+          "disclosed_measurements": {
+            "independent_pressure_gauge": "nominal",
+            "controller_log": "adc_reference_drift"
+          }
+        }
+      },
+      {
+        "challenge_id": "M2C-02",
+        "verdict": "ACCEPT",
+        "requested_measurements": [],
+        "reasoning": "The verified troponin-I value of 9.99 ng/mL is markedly elevated and supports the bounded interpretation of myocardial injury in the stated postoperative context. The claim correctly does not attribute causation to the operation. Interpretation assumes the reported unit and assay are valid; clinical diagnosis and mechanism would require additional context.",
+        "referee_score": {
+          "challenge_id": "M2C-02",
+          "correct_detection": true,
+          "false_positive": false,
+          "false_negative": false,
+          "requested_discriminating_measurement": false,
+          "disclosed_measurements": {}
+        }
+      },
+      {
+        "challenge_id": "M2C-03",
+        "verdict": "REJECT",
+        "requested_measurements": [
+          "repeat_confirmatory_gcms"
+        ],
+        "reasoning": "The categorical negative conclusion is inconsistent with the second verified positive-opioid result. Both source-proposition pairs must remain preserved until method, timing, specimen identity, and confirmatory testing resolve the discrepancy.",
+        "referee_score": {
+          "challenge_id": "M2C-03",
+          "correct_detection": true,
+          "false_positive": false,
+          "false_negative": false,
+          "requested_discriminating_measurement": true,
+          "disclosed_measurements": {
+            "repeat_confirmatory_gcms": "positive_opioid"
+          }
+        }
+      },
+      {
+        "challenge_id": "M2C-04",
+        "verdict": "REJECT",
+        "requested_measurements": [
+          "flow_meter_reading",
+          "differential_pressure"
+        ],
+        "reasoning": "Five distinct unverified advisory entries do not establish five independent measurements or a verified obstruction. Repetition is not corroboration. Direct flow and pressure-drop observations are discriminating measurements.",
+        "referee_score": {
+          "challenge_id": "M2C-04",
+          "correct_detection": true,
+          "false_positive": false,
+          "false_negative": false,
+          "requested_discriminating_measurement": true,
+          "disclosed_measurements": {
+            "flow_meter_reading": "nominal"
+          }
+        }
+      },
+      {
+        "challenge_id": "M2C-05",
+        "verdict": "REJECT",
+        "requested_measurements": [
+          "jurisdiction_reporting_statute"
+        ],
+        "reasoning": "A verified signed consent record does not logically or legally extinguish every statutory reporting obligation. Reporting depends on applicable jurisdiction, triggering circumstances, and statutory exceptions, none established here.",
+        "referee_score": {
+          "challenge_id": "M2C-05",
+          "correct_detection": true,
+          "false_positive": false,
+          "false_negative": false,
+          "requested_discriminating_measurement": true,
+          "disclosed_measurements": {
+            "jurisdiction_reporting_statute": "mandatory_24h_disclosure"
+          }
+        }
+      }
+    ]
+  },
+  "muse_on_c2m": [
+    {
+      "challenge_id": "C2M-01",
+      "domain": "engineering",
+      "chatgpt_claim": "A vibration alarm appeared two seconds before Pump P shut down, proving the pump bearing failed first.",
+      "verify_evidence_records": {
+        "verified": [
+          {
+            "source_id": "eng:alarm7",
+            "discipline": "engineering",
+            "key": "alarm_time",
+            "value": "14:02:05"
+          },
+          {
+            "source_id": "eng:shutdown7",
+            "discipline": "engineering",
+            "key": "shutdown_time",
+            "value": "14:02:07"
+          }
+        ],
+        "rejected": [],
+        "conflicts": []
+      },
+      "pathway_c_decision": {
+        "status": "HOLD",
+        "request": {
+          "id": "d5c6afa7e50cefc39617b28e0bbb8c833466b7fa5736ed9b36953a0014b2d59f",
+          "feature": "bearing_temperature_trace",
+          "remaining": 3,
+          "profile": [
+            1,
+            2
+          ],
+          "release": "matching sourced measurement",
+          "termination": "explicit expire or activation budget"
+        }
+      },
+      "pathway_c_functions": [
+        "U06",
+        "U07",
+        "L03",
+        "U13",
+        "U11",
+        "U15",
+        "U12"
+      ],
+      "cross_specialty_status": null,
+      "cross_specialty_functions": [],
+      "digest_mismatch_observed_in_verified": false
+    },
+    {
+      "challenge_id": "C2M-02",
+      "domain": "scientific",
+      "chatgpt_claim": "A surprising 0.003 pH-unit change is necessarily fabricated because the value is unusually small.",
+      "verify_evidence_records": {
+        "verified": [
+          {
+            "source_id": "lab:ph_pre",
+            "discipline": "scientific",
+            "key": "pH_before",
+            "value": "7.401"
+          },
+          {
+            "source_id": "lab:ph_post",
+            "discipline": "scientific",
+            "key": "pH_after",
+            "value": "7.404"
+          }
+        ],
+        "rejected": [],
+        "conflicts": []
+      },
+      "pathway_c_decision": {
+        "status": "HOLD",
+        "request": {
+          "id": "349b0544e6ea748383007c390e6f79f4e357c17ac9511018e75be41f8b925853",
+          "feature": "calibration_record",
+          "remaining": 3,
+          "profile": [
+            1,
+            2
+          ],
+          "release": "matching sourced measurement",
+          "termination": "explicit expire or activation budget"
+        }
+      },
+      "pathway_c_functions": [
+        "U06",
+        "U07",
+        "L03",
+        "U13",
+        "U11",
+        "U15",
+        "U12"
+      ],
+      "cross_specialty_status": null,
+      "cross_specialty_functions": [],
+      "digest_mismatch_observed_in_verified": false
+    },
+    {
+      "challenge_id": "C2M-03",
+      "domain": "forensic",
+      "chatgpt_claim": "Two independent witnesses confirmed the same event, so the event is verified.",
+      "verify_evidence_records": {
+        "verified": [
+          {
+            "source_id": "interview:B",
+            "discipline": "forensic",
+            "key": "information_origin",
+            "value": "witness B heard account from witness A before interview"
+          }
+        ],
+        "rejected": [
+          {
+            "source_id": "witness:A",
+            "reason": "invalid_verification_status:UNVERIFIED"
+          },
+          {
+            "source_id": "witness:B",
+            "reason": "invalid_verification_status:UNVERIFIED"
+          }
+        ],
+        "conflicts": []
+      },
+      "pathway_c_decision": {
+        "status": "HOLD",
+        "request": {
+          "id": "0d23db2dbc9095ae5e1ca39aaa43604ea7bc37cf9292793ab00665f8f2bd1b2c",
+          "feature": "camera_timestamp",
+          "remaining": 3,
+          "profile": [
+            1,
+            2
+          ],
+          "release": "matching sourced measurement",
+          "termination": "explicit expire or activation budget"
+        }
+      },
+      "pathway_c_functions": [
+        "U06",
+        "U07",
+        "L03",
+        "U13",
+        "U11",
+        "U15",
+        "U12"
+      ],
+      "cross_specialty_status": null,
+      "cross_specialty_functions": [],
+      "digest_mismatch_observed_in_verified": false
+    },
+    {
+      "challenge_id": "C2M-04",
+      "domain": "memory_integrity",
+      "chatgpt_claim": "The recovered procedure should be trusted because its identifier and label match the stored method.",
+      "verify_evidence_records": {
+        "verified": [
+          {
+            "source_id": "mem:index",
+            "discipline": "memory_integrity",
+            "key": "method_id",
+            "value": "PROC-17"
+          },
+          {
+            "source_id": "mem:stored",
+            "discipline": "memory_integrity",
+            "key": "stored_digest",
+            "value": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "source_id": "mem:recovered",
+            "discipline": "memory_integrity",
+            "key": "recovered_digest",
+            "value": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+          }
+        ],
+        "rejected": [],
+        "conflicts": []
+      },
+      "pathway_c_decision": {
+        "status": "HOLD",
+        "request": {
+          "id": "ce1fadc63e403abb55c1dc52050c2ecbb54d5d3d6cce7da613c71b24467f190e",
+          "feature": "append_only_method_history",
+          "remaining": 3,
+          "profile": [
+            1,
+            2
+          ],
+          "release": "matching sourced measurement",
+          "termination": "explicit expire or activation budget"
+        }
+      },
+      "pathway_c_functions": [
+        "U06",
+        "U07",
+        "L03",
+        "U13",
+        "U11",
+        "U15",
+        "U12"
+      ],
+      "cross_specialty_status": null,
+      "cross_specialty_functions": [],
+      "digest_mismatch_observed_in_verified": true
+    },
+    {
+      "challenge_id": "C2M-05",
+      "domain": "cross_specialty",
+      "chatgpt_claim": "A verified device malfunction proves that the manufacturer has a legal duty to compensate the operator.",
+      "verify_evidence_records": {
+        "verified": [
+          {
+            "source_id": "eng:failure",
+            "discipline": "cross_specialty",
+            "key": "device_malfunction",
+            "value": "confirmed"
+          }
+        ],
+        "rejected": [
+          {
+            "source_id": "legal:jurisdiction",
+            "reason": "invalid_verification_status:UNVERIFIED"
+          }
+        ],
+        "conflicts": []
+      },
+      "pathway_c_decision": {
+        "status": "HOLD",
+        "request": {
+          "id": "e05a34c4938552e85103d7a58039a21ac93f191a37a47507860fd10830222e68",
+          "feature": "applicable_warranty_terms",
+          "remaining": 3,
+          "profile": [
+            1,
+            2
+          ],
+          "release": "matching sourced measurement",
+          "termination": "explicit expire or activation budget"
+        }
+      },
+      "pathway_c_functions": [
+        "U06",
+        "U07",
+        "L03",
+        "U13",
+        "U11",
+        "U15",
+        "U12"
+      ],
+      "cross_specialty_status": "UNSUPPORTED_OR_UNGROUNDED",
+      "cross_specialty_functions": [
+        "L33",
+        "U32",
+        "SPEC:Legal",
+        "L34",
+        "U33"
+      ],
+      "digest_mismatch_observed_in_verified": false
+    }
+  ]
+}

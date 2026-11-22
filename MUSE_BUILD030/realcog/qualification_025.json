@@ -1,0 +1,72 @@
+[
+  {
+    "id": "qualification-lens",
+    "predictions": {
+      "scratch": {
+        "alpha": 1,
+        "reflection": 0,
+        "scatter": 0
+      },
+      "smear": {
+        "alpha": 0,
+        "reflection": 0,
+        "scatter": 1
+      },
+      "tilt": {
+        "alpha": 0,
+        "reflection": 1,
+        "scatter": 0
+      },
+      "dust": {
+        "alpha": 0,
+        "reflection": 1,
+        "scatter": 1
+      }
+    },
+    "observed": {
+      "alpha": 0,
+      "reflection": 1,
+      "scatter": 0
+    },
+    "preferred": "reflection",
+    "surviving": [
+      "dust",
+      "tilt"
+    ]
+  },
+  {
+    "id": "qualification-mill",
+    "predictions": {
+      "bearing": {
+        "chatter": 1,
+        "load_band": 0,
+        "tooth_mark": 0
+      },
+      "belt": {
+        "chatter": 0,
+        "load_band": 0,
+        "tooth_mark": 1
+      },
+      "drive": {
+        "chatter": 0,
+        "load_band": 1,
+        "tooth_mark": 0
+      },
+      "gear": {
+        "chatter": 0,
+        "load_band": 1,
+        "tooth_mark": 1
+      }
+    },
+    "observed": {
+      "chatter": 0,
+      "load_band": 0,
+      "tooth_mark": 1
+    },
+    "preferred": "load_band",
+    "surviving": [
+      "bearing",
+      "belt"
+    ]
+  }
+]

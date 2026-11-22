@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "muse-build030"
+version = "30.0.0"
+description = "Local structured investigation and advisory governance runtime"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+muse030 = "muse024:main"
+
+[tool.setuptools]
+py-modules = ["muse024"]
+
+[tool.setuptools.packages.find]
+include = ["contract", "eval025", "eval026", "eval061", "realcog", "realcog.ph6*", "sososuit42", "suit61*"]
+
+[tool.setuptools.package-data]
+eval025 = ["*.json"]
+realcog = ["qualification_*.json"]
+eval061 = ["fixtures/*.json", "fixtures/SHA256SUMS"]
+suit61 = ["vendor/*", "legacy/suit5/*"]

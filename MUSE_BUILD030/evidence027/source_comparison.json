@@ -1,0 +1,337 @@
+{
+  "build026": {
+    "archive": "MUSE_BUILD026_COGNITIVE_MEMORY_TRANSFER(1).zip",
+    "sha256": "7e740fd3e78f4906e5863a18de1f5bf491d61670c63b070f5cb014fd651c3301",
+    "entries": 816,
+    "files": 816
+  },
+  "monitor": {
+    "archive": "MUSE_BUILD025_SUIT61_MONITOR_WIRED(1).zip",
+    "sha256": "60165296c7cb76401cdb5898a351f5754fe5dfb327e294cf882e320f48e44ec1",
+    "entries": 902,
+    "files": 773
+  },
+  "only_build026": [
+    "BUILD_026_QUALIFICATION.md",
+    "INTEGRATION_012/CHATGPT_RECONCILIATION_013.md",
+    "SUIT61_CHANGES.diff",
+    "SUIT61_CONTINUATION.md",
+    "Suit_6_1_Integration_Report.pdf",
+    "UNIFIED_SUIT61_CHANGES.diff",
+    "UNIFIED_SUIT61_README.md",
+    "Unified_Suit_6_1_Qualification.pdf",
+    "contract/unified025.py",
+    "eval026/report.py",
+    "eval026/run.py",
+    "eval061/admission_probes.py",
+    "eval061/recovery_campaign.py",
+    "evidence026/baseline.log",
+    "evidence026/cognitive_ablation.json",
+    "evidence026/full.log",
+    "evidence026/joint.json",
+    "evidence026/runtime.diff",
+    "evidence026/target.log",
+    "evidence026/utilization.json",
+    "evidence_suit61_continuation/admission-probes.json",
+    "evidence_suit61_continuation/baseline-focused.log",
+    "evidence_suit61_continuation/evaluation.log",
+    "evidence_suit61_continuation/focused.log",
+    "evidence_suit61_continuation/frozen/summary.json",
+    "evidence_suit61_continuation/frozen/traces/A_brains_alone_S0M1.json",
+    "evidence_suit61_continuation/frozen/traces/B_suit_alone_S1M0.json",
+    "evidence_suit61_continuation/frozen/traces/C_brains_suit_no_transfer_S1M1.json",
+    "evidence_suit61_continuation/frozen/traces/D_brains_suit_transfer_S1M1.json",
+    "evidence_suit61_continuation/frozen/traces/N_naive_similarity_control.json",
+    "evidence_suit61_continuation/frozen/traces/S0M0_baseline.json",
+    "evidence_suit61_continuation/full-regression.log",
+    "evidence_suit61_continuation/original-SHA256SUMS.txt",
+    "evidence_suit61_continuation/recovery-campaign.json",
+    "evidence_unified61/campaign.json",
+    "evidence_unified61/eval.log",
+    "evidence_unified61/eval/summary.json",
+    "evidence_unified61/eval/traces/A_brains_alone_S0M1.json",
+    "evidence_unified61/eval/traces/B_suit_alone_S1M0.json",
+    "evidence_unified61/eval/traces/C_brains_suit_no_transfer_S1M1.json",
+    "evidence_unified61/eval/traces/D_brains_suit_transfer_S1M1.json",
+    "evidence_unified61/eval/traces/N_naive_similarity_control.json",
+    "evidence_unified61/eval/traces/S0M0_baseline.json",
+    "evidence_unified61/full.log",
+    "evidence_unified61/prior-SHA256SUMS.txt",
+    "evidence_unified61/probes.json",
+    "evidence_unified61/target.log",
+    "tests/test_build026.py",
+    "tests/test_suit61_receipt_hardening.py",
+    "tests/test_suit61_unfamiliar_transfer.py",
+    "tests/test_unified025_suit61.py"
+  ],
+  "only_monitor": [
+    "INTEGRATION_012/INPUT_INVENTORY_AND_GAPS.md",
+    "suit61/closet_port.py",
+    "suit61/disposition.py",
+    "suit61/vendor/__init__.py",
+    "suit61/vendor/ph6_closet_router.py",
+    "suit61/vendor/ph6_soso_suit_monitor_v3_2_2.py",
+    "suit61/vendor/ph6_soso_suit_monitor_v3_2_3.py",
+    "tests/test_suit61_closet.py"
+  ],
+  "conflicts": [
+    "INTEGRATION_012/README_SUIT61.md",
+    "INTEGRATION_012/SUIT61_REPORT.md",
+    "INTEGRATION_012/WIRING_MAP.md",
+    "SHA256SUMS.txt",
+    "contract/pathway025.py",
+    "eval061/run.py",
+    "muse024.py",
+    "suit61/agent.py",
+    "suit61/ops.py",
+    "suit61/store.py",
+    "tests/test_suit61.py",
+    "tests/test_suit61_wiring.py"
+  ],
+  "function_changes": {
+    "contract/pathway025.py": {
+      "investigate": {
+        "build026_ast": "e528debbbecc4a8421bb0fa2f6fe96fe161740f50dea4d957d710595610c9d0c",
+        "monitor_ast": "ab69b4d29457daa02d56ea086e9b5aa7964fe2e7d3fa477ea0877c3fe4d05af9",
+        "merged_ast": "e528debbbecc4a8421bb0fa2f6fe96fe161740f50dea4d957d710595610c9d0c",
+        "selection": "KEEP_BUILD026"
+      }
+    },
+    "eval061/run.py": {
+      "record_trial": {
+        "build026_ast": "dbfe08b707673b01a01c81e046a1278d90e2ce9629ea13678d16ffa217f02493",
+        "monitor_ast": null,
+        "merged_ast": "dbfe08b707673b01a01c81e046a1278d90e2ce9629ea13678d16ffa217f02493",
+        "selection": "KEEP_BUILD026"
+      },
+      "train": {
+        "build026_ast": "9b2edd67f0f9729656c9f0db4ac244ef6b9d3658824f1b8c6a393dea975ea9f1",
+        "monitor_ast": "a8cb42caa0ca5fabfd22da9b2c65bdac9a72dfd43678e4bdd433915ddf5471b4",
+        "merged_ast": "9b2edd67f0f9729656c9f0db4ac244ef6b9d3658824f1b8c6a393dea975ea9f1",
+        "selection": "KEEP_BUILD026"
+      }
+    },
+    "muse024.py": {
+      "dispatch": {
+        "build026_ast": "8fa19cdbb93e85df287b81293b5ea1613edf6b8490714280ec326d769ef9c6e5",
+        "monitor_ast": "4dc4402864442c4374a2088a2b92d445b2d6c195701a5289d879afb089e4285b",
+        "merged_ast": "8fa19cdbb93e85df287b81293b5ea1613edf6b8490714280ec326d769ef9c6e5",
+        "selection": "KEEP_BUILD026"
+      }
+    },
+    "suit61/agent.py": {
+      "Agent.__init__": {
+        "build026_ast": "c258de9ef50643927e1484b395f8cf4fedda4efc96e750ee61d13d1fc13849a4",
+        "monitor_ast": "44c8cc018e8dd1912e414dd5252455bf78c652caa1df5b3994534c8dacc471e8",
+        "merged_ast": "c258de9ef50643927e1484b395f8cf4fedda4efc96e750ee61d13d1fc13849a4",
+        "selection": "KEEP_BUILD026"
+      },
+      "Agent._closet": {
+        "build026_ast": null,
+        "monitor_ast": "1516eaf778263beaa5696a951dbfe0c556969a59134dbec7c23f06c33ecb7047",
+        "merged_ast": null,
+        "selection": "KEEP_BUILD026"
+      },
+      "Agent._handle": {
+        "build026_ast": null,
+        "monitor_ast": "b574adeea51dff33bdca77e6dd88fdf303818c418b6e08738ad8ff65ce4d27a8",
+        "merged_ast": null,
+        "selection": "KEEP_BUILD026"
+      },
+      "Agent.admit": {
+        "build026_ast": "a128d514e7472dd654645988ce46277a257e7f4cfed3082157adf90bcb5ddaee",
+        "monitor_ast": null,
+        "merged_ast": "a128d514e7472dd654645988ce46277a257e7f4cfed3082157adf90bcb5ddaee",
+        "selection": "KEEP_BUILD026"
+      },
+      "Agent.handle": {
+        "build026_ast": "73d71555d2219e47542a9901f82dd9f7575c157ba25cb1fa062c9d3a50332df7",
+        "monitor_ast": "392a6c86af91eb49694c53a5c74724633b210c0ff6c49f1d6d147494afb0555b",
+        "merged_ast": "73d71555d2219e47542a9901f82dd9f7575c157ba25cb1fa062c9d3a50332df7",
+        "selection": "KEEP_BUILD026"
+      }
+    },
+    "suit61/ops.py": {
+      "handle": {
+        "build026_ast": "3b15c348f7d89638bab11c7f51e3e91dadc75c2cbdb565b16725dd6fc5d99602",
+        "monitor_ast": "124950ed259343a612d4924d77c22c668096a1a5cae7a73a0d4d31509970223b",
+        "merged_ast": "6e7b92bd8f88cff5fbba1b55ce411175e35b585e536fb4a82a08d51cd126ff02",
+        "selection": "ADAPT"
+      }
+    },
+    "suit61/store.py": {
+      "_check_receipt": {
+        "build026_ast": "bdb8f3a4a17ccfb49d494f2e4b2de965a3eb3901819b389e70b796cd363fbb56",
+        "monitor_ast": "885013af2476d8ad79ad448be943cd1e5ca9f55e030afc7c606635a9d5baaeeb",
+        "merged_ast": "bdb8f3a4a17ccfb49d494f2e4b2de965a3eb3901819b389e70b796cd363fbb56",
+        "selection": "KEEP_BUILD026"
+      },
+      "_finish": {
+        "build026_ast": "6dcf4844e0590c41a84cd5a1ec2ee2b338a17347ad77fe8e53a532e20fb4320e",
+        "monitor_ast": "69cb2aa84c17198c7c468fdc46f640c6de835f12dac19a19e1801f8b8a5dd246",
+        "merged_ast": "6dcf4844e0590c41a84cd5a1ec2ee2b338a17347ad77fe8e53a532e20fb4320e",
+        "selection": "KEEP_BUILD026"
+      },
+      "_task": {
+        "build026_ast": "b504ddb48d6307f1953daa907ff894c8518a2220089537d7e1b7ad532fd3a631",
+        "monitor_ast": "c6cbda9b71ad0f76c77d3052a19ca985f4e4ba405122295085121e80e058dac5",
+        "merged_ast": "b504ddb48d6307f1953daa907ff894c8518a2220089537d7e1b7ad532fd3a631",
+        "selection": "KEEP_BUILD026"
+      },
+      "ack": {
+        "build026_ast": "0a642616ae7c4785827ff8b17c9ce89652dc2993b476c4a4a0a354830265a380",
+        "monitor_ast": "a801c9669e676a8f59742f4cdaab3564c286568ccee8e2cb155aa408ba742f32",
+        "merged_ast": "0a642616ae7c4785827ff8b17c9ce89652dc2993b476c4a4a0a354830265a380",
+        "selection": "KEEP_BUILD026"
+      },
+      "attempt": {
+        "build026_ast": "136a9e93f9125c477c36b2ac7631961067e6e9e14a5c2d34c30d6dd16c35e0f6",
+        "monitor_ast": "59603201b98a455c68385862038d8e086341b70085075ac025c2ba2a846e50c5",
+        "merged_ast": "136a9e93f9125c477c36b2ac7631961067e6e9e14a5c2d34c30d6dd16c35e0f6",
+        "selection": "KEEP_BUILD026"
+      },
+      "begin": {
+        "build026_ast": "a749b6d4f92c6017e7e1a22c91398459fb366d8d3968ec5c69ff84d2a7998829",
+        "monitor_ast": "5eb7859ddaf06f81be40bdf08310eb36b18d271777bb028b56b46babd3bb1312",
+        "merged_ast": "a749b6d4f92c6017e7e1a22c91398459fb366d8d3968ec5c69ff84d2a7998829",
+        "selection": "KEEP_BUILD026"
+      },
+      "next_step": {
+        "build026_ast": "c169c235564c9df2705d79ed27f1cd5e1b4b0cb4bddcc5828ea3e89f5dcb1d2e",
+        "monitor_ast": "a2b3371c37916532cf50dfe5842f6f23492341acc341b94a3dd92ded4a2c2c3a",
+        "merged_ast": "c169c235564c9df2705d79ed27f1cd5e1b4b0cb4bddcc5828ea3e89f5dcb1d2e",
+        "selection": "KEEP_BUILD026"
+      },
+      "observe": {
+        "build026_ast": "097136ac5678c3e2780d00e62cc5af78a34f450ef36e3ce1e35634e9ef5d4bef",
+        "monitor_ast": null,
+        "merged_ast": "097136ac5678c3e2780d00e62cc5af78a34f450ef36e3ce1e35634e9ef5d4bef",
+        "selection": "KEEP_BUILD026"
+      },
+      "practice": {
+        "build026_ast": "6a5c0299de0e44483ebb6eb35c3bfb844102eef0a15a2838d30062494107b78d",
+        "monitor_ast": "f9a83aa52cd3f36f67e03f401cea4f0a050d3f05430a71692884ba47f6b53303",
+        "merged_ast": "6a5c0299de0e44483ebb6eb35c3bfb844102eef0a15a2838d30062494107b78d",
+        "selection": "KEEP_BUILD026"
+      },
+      "propose": {
+        "build026_ast": "d01175ff99d7e4e5086f7b8d34586528e1421fa1480bf6b248c8fce217696add",
+        "monitor_ast": "ecfa24c4a1531f57434eacbe2a771949a19e839d3f45d5931ae1838e4710f361",
+        "merged_ast": "d01175ff99d7e4e5086f7b8d34586528e1421fa1480bf6b248c8fce217696add",
+        "selection": "KEEP_BUILD026"
+      },
+      "qualified_evidence": {
+        "build026_ast": "d00a3958c2ecf76bf8dda9eff80604e07f61ed793c5b6df0a6dfee84b4edea2d",
+        "monitor_ast": null,
+        "merged_ast": "d00a3958c2ecf76bf8dda9eff80604e07f61ed793c5b6df0a6dfee84b4edea2d",
+        "selection": "KEEP_BUILD026"
+      },
+      "qualify_skill": {
+        "build026_ast": "1caa6d1370f5aea88eaa35fcc48b78eaf8683cdde45a60935d3d5ad1b852e7f0",
+        "monitor_ast": "975e2514866b39a728bac4f933da06c345280e6a62c7d45e75ac7961af405b86",
+        "merged_ast": "1caa6d1370f5aea88eaa35fcc48b78eaf8683cdde45a60935d3d5ad1b852e7f0",
+        "selection": "KEEP_BUILD026"
+      },
+      "qualify_transfer": {
+        "build026_ast": "86b61318084e7017a37e35c7f391f24a17d247337d7f2cde9ee4be5d5141e329",
+        "monitor_ast": "1551a2c0fcc055ffd3c90851c3012bc15396ef4256d360baf0c1c38ad561a735",
+        "merged_ast": "86b61318084e7017a37e35c7f391f24a17d247337d7f2cde9ee4be5d5141e329",
+        "selection": "KEEP_BUILD026"
+      },
+      "retrieve": {
+        "build026_ast": "1682a2ccf127e4c08a63de61bb4866aae595263a5a8d2b7103c58d1f9424b81b",
+        "monitor_ast": "4f2d7a2d9325fd303b9106af65779e4fb5878e262ba3d8fa776308189c899013",
+        "merged_ast": "1682a2ccf127e4c08a63de61bb4866aae595263a5a8d2b7103c58d1f9424b81b",
+        "selection": "KEEP_BUILD026"
+      },
+      "revoke": {
+        "build026_ast": "5f67b1f5f2e83e8f28c18a0915cdbba5260969e30674bc27d7948862cb42d3d2",
+        "monitor_ast": "01b17c20f498b0cb2a2e61f70ae6af2c398fa3e256e02bd78701da638aaf35b3",
+        "merged_ast": "5f67b1f5f2e83e8f28c18a0915cdbba5260969e30674bc27d7948862cb42d3d2",
+        "selection": "KEEP_BUILD026"
+      },
+      "setup": {
+        "build026_ast": "be6ff83f712c0424317ec9702006f062e0a3920302f1f4c3a41454b31ef3d263",
+        "monitor_ast": "be6ff83f712c0424317ec9702006f062e0a3920302f1f4c3a41454b31ef3d263",
+        "merged_ast": "bbeb177d285788a4387de8119ac7e0fa1f95c525b695e2064d0f6572e816a666",
+        "selection": "ADAPT"
+      },
+      "trace": {
+        "build026_ast": "cf7b8f7a2837f99ce4dc2be093f7049b897720fe4b6692dec491567becbcf516",
+        "monitor_ast": "cf7b8f7a2837f99ce4dc2be093f7049b897720fe4b6692dec491567becbcf516",
+        "merged_ast": "1aa2508a8702d10cded04efd385363509588abbe62c3c9e8624c16e466ca71a3",
+        "selection": "ADAPT"
+      },
+      "transfer_digest": {
+        "build026_ast": "e2b6ab4a472980bcfae55e8b39b81f14dc3e82974b0b4c1fb37a5b028e88062f",
+        "monitor_ast": null,
+        "merged_ast": "e2b6ab4a472980bcfae55e8b39b81f14dc3e82974b0b4c1fb37a5b028e88062f",
+        "selection": "KEEP_BUILD026"
+      },
+      "verify_evidence": {
+        "build026_ast": "c43927a384ff3f1bf844b473df8ed33bb63c277929cd79d96c3a1eab7bfdbc16",
+        "monitor_ast": null,
+        "merged_ast": "c43927a384ff3f1bf844b473df8ed33bb63c277929cd79d96c3a1eab7bfdbc16",
+        "selection": "KEEP_BUILD026"
+      }
+    },
+    "tests/test_suit61.py": {
+      "admit": {
+        "build026_ast": "ec7e02029e6366496c8eddea09882e4f0ad2c5e053c6093802379c6bc31c8435",
+        "monitor_ast": null,
+        "merged_ast": "ec7e02029e6366496c8eddea09882e4f0ad2c5e053c6093802379c6bc31c8435",
+        "selection": "KEEP_BUILD026"
+      },
+      "observe_step": {
+        "build026_ast": "060ddd35afe4f506ee1838e4bd3a19cdf372b96328d364a1d5a498033f9c1a6b",
+        "monitor_ast": null,
+        "merged_ast": "060ddd35afe4f506ee1838e4bd3a19cdf372b96328d364a1d5a498033f9c1a6b",
+        "selection": "KEEP_BUILD026"
+      },
+      "suit": {
+        "build026_ast": "5659428514853c5e74f13a4aaa7db0495fa41c9909a3bedd73e1d90538fc619e",
+        "monitor_ast": "eb69485b807078f141af24a87227b47029acfb7e5d9bdce60216115c5dbb38f0",
+        "merged_ast": "5659428514853c5e74f13a4aaa7db0495fa41c9909a3bedd73e1d90538fc619e",
+        "selection": "KEEP_BUILD026"
+      },
+      "test_caller_plan_and_missing_capability_are_rejected": {
+        "build026_ast": "17834995adfb51d39b97c04a4955e832ca4473bb167041a5719e1f60fc544664",
+        "monitor_ast": null,
+        "merged_ast": "17834995adfb51d39b97c04a4955e832ca4473bb167041a5719e1f60fc544664",
+        "selection": "KEEP_BUILD026"
+      },
+      "test_interrupted_ack_rolls_back_and_sigkill_restart_resumes_without_repeating": {
+        "build026_ast": "2a7d0505dd160e5d054f24d53bdf909c1e971377c19bb696d7d69f4aafd8caa4",
+        "monitor_ast": "94325cebd6644fa76523426d8da08583e20f3616370150ba849a13087c140613",
+        "merged_ast": "2a7d0505dd160e5d054f24d53bdf909c1e971377c19bb696d7d69f4aafd8caa4",
+        "selection": "KEEP_BUILD026"
+      },
+      "test_joint_admission_qualified_transfer_then_complete_and_reuse": {
+        "build026_ast": "2a5671054156cc65a7d7ca3913a2ba54ccac8cfbf65c8776da4ed57966c47191",
+        "monitor_ast": null,
+        "merged_ast": "2a5671054156cc65a7d7ca3913a2ba54ccac8cfbf65c8776da4ed57966c47191",
+        "selection": "KEEP_BUILD026"
+      },
+      "test_prerequisite_hold_blocks_steps": {
+        "build026_ast": null,
+        "monitor_ast": "bf233f812607c78f06aa475d5668cdde8c61a16fd9b2e7a9aee0e723d32bcb2c",
+        "merged_ast": null,
+        "selection": "KEEP_BUILD026"
+      },
+      "test_task_continuity_duplicate_ack_and_ordering": {
+        "build026_ast": "949a45965773f94f91404aa8f9543adf7d396ad507d933b5806a85abe3c7cd52",
+        "monitor_ast": "68e980ced92823b73f92fbfb944e4a72a8873c9873e4d9bc106cf3b04a414240",
+        "merged_ast": "949a45965773f94f91404aa8f9543adf7d396ad507d933b5806a85abe3c7cd52",
+        "selection": "KEEP_BUILD026"
+      }
+    },
+    "tests/test_suit61_wiring.py": {
+      "test_failed_small49_write_aborts_the_qualification": {
+        "build026_ast": "a6395797843ddc240edfe893623e2ecdc56ce48da0c1c2256d3ee230860c9f36",
+        "monitor_ast": "315738d6fb2caba3c6d619ed5c612f051076221f2b7ba253fef4836c19e53179",
+        "merged_ast": "a6395797843ddc240edfe893623e2ecdc56ce48da0c1c2256d3ee230860c9f36",
+        "selection": "KEEP_BUILD026"
+      }
+    }
+  }
+}

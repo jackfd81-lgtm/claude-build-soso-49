@@ -1,0 +1,66 @@
+{
+  "before_journal_submit": {
+    "setup": {
+      "pid": 29,
+      "initial": "HOLD"
+    },
+    "interrupt": {
+      "exit": 79
+    },
+    "recover": {
+      "pid": 31,
+      "status": "ACKED",
+      "ious_before": 0,
+      "ious_after": 1
+    },
+    "resume": {
+      "pid": 32,
+      "status": "SUPPORTED",
+      "answer": "valve",
+      "measurements": 2
+    },
+    "audit": {
+      "pid": 33,
+      "receipts": 2,
+      "pending_advisory_ious": 2,
+      "authority": "AUTH:0",
+      "trace": {
+        "intact": true,
+        "events": 6,
+        "head": "055bfee11e376035e0c09e469d26327c0a83ed78e5ed596f9259ecf5ec9065d5"
+      }
+    }
+  },
+  "after_journal_commit": {
+    "setup": {
+      "pid": 34,
+      "initial": "HOLD"
+    },
+    "interrupt": {
+      "exit": 79
+    },
+    "recover": {
+      "pid": 36,
+      "status": "ACKED",
+      "ious_before": 1,
+      "ious_after": 1
+    },
+    "resume": {
+      "pid": 37,
+      "status": "SUPPORTED",
+      "answer": "valve",
+      "measurements": 2
+    },
+    "audit": {
+      "pid": 38,
+      "receipts": 2,
+      "pending_advisory_ious": 2,
+      "authority": "AUTH:0",
+      "trace": {
+        "intact": true,
+        "events": 6,
+        "head": "055bfee11e376035e0c09e469d26327c0a83ed78e5ed596f9259ecf5ec9065d5"
+      }
+    }
+  }
+}

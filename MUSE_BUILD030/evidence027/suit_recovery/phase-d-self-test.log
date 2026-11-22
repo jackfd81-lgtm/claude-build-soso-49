@@ -1,0 +1,49 @@
+test_01_canonical_independent_bytes (__main__.CandidateTests.test_01_canonical_independent_bytes) ... ok
+test_02_nfc (__main__.CandidateTests.test_02_nfc) ... ok
+test_03_utf16_order (__main__.CandidateTests.test_03_utf16_order) ... ok
+test_04_parser_refusals (__main__.CandidateTests.test_04_parser_refusals) ... ok
+test_05_canonical_bounds (__main__.CandidateTests.test_05_canonical_bounds) ... ok
+test_06_lifecycle (__main__.CandidateTests.test_06_lifecycle) ... ok
+test_07_deep_immutability (__main__.CandidateTests.test_07_deep_immutability) ... ok
+test_08_record_schema (__main__.CandidateTests.test_08_record_schema) ... ok
+test_09_digest_tamper (__main__.CandidateTests.test_09_digest_tamper) ... ok
+test_10_role_matrix (__main__.CandidateTests.test_10_role_matrix) ... ok
+test_11_owner_transfer (__main__.CandidateTests.test_11_owner_transfer) ... ok
+test_12_admin (__main__.CandidateTests.test_12_admin) ... ok
+test_13_invalid_transition_atomic (__main__.CandidateTests.test_13_invalid_transition_atomic) ... ok
+test_14_terminal_immutability (__main__.CandidateTests.test_14_terminal_immutability) ... ok
+test_15_automatic_conflicts (__main__.CandidateTests.test_15_automatic_conflicts) ... ok
+test_16_conflict_negatives (__main__.CandidateTests.test_16_conflict_negatives) ... ok
+test_17_conflict_resolution (__main__.CandidateTests.test_17_conflict_resolution) ... ok
+test_18_conflict_compatibility (__main__.CandidateTests.test_18_conflict_compatibility) ... ok
+test_19_mooting (__main__.CandidateTests.test_19_mooting) ... ok
+test_20_blocking_and_order (__main__.CandidateTests.test_20_blocking_and_order) ... ok
+test_21_whole_registry_digest (__main__.CandidateTests.test_21_whole_registry_digest) ... ok
+test_22_bridge_atomic (__main__.CandidateTests.test_22_bridge_atomic) ... ok
+test_23_restart_and_digest (__main__.CandidateTests.test_23_restart_and_digest) ... ok
+test_24_keyword_conflict_persistence (__main__.CandidateTests.test_24_keyword_conflict_persistence) ... ok
+test_25_rejected_write_unchanged (__main__.CandidateTests.test_25_rejected_write_unchanged) ... ok
+test_26_commit_failure_rollback (__main__.CandidateTests.test_26_commit_failure_rollback) ... ok
+test_27_ambiguous_commit_fail_closed (__main__.CandidateTests.test_27_ambiguous_commit_fail_closed) ... ok
+test_28_append_only_sql (__main__.CandidateTests.test_28_append_only_sql) ... ok
+test_29_tail_deletion_detection (__main__.CandidateTests.test_29_tail_deletion_detection) ... ok
+test_30_recomputed_entry_cannot_hide_bad_record (__main__.CandidateTests.test_30_recomputed_entry_cannot_hide_bad_record) ... ok
+test_31_external_head_pin (__main__.CandidateTests.test_31_external_head_pin) ... ok
+test_32_legacy_refusal (__main__.CandidateTests.test_32_legacy_refusal) ... ok
+test_33_threaded_unique_operations (__main__.CandidateTests.test_33_threaded_unique_operations) ... ok
+test_34_competing_connections (__main__.CandidateTests.test_34_competing_connections) ... ok
+test_35_concurrent_terminal_contenders (__main__.CandidateTests.test_35_concurrent_terminal_contenders) ... ok
+test_36_duplicate_and_unknown (__main__.CandidateTests.test_36_duplicate_and_unknown) ... ok
+test_37_stored_version_and_unknown_fields (__main__.CandidateTests.test_37_stored_version_and_unknown_fields) ... ok
+test_38_atomic_multiple_conflict_rollback (__main__.CandidateTests.test_38_atomic_multiple_conflict_rollback) ... ok
+test_39_sqlite_rollback_on_process_exit (__main__.CandidateTests.test_39_sqlite_rollback_on_process_exit) ... ok
+test_40_full_snapshot_defensive (__main__.CandidateTests.test_40_full_snapshot_defensive) ... ok
+test_41_process_exit_during_real_operation (__main__.CandidateTests.test_41_process_exit_during_real_operation) ... ok
+test_42_process_exit_after_real_commit (__main__.CandidateTests.test_42_process_exit_after_real_commit) ... ok
+test_43_closed_operation_arguments (__main__.CandidateTests.test_43_closed_operation_arguments) ... ok
+test_44_raw_unicode_and_large_integer (__main__.CandidateTests.test_44_raw_unicode_and_large_integer) ... ok
+
+----------------------------------------------------------------------
+Ran 44 tests in 2.955s
+
+OK

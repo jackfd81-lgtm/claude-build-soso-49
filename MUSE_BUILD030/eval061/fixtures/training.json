@@ -1,0 +1,252 @@
+{
+ "practice": {
+  "component-seat-v1": [
+   {
+    "evidence_ref": "fixture-obs:component-seat-v1:0",
+    "outcome": "SUCCESS"
+   },
+   {
+    "evidence_ref": "fixture-obs:component-seat-v1:1",
+    "outcome": "SUCCESS"
+   }
+  ],
+  "connection-inspect-v1": [
+   {
+    "evidence_ref": "fixture-obs:connection-inspect-v1:0",
+    "outcome": "SUCCESS"
+   },
+   {
+    "evidence_ref": "fixture-obs:connection-inspect-v1:1",
+    "outcome": "SUCCESS"
+   }
+  ],
+  "fastener-release-v1": [
+   {
+    "evidence_ref": "fixture-obs:fastener-release-v1:0",
+    "outcome": "SUCCESS"
+   },
+   {
+    "evidence_ref": "fixture-obs:fastener-release-v1:1",
+    "outcome": "SUCCESS"
+   }
+  ]
+ },
+ "transfers": {
+  "P1": {
+   "attempts": [
+    {
+     "evidence_ref": "fixture-obs:P1:0",
+     "executed_order": [
+      "SELECT_TOOL",
+      "ALIGN",
+      "GRIP",
+      "ROTATE",
+      "APPLY_FORCE",
+      "DETECT_RESISTANCE",
+      "VERIFY"
+     ],
+     "measured": {
+      "force": 20,
+      "tolerance_um": 400
+     },
+     "outcome": "SUCCESS"
+    },
+    {
+     "evidence_ref": "fixture-obs:P1:1",
+     "executed_order": [
+      "SELECT_TOOL",
+      "ALIGN",
+      "GRIP",
+      "ROTATE",
+      "APPLY_FORCE",
+      "DETECT_RESISTANCE",
+      "VERIFY"
+     ],
+     "measured": {
+      "force": 21,
+      "tolerance_um": 400
+     },
+     "outcome": "SUCCESS"
+    },
+    {
+     "evidence_ref": "fixture-obs:P1:2",
+     "executed_order": [
+      "SELECT_TOOL",
+      "ALIGN",
+      "GRIP",
+      "ROTATE",
+      "APPLY_FORCE",
+      "DETECT_RESISTANCE",
+      "VERIFY"
+     ],
+     "measured": {
+      "force": 20,
+      "tolerance_um": 400
+     },
+     "outcome": "SUCCESS"
+    }
+   ],
+   "skill_id": "fastener-release-v1",
+   "target": {
+    "available_preconditions": [
+     "tool_selected"
+    ],
+    "context": {
+     "authorization": [
+      "basic_tools"
+     ],
+     "capabilities": [
+      "grip_torque",
+      "alignment_guide"
+     ],
+     "categorical": {
+      "material": "aluminium"
+     },
+     "effects": [
+      "fastener_released"
+     ],
+     "hazard": 1,
+     "incompatible": {},
+     "numeric": {
+      "force": {
+       "sense": "max",
+       "value": 25
+      },
+      "tolerance_um": {
+       "sense": "max",
+       "value": 500
+      }
+     },
+     "precedence": [],
+     "preconditions": [],
+     "substitutable": {}
+    },
+    "label": "small-screw task in a different domain (training)",
+    "precedence": [
+     [
+      "ALIGN",
+      "APPLY_FORCE"
+     ]
+    ],
+    "required_verbs": [
+     "SELECT_TOOL",
+     "ALIGN",
+     "GRIP",
+     "ROTATE",
+     "APPLY_FORCE",
+     "DETECT_RESISTANCE",
+     "VERIFY"
+    ]
+   },
+   "target_task": "P1"
+  },
+  "X2": {
+   "attempts": [
+    {
+     "evidence_ref": "fixture-obs:X2:0",
+     "executed_order": [
+      "SELECT_TOOL",
+      "ALIGN",
+      "GRIP",
+      "ROTATE",
+      "APPLY_FORCE",
+      "DETECT_RESISTANCE",
+      "VERIFY"
+     ],
+     "measured": {
+      "force": 40,
+      "tolerance_um": 150
+     },
+     "outcome": "SUCCESS"
+    },
+    {
+     "evidence_ref": "fixture-obs:X2:1",
+     "executed_order": [
+      "SELECT_TOOL",
+      "ALIGN",
+      "GRIP",
+      "ROTATE",
+      "APPLY_FORCE",
+      "DETECT_RESISTANCE",
+      "VERIFY"
+     ],
+     "measured": {
+      "force": 41,
+      "tolerance_um": 380
+     },
+     "outcome": "SUCCESS"
+    },
+    {
+     "evidence_ref": "fixture-obs:X2:2",
+     "executed_order": [
+      "SELECT_TOOL",
+      "ALIGN",
+      "GRIP",
+      "ROTATE",
+      "APPLY_FORCE",
+      "DETECT_RESISTANCE",
+      "VERIFY"
+     ],
+     "measured": {
+      "force": 40,
+      "tolerance_um": 120
+     },
+     "outcome": "SUCCESS"
+    }
+   ],
+   "skill_id": "fastener-release-v1",
+   "target": {
+    "available_preconditions": [
+     "tool_selected"
+    ],
+    "context": {
+     "authorization": [
+      "basic_tools"
+     ],
+     "capabilities": [
+      "grip_torque",
+      "alignment_guide"
+     ],
+     "categorical": {
+      "material": "steel"
+     },
+     "effects": [
+      "fastener_released"
+     ],
+     "hazard": 1,
+     "incompatible": {},
+     "numeric": {
+      "force": {
+       "sense": "max",
+       "value": 60
+      },
+      "tolerance_um": {
+       "sense": "max",
+       "value": 200
+      }
+     },
+     "precedence": [],
+     "preconditions": [],
+     "substitutable": {}
+    },
+    "label": "tolerance-tight fastener task (an earlier attempt failed)",
+    "precedence": [
+     [
+      "ALIGN",
+      "APPLY_FORCE"
+     ]
+    ],
+    "required_verbs": [
+     "SELECT_TOOL",
+     "ALIGN",
+     "GRIP",
+     "ROTATE",
+     "APPLY_FORCE",
+     "DETECT_RESISTANCE",
+     "VERIFY"
+    ]
+   },
+   "target_task": "X2"
+  }
+ }
+}
