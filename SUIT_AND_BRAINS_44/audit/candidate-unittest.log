@@ -1,0 +1,1104 @@
+test_agent025_modes (unittest.loader._FailedTest.test_agent025_modes) ... ERROR
+test_1_red_team_memory_poisoning_crescendo_and_bypass (test_ai_interrogation_protocols.TestAIInterrogationProtocols.test_1_red_team_memory_poisoning_crescendo_and_bypass) ... ok
+test_2_ai_control_pause_interrogation_and_suspicion_floor (test_ai_interrogation_protocols.TestAIInterrogationProtocols.test_2_ai_control_pause_interrogation_and_suspicion_floor) ... ok
+test_3_dynamic_unclarifying_abstention_and_paraphrase_invariance (test_ai_interrogation_protocols.TestAIInterrogationProtocols.test_3_dynamic_unclarifying_abstention_and_paraphrase_invariance) ... ok
+test_4_investigative_timeline_contradiction_and_provenance (test_ai_interrogation_protocols.TestAIInterrogationProtocols.test_4_investigative_timeline_contradiction_and_provenance) ... ok
+test_four_condition_learning_transfer_and_coherence (test_b040_learn_transfer_live_001.TestB040LearnTransferLive001.test_four_condition_learning_transfer_and_coherence) ... ok
+test_brain49_path_explain (unittest.loader._FailedTest.test_brain49_path_explain) ... ERROR
+test_build024 (unittest.loader._FailedTest.test_build024) ... ERROR
+test_build025 (unittest.loader._FailedTest.test_build025) ... ERROR
+test_build026 (unittest.loader._FailedTest.test_build026) ... ERROR
+test_build027 (unittest.loader._FailedTest.test_build027) ... ERROR
+test_build029 (unittest.loader._FailedTest.test_build029) ... ERROR
+test_build030_1 (unittest.loader._FailedTest.test_build030_1) ... ERROR
+test_01_soso_to_brains_cognitive_execution (test_build040_integration_20.TestBuild040Integration20.test_01_soso_to_brains_cognitive_execution) ... ok
+test_02_lower49_and_higher49_dispatch (test_build040_integration_20.TestBuild040Integration20.test_02_lower49_and_higher49_dispatch) ... ok
+test_03_big49_retrieval_and_utilization (test_build040_integration_20.TestBuild040Integration20.test_03_big49_retrieval_and_utilization) ... ok
+test_04_small49_retrieval_and_utilization (test_build040_integration_20.TestBuild040Integration20.test_04_small49_retrieval_and_utilization) ... ok
+test_05_suit_authorization_and_denial (test_build040_integration_20.TestBuild040Integration20.test_05_suit_authorization_and_denial) ... ok
+test_06_closet_to_agent_invocation (test_build040_integration_20.TestBuild040Integration20.test_06_closet_to_agent_invocation) ... ok
+test_07_cram_pu_hot_warm_cool_transitions (test_build040_integration_20.TestBuild040Integration20.test_07_cram_pu_hot_warm_cool_transitions) ... ok
+test_08_cool_to_brain_outbox_replay (test_build040_integration_20.TestBuild040Integration20.test_08_cool_to_brain_outbox_replay) ... ok
+test_09_restart_recovery (test_build040_integration_20.TestBuild040Integration20.test_09_restart_recovery) ... ok
+test_10_memory_conflict_handling (test_build040_integration_20.TestBuild040Integration20.test_10_memory_conflict_handling) ... ok
+test_11_multi_agent_memory_isolation (test_build040_integration_20.TestBuild040Integration20.test_11_multi_agent_memory_isolation) ... ok
+test_12_context_continuity (test_build040_integration_20.TestBuild040Integration20.test_12_context_continuity) ... ok
+test_13_experience_reuse (test_build040_integration_20.TestBuild040Integration20.test_13_experience_reuse) ... ok
+test_14_memory_ablation (test_build040_integration_20.TestBuild040Integration20.test_14_memory_ablation) ... ok
+test_15_online_ai_provider_failure (test_build040_integration_20.TestBuild040Integration20.test_15_online_ai_provider_failure) ... ok
+test_16_offline_operation (test_build040_integration_20.TestBuild040Integration20.test_16_offline_operation) ... ok
+test_17_deterministic_replay (test_build040_integration_20.TestBuild040Integration20.test_17_deterministic_replay) ... ok
+test_18_orangepi_grading_protocol (test_build040_integration_20.TestBuild040Integration20.test_18_orangepi_grading_protocol) ... ok
+test_19_resource_exhaustion (test_build040_integration_20.TestBuild040Integration20.test_19_resource_exhaustion) ... ok
+test_20_complete_e2e_task_execution (test_build040_integration_20.TestBuild040Integration20.test_20_complete_e2e_task_execution) ... ok
+test_demo_wires_closet_suit_learning_and_both_stores (test_build42_candidate.Build42CandidateTests.test_demo_wires_closet_suit_learning_and_both_stores) ... ok
+test_outbox_replays_exact_revisions_and_buckets_after_reopen (test_build42_candidate.Build42CandidateTests.test_outbox_replays_exact_revisions_and_buckets_after_reopen) ... ok
+test_parent_revocation_and_shared_budget (test_build42_candidate.Build42CandidateTests.test_parent_revocation_and_shared_budget) ... ok
+test_pending_legacy_entry_fails_closed (test_build42_candidate.Build42CandidateTests.test_pending_legacy_entry_fails_closed) ... ok
+test_profile_permission_failure_is_reported_and_propagates (test_build42_candidate.Build42CandidateTests.test_profile_permission_failure_is_reported_and_propagates) ... ok
+test_registry_discloses_passthroughs (test_build42_candidate.Build42CandidateTests.test_registry_discloses_passthroughs) ... ok
+test_replay_after_mirror_before_ack_is_idempotent (test_build42_candidate.Build42CandidateTests.test_replay_after_mirror_before_ack_is_idempotent) ... ok
+test_targeted_l05_u06_u07_contracts (test_build42_candidate.Build42CandidateTests.test_targeted_l05_u06_u07_contracts) ... ok
+test_task_requires_explicit_grant_and_disallows_client_authority (test_build42_candidate.Build42CandidateTests.test_task_requires_explicit_grant_and_disallows_client_authority) ... ok
+test_capacity_reservation_009 (unittest.loader._FailedTest.test_capacity_reservation_009) ... ERROR
+test_claude010_in_build025 (unittest.loader._FailedTest.test_claude010_in_build025) ... ERROR
+test_claude_integrated025 (unittest.loader._FailedTest.test_claude_integrated025) ... ERROR
+test_code_quality_improvements (unittest.loader._FailedTest.test_code_quality_improvements) ... ERROR
+test_authority (test_cognitive_020.Build020Tests.test_authority) ... ok
+test_equation_and_transfer_restart (test_cognitive_020.Build020Tests.test_equation_and_transfer_restart) ... ok
+test_invalid_observation_no_write (test_cognitive_020.Build020Tests.test_invalid_observation_no_write) ... ok
+test_observation_separate_from_claim (test_cognitive_020.Build020Tests.test_observation_separate_from_claim) ... ok
+test_cognitive_023 (unittest.loader._FailedTest.test_cognitive_023) ... ERROR
+test_cognitive_proof_019 (unittest.loader._FailedTest.test_cognitive_proof_019) ... ERROR
+test_corrupt_json_and_duplicate_ids_fail_closed (test_cognitive_recorder.CognitiveRecorderTests.test_corrupt_json_and_duplicate_ids_fail_closed) ... ok
+test_replay_does_not_execute_functions (test_cognitive_recorder.CognitiveRecorderTests.test_replay_does_not_execute_functions) ... ok
+test_restart_and_replay_are_deterministic (test_cognitive_recorder.CognitiveRecorderTests.test_restart_and_replay_are_deterministic) ... ok
+test_router_events_are_observational_and_ordered (test_cognitive_recorder.CognitiveRecorderTests.test_router_events_are_observational_and_ordered) ... ok
+test_contract001 (unittest.loader._FailedTest.test_contract001) ... ERROR
+test_contract002 (unittest.loader._FailedTest.test_contract002) ... ERROR
+test_contradiction002 (unittest.loader._FailedTest.test_contradiction002) ... ERROR
+test_boundaries (test_crampu_controller.ControllerTests.test_boundaries) ... ok
+test_concurrent_staged_commits (test_crampu_controller.ControllerTests.test_concurrent_staged_commits) ... ok
+test_non_authority_and_ledger (test_crampu_controller.ControllerTests.test_non_authority_and_ledger) ... ok
+test_revision_conflict (test_crampu_controller.ControllerTests.test_revision_conflict) ... ok
+test_roundtrip_restart_and_acl (test_crampu_controller.ControllerTests.test_roundtrip_restart_and_acl) ... ok
+test_snapshot_not_hot (test_crampu_controller.ControllerTests.test_snapshot_not_hot) ... ok
+test_suit_and_brain (test_crampu_controller.ControllerTests.test_suit_and_brain) ... ok
+test_tamper_staged (test_crampu_controller.ControllerTests.test_tamper_staged) ... ok
+test_unowned_denied (test_crampu_controller.ControllerTests.test_unowned_denied) ... ok
+test_warm_restart_not_committed (test_crampu_controller.ControllerTests.test_warm_restart_not_committed) ... ok
+test_bounded_b01 (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_bounded_b01) ... ok
+test_bounded_b02 (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_bounded_b02) ... ok
+test_bounded_b03 (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_bounded_b03) ... ok
+test_bounded_b04 (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_bounded_b04) ... ok
+test_bounded_b05 (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_bounded_b05) ... ok
+test_bounded_b06 (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_bounded_b06) ... ok
+test_bounded_b07 (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_bounded_b07) ... ok
+test_bounded_b08 (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_bounded_b08) ... ok
+test_bounded_b09 (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_bounded_b09) ... ok
+test_bounded_b10 (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_bounded_b10) ... ok
+test_bounded_b11 (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_bounded_b11) ... ok
+test_bounded_b12 (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_bounded_b12) ... ok
+test_bounded_b13 (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_bounded_b13) ... ok
+test_bounded_b14 (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_bounded_b14) ... ok
+test_bounded_b15 (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_bounded_b15) ... ok
+test_bounded_b16 (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_bounded_b16) ... ok
+test_bounded_b17 (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_bounded_b17) ... ok
+test_bounded_b18 (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_bounded_b18) ... ok
+test_bounded_b19 (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_bounded_b19) ... ok
+test_bounded_b20 (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_bounded_b20) ... ok
+test_bounded_b21 (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_bounded_b21) ... ok
+test_n01_empty_source_id (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_n01_empty_source_id) ... ok
+test_n02_missing_verification_status (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_n02_missing_verification_status) ... ok
+test_n03_nonexistent_source (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_n03_nonexistent_source) ... ok
+test_n04_nonsupporting_source (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_n04_nonsupporting_source) ... ok
+test_n05_empty_citations (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_n05_empty_citations) ... ok
+test_n06_fabricated_citation (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_n06_fabricated_citation) ... ok
+test_n07_wrong_discipline_citation (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_n07_wrong_discipline_citation) ... ok
+test_n08_l2m_perspective_drift (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_n08_l2m_perspective_drift) ... ok
+test_n09_m2l_perspective_drift (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_n09_m2l_perspective_drift) ... ok
+test_n10_conflicting_evidence_preserved (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_n10_conflicting_evidence_preserved) ... ok
+test_n11_conflict_provenance_lost (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_n11_conflict_provenance_lost) ... ok
+test_n11b_tampered_conflict_provenance_rejected (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_n11b_tampered_conflict_provenance_rejected) ... ok
+test_n12_counterpart_unavailable (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_n12_counterpart_unavailable) ... ok
+test_n13_intermediary_bypass_rejected (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_n13_intermediary_bypass_rejected) ... ok
+test_n14_circular_routing_rejected (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_n14_circular_routing_rejected) ... ok
+test_n15_forged_authority_rejected (test_cross_specialty_v4.CrossSpecialtyV4Tests.test_n15_forged_authority_rejected) ... ok
+test_01_historical_motor_baseline_vs_label_only_control (test_disposition_engine_006.DispositionEngine006Tests.test_01_historical_motor_baseline_vs_label_only_control) ... ok
+test_02_pass_rejected_on_unauthorized_edge (test_disposition_engine_006.DispositionEngine006Tests.test_02_pass_rejected_on_unauthorized_edge) ... ok
+test_03_auth0_strict_enforcement_rejects_nonzero_authority (test_disposition_engine_006.DispositionEngine006Tests.test_03_auth0_strict_enforcement_rejects_nonzero_authority) ... ok
+test_04_hold_persists_across_os_restart_rejects_unrelated_reactivates_and_blocks_duplicate (test_disposition_engine_006.DispositionEngine006Tests.test_04_hold_persists_across_os_restart_rejects_unrelated_reactivates_and_blocks_duplicate) ... ok
+test_05_contradictory_evidence_produces_drop_and_multiple_simultaneous_holds (test_disposition_engine_006.DispositionEngine006Tests.test_05_contradictory_evidence_produces_drop_and_multiple_simultaneous_holds) ... ok
+test_06_deterministic_replay_and_explanation (test_disposition_engine_006.DispositionEngine006Tests.test_06_deterministic_replay_and_explanation) ... ok
+test_disposition_runtime_007 (unittest.loader._FailedTest.test_disposition_runtime_007) ... ERROR
+test_eval001 (unittest.loader._FailedTest.test_eval001) ... ERROR
+test_eval004_audit005 (unittest.loader._FailedTest.test_eval004_audit005) ... ERROR
+test_evidence001 (unittest.loader._FailedTest.test_evidence001) ... ERROR
+test_evidence002 (unittest.loader._FailedTest.test_evidence002) ... ERROR
+test_evidence_bundle_014 (unittest.loader._FailedTest.test_evidence_bundle_014) ... ERROR
+test_01_hot_memory_loss (test_failure_injection_20.TestFailureInjection20.test_01_hot_memory_loss) ... ok
+test_02_warm_interruption (test_failure_injection_20.TestFailureInjection20.test_02_warm_interruption) ... ok
+test_03_cool_transaction_interruption (test_failure_injection_20.TestFailureInjection20.test_03_cool_transaction_interruption) ... ok
+test_04_controller_restart (test_failure_injection_20.TestFailureInjection20.test_04_controller_restart) ... ok
+test_05_unauthorized_reads (test_failure_injection_20.TestFailureInjection20.test_05_unauthorized_reads) ... ok
+test_06_unauthorized_writes (test_failure_injection_20.TestFailureInjection20.test_06_unauthorized_writes) ... ok
+test_07_corrupted_memory_payloads (test_failure_injection_20.TestFailureInjection20.test_07_corrupted_memory_payloads) ... ok
+test_08_modified_ownership_metadata (test_failure_injection_20.TestFailureInjection20.test_08_modified_ownership_metadata) ... ok
+test_09_concurrent_updates (test_failure_injection_20.TestFailureInjection20.test_09_concurrent_updates) ... ok
+test_10_stale_revision_writes (test_failure_injection_20.TestFailureInjection20.test_10_stale_revision_writes) ... ok
+test_11_duplicate_transaction_replay (test_failure_injection_20.TestFailureInjection20.test_11_duplicate_transaction_replay) ... ok
+test_12_missing_brain_pool_mirrors (test_failure_injection_20.TestFailureInjection20.test_12_missing_brain_pool_mirrors) ... ok
+test_13_crash_after_cool_before_mirror (test_failure_injection_20.TestFailureInjection20.test_13_crash_after_cool_before_mirror) ... ok
+test_14_crash_after_mirror_before_ack (test_failure_injection_20.TestFailureInjection20.test_14_crash_after_mirror_before_ack) ... ok
+test_15_disk_full_conditions (test_failure_injection_20.TestFailureInjection20.test_15_disk_full_conditions) ... ok
+test_16_invalid_block_ids (test_failure_injection_20.TestFailureInjection20.test_16_invalid_block_ids) ... ok
+test_17_invalid_agent_identities (test_failure_injection_20.TestFailureInjection20.test_17_invalid_agent_identities) ... ok
+test_18_od05_rejection (test_failure_injection_20.TestFailureInjection20.test_18_od05_rejection) ... ok
+test_19_authority_escalation_attempts (test_failure_injection_20.TestFailureInjection20.test_19_authority_escalation_attempts) ... ok
+test_20_end_to_end_cognitive_pathway (test_failure_injection_20.TestFailureInjection20.test_20_end_to_end_cognitive_pathway) ... ok
+test_full_98_wiring_018 (unittest.loader._FailedTest.test_full_98_wiring_018) ... ERROR
+test_function_expansion (unittest.loader._FailedTest.test_function_expansion) ... ERROR
+test_graph001 (unittest.loader._FailedTest.test_graph001) ... ERROR
+test_harden001 (unittest.loader._FailedTest.test_harden001) ... ERROR
+test_integrated_boundaries025 (unittest.loader._FailedTest.test_integrated_boundaries025) ... ERROR
+test_iou_fault_injection (unittest.loader._FailedTest.test_iou_fault_injection) ... ERROR
+test_l24_causal_001 (unittest.loader._FailedTest.test_l24_causal_001) ... ERROR
+test_baseline_assisted_unassisted_retry_and_unseen_transfer (test_learning_loop_u11_u15.TestLearningLoopU11U15.test_baseline_assisted_unassisted_retry_and_unseen_transfer) ... ok
+test_thirty_unseen_trials_memory_ablation_and_negative_transfer (test_learning_qualification_0401.LearningQualification0401.test_thirty_unseen_trials_memory_ablation_and_negative_transfer) ... ok
+test_merged_big49_small49_write_sync_and_restart (test_merged_crampu_build030_1.TestMergedCrampuBuild0301.test_merged_big49_small49_write_sync_and_restart) ... ok
+test_non_principal_agent_and_cross_agent_isolation (test_merged_crampu_build030_1.TestMergedCrampuBuild0301.test_non_principal_agent_and_cross_agent_isolation) ... ok
+test_suit_od05_gate_blocks_unsupported_causes (test_merged_crampu_build030_1.TestMergedCrampuBuild0301.test_suit_od05_gate_blocks_unsupported_causes) ... ok
+test_observation_017 (unittest.loader._FailedTest.test_observation_017) ... ERROR
+test_pathway001 (unittest.loader._FailedTest.test_pathway001) ... ERROR
+test_pathway002 (unittest.loader._FailedTest.test_pathway002) ... ERROR
+test_pathway_mac002_integration (unittest.loader._FailedTest.test_pathway_mac002_integration) ... ERROR
+test_pathway_store (unittest.loader._FailedTest.test_pathway_store) ... ERROR
+test_pathway_store002 (unittest.loader._FailedTest.test_pathway_store002) ... ERROR
+test_gateway_output_is_actually_consumed_and_validated (test_precision_105_build040.TestPrecision105Build040.test_gateway_output_is_actually_consumed_and_validated) ... ok
+test_offline_gateway_raises_blocked_rather_than_hardcoding (test_precision_105_build040.TestPrecision105Build040.test_offline_gateway_raises_blocked_rather_than_hardcoding) ... ok
+test_reference_runtime (unittest.loader._FailedTest.test_reference_runtime) ... ERROR
+test_contradiction_polarity_is_not_collapsed (test_router.RouterAcceptance.test_contradiction_polarity_is_not_collapsed) ... ok
+test_evidence_changes_order_and_strategy (test_router.RouterAcceptance.test_evidence_changes_order_and_strategy) ... ok
+test_explicit_profile_wins_over_signal_match (test_router.RouterAcceptance.test_explicit_profile_wins_over_signal_match) ... ok
+test_fixed_profile_adaptive_and_termination (test_router.RouterAcceptance.test_fixed_profile_adaptive_and_termination) ... ok
+test_fixture_trace_is_json_serializable (test_router.RouterAcceptance.test_fixture_trace_is_json_serializable) ... ok
+test_profile_signal_api_fails_closed_on_ambiguity (test_router.RouterAcceptance.test_profile_signal_api_fails_closed_on_ambiguity) ... ok
+test_profile_signal_api_selects_unique_profile (test_router.RouterAcceptance.test_profile_signal_api_selects_unique_profile) ... ok
+test_profiles_have_meaningfully_different_traces (test_router.RouterAcceptance.test_profiles_have_meaningfully_different_traces) ... ok
+test_registry_boundary (test_router.RouterAcceptance.test_registry_boundary) ... ok
+test_replan_is_bounded_and_preserves_completed_history (test_router.RouterAcceptance.test_replan_is_bounded_and_preserves_completed_history) ... ok
+test_strategy_persists_across_restart (test_router.RouterAcceptance.test_strategy_persists_across_restart) ... ok
+test_unavailable_functions_are_not_executed (test_router.RouterAcceptance.test_unavailable_functions_are_not_executed) ... ok
+test_unexecuted_plan_is_not_persisted (test_router.RouterAcceptance.test_unexecuted_plan_is_not_persisted) ... ok
+test_selection002 (unittest.loader._FailedTest.test_selection002) ... ERROR
+test_seven_domain_boundary_008 (unittest.loader._FailedTest.test_seven_domain_boundary_008) ... ERROR
+test_seven_domain_scored_009 (unittest.loader._FailedTest.test_seven_domain_scored_009) ... ERROR
+test_soso_fix001 (unittest.loader._FailedTest.test_soso_fix001) ... ERROR
+test_suit61 (unittest.loader._FailedTest.test_suit61) ... ERROR
+test_suit61_receipt_hardening (unittest.loader._FailedTest.test_suit61_receipt_hardening) ... ERROR
+test_suit61_unfamiliar_transfer (unittest.loader._FailedTest.test_suit61_unfamiliar_transfer) ... ERROR
+test_suit61_wiring (unittest.loader._FailedTest.test_suit61_wiring) ... ERROR
+test_01_soso_app_cli_handshake (test_system_handshake_012.SystemHandshake012Tests.test_01_soso_app_cli_handshake) ... ERROR
+test_02_realcog_cli_and_http_handshake (test_system_handshake_012.SystemHandshake012Tests.test_02_realcog_cli_and_http_handshake) ... ERROR
+setUpClass (test_test020.Test020Acceptance) ... ERROR
+test_test025_provenance (unittest.loader._FailedTest.test_test025_provenance) ... ERROR
+test_trace001 (unittest.loader._FailedTest.test_trace001) ... ERROR
+test_trace002 (unittest.loader._FailedTest.test_trace002) ... ERROR
+test_trace002_corrections (unittest.loader._FailedTest.test_trace002_corrections) ... ERROR
+test_trace003 (unittest.loader._FailedTest.test_trace003) ... ERROR
+test_unified025_suit61 (unittest.loader._FailedTest.test_unified025_suit61) ... ERROR
+test_01_behavioral_14_unit_handshake_and_status (test_unified_application_013.UnifiedApplication013Tests.test_01_behavioral_14_unit_handshake_and_status) ... ERROR
+test_02_fault_injection_blocks_all_units_coherent (test_unified_application_013.UnifiedApplication013Tests.test_02_fault_injection_blocks_all_units_coherent) ... FAIL
+test_03_mode_run_single_shot_and_http_equivalence (test_unified_application_013.UnifiedApplication013Tests.test_03_mode_run_single_shot_and_http_equivalence) ... ERROR
+test_01_realcog_cli_unified_pipeline_hold_resume_and_status (test_unified_realcog_008.UnifiedRealCog008Tests.test_01_realcog_cli_unified_pipeline_hold_resume_and_status) ... ERROR
+test_02_http_unified_pipeline_and_realcog_status (test_unified_realcog_008.UnifiedRealCog008Tests.test_02_http_unified_pipeline_and_realcog_status) ... FAIL
+test_03_soso_app_cli_realcog_status (test_unified_realcog_008.UnifiedRealCog008Tests.test_03_soso_app_cli_realcog_status) ... ERROR
+test_10_stage_procedural_transfer_across_restart (test_v41_procedural_transfer.V41ProceduralTransferTests.test_10_stage_procedural_transfer_across_restart)
+Investigation -> L33/U32 -> SPEC -> L34/U33 -> Qualify -> Persist -> Restart -> Retrieve -> Reuse -> Revalidate. ... ok
+test_swapped_conflict_pair_rejected (test_v41_procedural_transfer.V41ProceduralTransferTests.test_swapped_conflict_pair_rejected)
+Paired (source_id, proposition) check catches swapped pairings. ... ok
+test_visual_cognition_011 (unittest.loader._FailedTest.test_visual_cognition_011) ... ERROR
+
+======================================================================
+ERROR: test_agent025_modes (unittest.loader._FailedTest.test_agent025_modes)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_agent025_modes
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_agent025_modes.py", line 10, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_brain49_path_explain (unittest.loader._FailedTest.test_brain49_path_explain)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_brain49_path_explain
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_brain49_path_explain.py", line 2, in <module>
+    from brain49_path_explain import explain
+ModuleNotFoundError: No module named 'brain49_path_explain'
+
+
+======================================================================
+ERROR: test_build024 (unittest.loader._FailedTest.test_build024)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_build024
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_build024.py", line 9, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_build025 (unittest.loader._FailedTest.test_build025)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_build025
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_build025.py", line 6, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_build026 (unittest.loader._FailedTest.test_build026)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_build026
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_build026.py", line 6, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_build027 (unittest.loader._FailedTest.test_build027)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_build027
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_build027.py", line 4, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_build029 (unittest.loader._FailedTest.test_build029)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_build029
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_build029.py", line 9, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_build030_1 (unittest.loader._FailedTest.test_build030_1)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_build030_1
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_build030_1.py", line 7, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_capacity_reservation_009 (unittest.loader._FailedTest.test_capacity_reservation_009)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_capacity_reservation_009
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_capacity_reservation_009.py", line 15, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_claude010_in_build025 (unittest.loader._FailedTest.test_claude010_in_build025)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_claude010_in_build025
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_claude010_in_build025.py", line 12, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_claude_integrated025 (unittest.loader._FailedTest.test_claude_integrated025)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_claude_integrated025
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_claude_integrated025.py", line 12, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_code_quality_improvements (unittest.loader._FailedTest.test_code_quality_improvements)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_code_quality_improvements
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_code_quality_improvements.py", line 14, in <module>
+    from soso_app import run_cli_deliver_evidence, run_cli_task  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'soso_app'
+
+
+======================================================================
+ERROR: test_cognitive_023 (unittest.loader._FailedTest.test_cognitive_023)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_cognitive_023
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_cognitive_023.py", line 7, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_cognitive_proof_019 (unittest.loader._FailedTest.test_cognitive_proof_019)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_cognitive_proof_019
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_cognitive_proof_019.py", line 14, in <module>
+    from eval009.run_seven_domain_eval import run_seven_domain_suite  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'eval009'
+
+
+======================================================================
+ERROR: test_contract001 (unittest.loader._FailedTest.test_contract001)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_contract001
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_contract001.py", line 16, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_contract002 (unittest.loader._FailedTest.test_contract002)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_contract002
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_contract002.py", line 14, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_contradiction002 (unittest.loader._FailedTest.test_contradiction002)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_contradiction002
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_contradiction002.py", line 26, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_disposition_runtime_007 (unittest.loader._FailedTest.test_disposition_runtime_007)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_disposition_runtime_007
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_disposition_runtime_007.py", line 18, in <module>
+    from adapters import cognitive_layer as real_cl, durable_memory as real_dm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'adapters'
+
+
+======================================================================
+ERROR: test_eval001 (unittest.loader._FailedTest.test_eval001)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_eval001
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_eval001.py", line 16, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_eval004_audit005 (unittest.loader._FailedTest.test_eval004_audit005)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_eval004_audit005
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_eval004_audit005.py", line 10, in <module>
+    from eval022.eval004_audit005 import run_audit005, run_procedural_learning_4arm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'eval022'
+
+
+======================================================================
+ERROR: test_evidence001 (unittest.loader._FailedTest.test_evidence001)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_evidence001
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_evidence001.py", line 26, in <module>
+    from contract.harness import Harness
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/contract/harness.py", line 32, in <module>
+    from adapters import durable_memory as _dm
+ModuleNotFoundError: No module named 'adapters'
+
+
+======================================================================
+ERROR: test_evidence002 (unittest.loader._FailedTest.test_evidence002)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_evidence002
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_evidence002.py", line 20, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_evidence_bundle_014 (unittest.loader._FailedTest.test_evidence_bundle_014)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_evidence_bundle_014
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_evidence_bundle_014.py", line 15, in <module>
+    from eval014.realcog_writer_report import (  # noqa: E402
+ModuleNotFoundError: No module named 'eval014'
+
+
+======================================================================
+ERROR: test_full_98_wiring_018 (unittest.loader._FailedTest.test_full_98_wiring_018)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_full_98_wiring_018
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_full_98_wiring_018.py", line 15, in <module>
+    from soso_app import run_cli_realcog_status, run_cli_task  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'soso_app'
+
+
+======================================================================
+ERROR: test_function_expansion (unittest.loader._FailedTest.test_function_expansion)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_function_expansion
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_function_expansion.py", line 24, in <module>
+    from contract.harness import Harness
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/contract/harness.py", line 32, in <module>
+    from adapters import durable_memory as _dm
+ModuleNotFoundError: No module named 'adapters'
+
+
+======================================================================
+ERROR: test_graph001 (unittest.loader._FailedTest.test_graph001)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_graph001
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_graph001.py", line 19, in <module>
+    from contract.graph_experiment import (
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/contract/graph_experiment.py", line 56, in <module>
+    from .harness import Harness, TRAINING, TRANSFER_TASKS
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/contract/harness.py", line 32, in <module>
+    from adapters import durable_memory as _dm
+ModuleNotFoundError: No module named 'adapters'
+
+
+======================================================================
+ERROR: test_harden001 (unittest.loader._FailedTest.test_harden001)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_harden001
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_harden001.py", line 26, in <module>
+    from contract.eval001 import (check_projections, make_config_harness,
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/contract/eval001.py", line 29, in <module>
+    from .harness import Harness, SOSO_MODULES
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/contract/harness.py", line 32, in <module>
+    from adapters import durable_memory as _dm
+ModuleNotFoundError: No module named 'adapters'
+
+
+======================================================================
+ERROR: test_integrated_boundaries025 (unittest.loader._FailedTest.test_integrated_boundaries025)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_integrated_boundaries025
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_integrated_boundaries025.py", line 5, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_iou_fault_injection (unittest.loader._FailedTest.test_iou_fault_injection)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_iou_fault_injection
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_iou_fault_injection.py", line 23, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_l24_causal_001 (unittest.loader._FailedTest.test_l24_causal_001)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_l24_causal_001
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_l24_causal_001.py", line 12, in <module>
+    from adapters import cognitive_layer as cl, durable_memory as dm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'adapters'
+
+
+======================================================================
+ERROR: test_observation_017 (unittest.loader._FailedTest.test_observation_017)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_observation_017
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_observation_017.py", line 5, in <module>
+    from soso_app import run_cli_task
+ModuleNotFoundError: No module named 'soso_app'
+
+
+======================================================================
+ERROR: test_pathway001 (unittest.loader._FailedTest.test_pathway001)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_pathway001
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_pathway001.py", line 22, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_pathway002 (unittest.loader._FailedTest.test_pathway002)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_pathway002
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_pathway002.py", line 24, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_pathway_mac002_integration (unittest.loader._FailedTest.test_pathway_mac002_integration)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_pathway_mac002_integration
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_pathway_mac002_integration.py", line 18, in <module>
+    from adapters import durable_memory as _real_dm, cognitive_layer as _real_cl
+ModuleNotFoundError: No module named 'adapters'
+
+
+======================================================================
+ERROR: test_pathway_store (unittest.loader._FailedTest.test_pathway_store)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_pathway_store
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_pathway_store.py", line 14, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_pathway_store002 (unittest.loader._FailedTest.test_pathway_store002)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_pathway_store002
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_pathway_store002.py", line 36, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_reference_runtime (unittest.loader._FailedTest.test_reference_runtime)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_reference_runtime
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_reference_runtime.py", line 11, in <module>
+    from contract.reference_http import ReferenceRequestHandler
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/contract/reference_http.py", line 9, in <module>
+    from .reference_runtime import ReferenceRuntime
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/contract/reference_runtime.py", line 19, in <module>
+    from adapters import cognitive_layer as real_cl, durable_memory as real_dm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'adapters'
+
+
+======================================================================
+ERROR: test_selection002 (unittest.loader._FailedTest.test_selection002)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_selection002
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_selection002.py", line 54, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_seven_domain_boundary_008 (unittest.loader._FailedTest.test_seven_domain_boundary_008)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_seven_domain_boundary_008
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_seven_domain_boundary_008.py", line 10, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_seven_domain_scored_009 (unittest.loader._FailedTest.test_seven_domain_scored_009)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_seven_domain_scored_009
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_seven_domain_scored_009.py", line 11, in <module>
+    from eval009.run_seven_domain_eval import run_seven_domain_suite, run_transfer_ablation  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'eval009'
+
+
+======================================================================
+ERROR: test_soso_fix001 (unittest.loader._FailedTest.test_soso_fix001)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_soso_fix001
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_soso_fix001.py", line 16, in <module>
+    from adapters import cognitive_layer as real_cl, durable_memory as real_dm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'adapters'
+
+
+======================================================================
+ERROR: test_suit61 (unittest.loader._FailedTest.test_suit61)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_suit61
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_suit61.py", line 4, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_suit61_receipt_hardening (unittest.loader._FailedTest.test_suit61_receipt_hardening)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_suit61_receipt_hardening
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_suit61_receipt_hardening.py", line 2, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_suit61_unfamiliar_transfer (unittest.loader._FailedTest.test_suit61_unfamiliar_transfer)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_suit61_unfamiliar_transfer
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_suit61_unfamiliar_transfer.py", line 7, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_suit61_wiring (unittest.loader._FailedTest.test_suit61_wiring)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_suit61_wiring
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_suit61_wiring.py", line 4, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_01_soso_app_cli_handshake (test_system_handshake_012.SystemHandshake012Tests.test_01_soso_app_cli_handshake)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_system_handshake_012.py", line 23, in test_01_soso_app_cli_handshake
+    p = subprocess.run(
+        ^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python', 'soso_app.py', '--mode', 'cli', '--state-dir', '/tmp/tmpg2rahxc9', '--handshake']' returned non-zero exit status 2.
+
+======================================================================
+ERROR: test_02_realcog_cli_and_http_handshake (test_system_handshake_012.SystemHandshake012Tests.test_02_realcog_cli_and_http_handshake)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_system_handshake_012.py", line 35, in test_02_realcog_cli_and_http_handshake
+    p = subprocess.run(
+        ^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python', 'realcog_cli.py', '--data-dir', '/tmp/tmpzj974gfg', 'handshake']' returned non-zero exit status 2.
+
+======================================================================
+ERROR: setUpClass (test_test020.Test020Acceptance)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_test020.py", line 13, in setUpClass
+    completed = subprocess.run([sys.executable, "selection_work/test020.py"], cwd=ROOT,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python', 'selection_work/test020.py']' returned non-zero exit status 2.
+
+======================================================================
+ERROR: test_test025_provenance (unittest.loader._FailedTest.test_test025_provenance)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_test025_provenance
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_test025_provenance.py", line 15, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_trace001 (unittest.loader._FailedTest.test_trace001)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_trace001
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_trace001.py", line 27, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_trace002 (unittest.loader._FailedTest.test_trace002)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_trace002
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_trace002.py", line 16, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_trace002_corrections (unittest.loader._FailedTest.test_trace002_corrections)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_trace002_corrections
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_trace002_corrections.py", line 24, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_trace003 (unittest.loader._FailedTest.test_trace003)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_trace003
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_trace003.py", line 29, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_unified025_suit61 (unittest.loader._FailedTest.test_unified025_suit61)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_unified025_suit61
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_unified025_suit61.py", line 6, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+ERROR: test_01_behavioral_14_unit_handshake_and_status (test_unified_application_013.UnifiedApplication013Tests.test_01_behavioral_14_unit_handshake_and_status)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_unified_application_013.py", line 23, in test_01_behavioral_14_unit_handshake_and_status
+    p_st = subprocess.run(
+           ^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python', 'soso_app.py', '--mode', 'status', '--state-dir', '/tmp/tmpwlaj33g9']' returned non-zero exit status 2.
+
+======================================================================
+ERROR: test_03_mode_run_single_shot_and_http_equivalence (test_unified_application_013.UnifiedApplication013Tests.test_03_mode_run_single_shot_and_http_equivalence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_unified_application_013.py", line 74, in test_03_mode_run_single_shot_and_http_equivalence
+    p_run = subprocess.run(
+            ^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python', 'soso_app.py', '--mode', 'run', '--state-dir', '/tmp/tmpr8opreid', '--task-json', '{"task_id": "RUN-01", "signature": "sig-run", "family": "num", "tags": ["num"], "cognitive_domain": "number", "text": "10 * 5 + 2"}']' returned non-zero exit status 2.
+
+======================================================================
+ERROR: test_01_realcog_cli_unified_pipeline_hold_resume_and_status (test_unified_realcog_008.UnifiedRealCog008Tests.test_01_realcog_cli_unified_pipeline_hold_resume_and_status)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_unified_realcog_008.py", line 23, in test_01_realcog_cli_unified_pipeline_hold_resume_and_status
+    h = subprocess.run(
+        ^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python', 'realcog_cli.py', '--data-dir', '/tmp/tmpm1gpim9i', 'health']' returned non-zero exit status 2.
+
+======================================================================
+ERROR: test_03_soso_app_cli_realcog_status (test_unified_realcog_008.UnifiedRealCog008Tests.test_03_soso_app_cli_realcog_status)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_unified_realcog_008.py", line 115, in test_03_soso_app_cli_realcog_status
+    p = subprocess.run(
+        ^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python', 'soso_app.py', '--mode', 'cli', '--state-dir', '/tmp/tmpsbcc93fh', '--realcog-status']' returned non-zero exit status 2.
+
+======================================================================
+ERROR: test_visual_cognition_011 (unittest.loader._FailedTest.test_visual_cognition_011)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_visual_cognition_011
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_visual_cognition_011.py", line 10, in <module>
+    from eval011.run_visual_cognition_011 import run_all_ten_images, run_tests_a_to_e_and_abcd  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'eval011'
+
+
+======================================================================
+FAIL: test_02_fault_injection_blocks_all_units_coherent (test_unified_application_013.UnifiedApplication013Tests.test_02_fault_injection_blocks_all_units_coherent)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_unified_application_013.py", line 54, in test_02_fault_injection_blocks_all_units_coherent
+    self.assertEqual(p_fail.returncode, 1)
+AssertionError: 2 != 1
+
+======================================================================
+FAIL: test_02_http_unified_pipeline_and_realcog_status (test_unified_realcog_008.UnifiedRealCog008Tests.test_02_http_unified_pipeline_and_realcog_status)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/tests/test_unified_realcog_008.py", line 80, in test_02_http_unified_pipeline_and_realcog_status
+    self.fail(f"HTTP server failed to start: stdout={out!r} stderr={err!r}")
+AssertionError: HTTP server failed to start: stdout='' stderr="/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python: can't open file '/workspace/scratch/7f244f3c7b91/work/SUIT_AND_BRAINS_BUILD040/realcog_cli.py': [Errno 2] No such file or directory\n"
+
+----------------------------------------------------------------------
+Ran 197 tests in 3.767s
+
+FAILED (failures=2, errors=59)

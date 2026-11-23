@@ -1,0 +1,12 @@
+Processing ./.
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: suit-and-brains
+  Building wheel for suit-and-brains (pyproject.toml): started
+  Building wheel for suit-and-brains (pyproject.toml): finished with status 'done'
+  Created wheel for suit-and-brains: filename=suit_and_brains-42.0.0rc1-py3-none-any.whl size=476565 sha256=012d71ddfe7f026ea6ca894611bf9cadd7dd6486acb9fd483382e1f565b692da
+  Stored in directory: /tmp/pip-ephem-wheel-cache-1tg6u7ky/wheels/b7/38/45/be267e79c33f871c7e9b98d8289ec0fb22d66ce03d922f4548
+Successfully built suit-and-brains
+
+[notice] A new release of pip is available: 26.2.2 -> 26.3
+[notice] To update, run: pip install --upgrade pip

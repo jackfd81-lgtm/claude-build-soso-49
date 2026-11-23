@@ -1,0 +1,17 @@
+{
+  "$schema":"http://json-schema.org/draft-07/schema#",
+  "title":"MUSE0301CRAMPUCommittedBlock",
+  "type":"object",
+  "required":["block_id","block_type","owner_agent_id","authority_level","schema_version","payload","revision","checksum"],
+  "properties":{
+    "block_id":{"type":"integer","minimum":0,"maximum":2207},
+    "block_type":{"enum":["BIG49","SMALL49"]},
+    "owner_agent_id":{"type":"string","minLength":1},
+    "authority_level":{"const":"COGNITIVE_ADVISORY"},
+    "schema_version":{"const":"030.1"},
+    "payload":{"type":"object"},
+    "revision":{"type":"integer","minimum":1},
+    "checksum":{"type":"string","pattern":"^[a-f0-9]{64}$"}
+  },
+  "additionalProperties":false
+}

@@ -1,0 +1,7 @@
+Processing /workspace/scratch/7f244f3c7b91/out/suit_and_brains-42.0.0rc1-py3-none-any.whl
+Installing collected packages: suit-and-brains
+  Attempting uninstall: suit-and-brains
+    Found existing installation: suit-and-brains 42.0.0rc1
+    Uninstalling suit-and-brains-42.0.0rc1:
+      Successfully uninstalled suit-and-brains-42.0.0rc1
+Successfully installed suit-and-brains-42.0.0rc1

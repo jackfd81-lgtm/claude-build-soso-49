@@ -1,0 +1,2172 @@
+{
+  "id": "HIST-GEO-CULTURE-315-v2-BLIND",
+  "position_count": 315,
+  "locked_count": 45,
+  "open_count": 270,
+  "word_min": 7,
+  "word_max": 15,
+  "segments": [
+    {
+      "segment": 1,
+      "language": "en",
+      "title": "Caral and the Supe Valley",
+      "geography": "Pacific coast of present-day Peru",
+      "period": "c. 3000–1800 BCE",
+      "objective": "What can the setting and material remains tell us about daily life?",
+      "start": 1,
+      "end": 21,
+      "locked_positions": [
+        1,
+        10,
+        21
+      ]
+    },
+    {
+      "segment": 2,
+      "language": "fr",
+      "title": "Knossos et la Crète de l’âge du bronze",
+      "geography": "Crète et mer Égée",
+      "period": "vers 1900–1450 av. J.-C.",
+      "objective": "Comment distinguer les pratiques attestées des interprétations du site ?",
+      "start": 22,
+      "end": 42,
+      "locked_positions": [
+        22,
+        31,
+        42
+      ]
+    },
+    {
+      "segment": 3,
+      "language": "es",
+      "title": "El mundo fenicio",
+      "geography": "Costa levantina y Mediterráneo occidental",
+      "period": "siglos IX–VI a. C.",
+      "objective": "¿Cómo pueden compararse testimonios de dos lugares sin confundir sus contextos?",
+      "start": 43,
+      "end": 63,
+      "locked_positions": [
+        43,
+        52,
+        63
+      ]
+    },
+    {
+      "segment": 4,
+      "language": "ru",
+      "title": "Государство Маурьев",
+      "geography": "Южная Азия и долина Ганга",
+      "period": "IV–II века до н. э.",
+      "objective": "Что позволяют выяснить разные источники об управлении и повседневной жизни?",
+      "start": 64,
+      "end": 84,
+      "locked_positions": [
+        64,
+        73,
+        84
+      ]
+    },
+    {
+      "segment": 5,
+      "language": "en",
+      "title": "Meroë and the Middle Nile",
+      "geography": "Present-day Sudan and the Nile corridor",
+      "period": "c. 300 BCE–300 CE",
+      "objective": "How can evidence about movement and everyday life be connected responsibly?",
+      "start": 85,
+      "end": 105,
+      "locked_positions": [
+        85,
+        94,
+        105
+      ]
+    },
+    {
+      "segment": 6,
+      "language": "fr",
+      "title": "Teotihuacan et son environnement régional",
+      "geography": "Bassin de Mexico",
+      "period": "vers 100–550 apr. J.-C.",
+      "objective": "Quels indices éclairent le rapport entre l’organisation de la ville et ses habitants ?",
+      "start": 106,
+      "end": 126,
+      "locked_positions": [
+        106,
+        115,
+        126
+      ]
+    },
+    {
+      "segment": 7,
+      "language": "es",
+      "title": "Aksum y el mar Rojo",
+      "geography": "Cuerno de África y cuenca del mar Rojo",
+      "period": "siglos III–VII",
+      "objective": "¿Qué relación puede establecerse entre las redes regionales y la vida cultural?",
+      "start": 127,
+      "end": 147,
+      "locked_positions": [
+        127,
+        136,
+        147
+      ]
+    },
+    {
+      "segment": 8,
+      "language": "ru",
+      "title": "Киев и речные пути Восточной Европы",
+      "geography": "Среднее Поднепровье и соседние регионы",
+      "period": "X–XII века",
+      "objective": "Как сопоставить сведения о путях сообщения и общественной жизни разных мест?",
+      "start": 148,
+      "end": 168,
+      "locked_positions": [
+        148,
+        157,
+        168
+      ]
+    },
+    {
+      "segment": 9,
+      "language": "en",
+      "title": "Great Zimbabwe and its region",
+      "geography": "Zimbabwe Plateau and neighboring areas",
+      "period": "11th–15th centuries",
+      "objective": "What kinds of evidence link local organization to wider exchange?",
+      "start": 169,
+      "end": 189,
+      "locked_positions": [
+        169,
+        178,
+        189
+      ]
+    },
+    {
+      "segment": 10,
+      "language": "fr",
+      "title": "Venise et les échanges maritimes",
+      "geography": "Lagune vénitienne et Adriatique",
+      "period": "XIIIe–XVe siècles",
+      "objective": "Que révèlent des sources de nature différente sur les échanges et la vie urbaine ?",
+      "start": 190,
+      "end": 210,
+      "locked_positions": [
+        190,
+        199,
+        210
+      ]
+    },
+    {
+      "segment": 11,
+      "language": "es",
+      "title": "El Cusco y los Andes",
+      "geography": "Cusco y tierras altas andinas",
+      "period": "siglo XV–principios del XVI",
+      "objective": "¿Cómo relacionar la geografía con las formas de organización y la diversidad cultural?",
+      "start": 211,
+      "end": 231,
+      "locked_positions": [
+        211,
+        220,
+        231
+      ]
+    },
+    {
+      "segment": 12,
+      "language": "ru",
+      "title": "Самарканд эпохи Тимуридов",
+      "geography": "Долина Зеравшана и Центральная Азия",
+      "period": "конец XIV–XV век",
+      "objective": "Как совместить географический контекст со свидетельствами о культурной жизни города?",
+      "start": 232,
+      "end": 252,
+      "locked_positions": [
+        232,
+        241,
+        252
+      ]
+    },
+    {
+      "segment": 13,
+      "language": "en",
+      "title": "Quebec and the Saint Lawrence",
+      "geography": "Saint Lawrence valley",
+      "period": "17th–18th centuries",
+      "objective": "How do records from different communities change the account of the same place?",
+      "start": 253,
+      "end": 273,
+      "locked_positions": [
+        253,
+        262,
+        273
+      ]
+    },
+    {
+      "segment": 14,
+      "language": "fr",
+      "title": "Dakar et l’Atlantique",
+      "geography": "Presqu’île du Cap-Vert et côte sénégalaise",
+      "period": "vers 1850–1960",
+      "objective": "Comment relier les transformations du lieu aux expériences de ses habitants ?",
+      "start": 274,
+      "end": 294,
+      "locked_positions": [
+        274,
+        283,
+        294
+      ]
+    },
+    {
+      "segment": 15,
+      "language": "es",
+      "title": "Ciudad de México en el siglo XX",
+      "geography": "Valle de México",
+      "period": "1920–1985",
+      "objective": "¿Cómo se relacionan los cambios urbanos con la vida de distintas comunidades?",
+      "start": 295,
+      "end": 315,
+      "locked_positions": [
+        295,
+        304,
+        315
+      ]
+    }
+  ],
+  "positions": [
+    {
+      "position": 1,
+      "segment": 1,
+      "language": "en",
+      "kind": "ANCHOR",
+      "text": "Begin with the valley and examine what the site allows us to ask."
+    },
+    {
+      "position": 2,
+      "segment": 1,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 3,
+      "segment": 1,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 4,
+      "segment": 1,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 5,
+      "segment": 1,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 6,
+      "segment": 1,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 7,
+      "segment": 1,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 8,
+      "segment": 1,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 9,
+      "segment": 1,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 10,
+      "segment": 1,
+      "language": "en",
+      "kind": "ANCHOR",
+      "text": "Now move from the landscape to traces of work and social life."
+    },
+    {
+      "position": 11,
+      "segment": 1,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 12,
+      "segment": 1,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 13,
+      "segment": 1,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 14,
+      "segment": 1,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 15,
+      "segment": 1,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 16,
+      "segment": 1,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 17,
+      "segment": 1,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 18,
+      "segment": 1,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 19,
+      "segment": 1,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 20,
+      "segment": 1,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 21,
+      "segment": 1,
+      "language": "en",
+      "kind": "ANCHOR",
+      "text": "End by identifying the limits of what these remains can establish."
+    },
+    {
+      "position": 22,
+      "segment": 2,
+      "language": "fr",
+      "kind": "ANCHOR",
+      "text": "Commençons par situer le site dans son environnement insulaire et maritime."
+    },
+    {
+      "position": 23,
+      "segment": 2,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 24,
+      "segment": 2,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 25,
+      "segment": 2,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 26,
+      "segment": 2,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 27,
+      "segment": 2,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 28,
+      "segment": 2,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 29,
+      "segment": 2,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 30,
+      "segment": 2,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 31,
+      "segment": 2,
+      "language": "fr",
+      "kind": "ANCHOR",
+      "text": "Passons maintenant aux vestiges qui permettent de poser des questions sociales."
+    },
+    {
+      "position": 32,
+      "segment": 2,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 33,
+      "segment": 2,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 34,
+      "segment": 2,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 35,
+      "segment": 2,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 36,
+      "segment": 2,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 37,
+      "segment": 2,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 38,
+      "segment": 2,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 39,
+      "segment": 2,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 40,
+      "segment": 2,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 41,
+      "segment": 2,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 42,
+      "segment": 2,
+      "language": "fr",
+      "kind": "ANCHOR",
+      "text": "Terminons par une distinction entre les observations et les interprétations possibles."
+    },
+    {
+      "position": 43,
+      "segment": 3,
+      "language": "es",
+      "kind": "ANCHOR",
+      "text": "Empecemos situando las comunidades y precisando el período que vamos a examinar."
+    },
+    {
+      "position": 44,
+      "segment": 3,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 45,
+      "segment": 3,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 46,
+      "segment": 3,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 47,
+      "segment": 3,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 48,
+      "segment": 3,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 49,
+      "segment": 3,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 50,
+      "segment": 3,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 51,
+      "segment": 3,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 52,
+      "segment": 3,
+      "language": "es",
+      "kind": "ANCHOR",
+      "text": "Cambiemos de escala para comparar dos lugares dentro del mismo marco."
+    },
+    {
+      "position": 53,
+      "segment": 3,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 54,
+      "segment": 3,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 55,
+      "segment": 3,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 56,
+      "segment": 3,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 57,
+      "segment": 3,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 58,
+      "segment": 3,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 59,
+      "segment": 3,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 60,
+      "segment": 3,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 61,
+      "segment": 3,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 62,
+      "segment": 3,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 63,
+      "segment": 3,
+      "language": "es",
+      "kind": "ANCHOR",
+      "text": "Cerremos señalando qué aspectos de esa comparación todavía requieren más pruebas."
+    },
+    {
+      "position": 64,
+      "segment": 4,
+      "language": "ru",
+      "kind": "ANCHOR",
+      "text": "Начнём с географии региона и обозначим границы рассматриваемой исторической эпохи."
+    },
+    {
+      "position": 65,
+      "segment": 4,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 66,
+      "segment": 4,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 67,
+      "segment": 4,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 68,
+      "segment": 4,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 69,
+      "segment": 4,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 70,
+      "segment": 4,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 71,
+      "segment": 4,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 72,
+      "segment": 4,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 73,
+      "segment": 4,
+      "language": "ru",
+      "kind": "ANCHOR",
+      "text": "Теперь обратимся к источникам о власти и жизни разных сообществ."
+    },
+    {
+      "position": 74,
+      "segment": 4,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 75,
+      "segment": 4,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 76,
+      "segment": 4,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 77,
+      "segment": 4,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 78,
+      "segment": 4,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 79,
+      "segment": 4,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 80,
+      "segment": 4,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 81,
+      "segment": 4,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 82,
+      "segment": 4,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 83,
+      "segment": 4,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 84,
+      "segment": 4,
+      "language": "ru",
+      "kind": "ANCHOR",
+      "text": "Завершим рассказ вопросом, который остаётся открытым после сопоставления этих свидетельств."
+    },
+    {
+      "position": 85,
+      "segment": 5,
+      "language": "en",
+      "kind": "ANCHOR",
+      "text": "Place the settlement within its region before asking how people lived there."
+    },
+    {
+      "position": 86,
+      "segment": 5,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 87,
+      "segment": 5,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 88,
+      "segment": 5,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 89,
+      "segment": 5,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 90,
+      "segment": 5,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 91,
+      "segment": 5,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 92,
+      "segment": 5,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 93,
+      "segment": 5,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 94,
+      "segment": 5,
+      "language": "en",
+      "kind": "ANCHOR",
+      "text": "Turn to material evidence and consider which questions it can answer."
+    },
+    {
+      "position": 95,
+      "segment": 5,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 96,
+      "segment": 5,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 97,
+      "segment": 5,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 98,
+      "segment": 5,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 99,
+      "segment": 5,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 100,
+      "segment": 5,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 101,
+      "segment": 5,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 102,
+      "segment": 5,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 103,
+      "segment": 5,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 104,
+      "segment": 5,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 105,
+      "segment": 5,
+      "language": "en",
+      "kind": "ANCHOR",
+      "text": "Close by distinguishing a supported conclusion from a question still open."
+    },
+    {
+      "position": 106,
+      "segment": 6,
+      "language": "fr",
+      "kind": "ANCHOR",
+      "text": "Ouvrons cette enquête en situant la ville et son cadre régional."
+    },
+    {
+      "position": 107,
+      "segment": 6,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 108,
+      "segment": 6,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 109,
+      "segment": 6,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 110,
+      "segment": 6,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 111,
+      "segment": 6,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 112,
+      "segment": 6,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 113,
+      "segment": 6,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 114,
+      "segment": 6,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 115,
+      "segment": 6,
+      "language": "fr",
+      "kind": "ANCHOR",
+      "text": "Passons ensuite des grands ensembles aux traces laissées par les habitants."
+    },
+    {
+      "position": 116,
+      "segment": 6,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 117,
+      "segment": 6,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 118,
+      "segment": 6,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 119,
+      "segment": 6,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 120,
+      "segment": 6,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 121,
+      "segment": 6,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 122,
+      "segment": 6,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 123,
+      "segment": 6,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 124,
+      "segment": 6,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 125,
+      "segment": 6,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 126,
+      "segment": 6,
+      "language": "fr",
+      "kind": "ANCHOR",
+      "text": "Concluons en précisant les limites de cette lecture du paysage urbain."
+    },
+    {
+      "position": 127,
+      "segment": 7,
+      "language": "es",
+      "kind": "ANCHOR",
+      "text": "Situemos el reino dentro de su región y del período elegido."
+    },
+    {
+      "position": 128,
+      "segment": 7,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 129,
+      "segment": 7,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 130,
+      "segment": 7,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 131,
+      "segment": 7,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 132,
+      "segment": 7,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 133,
+      "segment": 7,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 134,
+      "segment": 7,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 135,
+      "segment": 7,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 136,
+      "segment": 7,
+      "language": "es",
+      "kind": "ANCHOR",
+      "text": "Examinemos qué fuentes permiten relacionar los intercambios con las prácticas culturales."
+    },
+    {
+      "position": 137,
+      "segment": 7,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 138,
+      "segment": 7,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 139,
+      "segment": 7,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 140,
+      "segment": 7,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 141,
+      "segment": 7,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 142,
+      "segment": 7,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 143,
+      "segment": 7,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 144,
+      "segment": 7,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 145,
+      "segment": 7,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 146,
+      "segment": 7,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 147,
+      "segment": 7,
+      "language": "es",
+      "kind": "ANCHOR",
+      "text": "Terminemos delimitando las afirmaciones que pueden sostenerse con las pruebas disponibles."
+    },
+    {
+      "position": 148,
+      "segment": 8,
+      "language": "ru",
+      "kind": "ANCHOR",
+      "text": "Сначала обозначим речное пространство и временные рамки нашего исторического рассказа."
+    },
+    {
+      "position": 149,
+      "segment": 8,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 150,
+      "segment": 8,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 151,
+      "segment": 8,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 152,
+      "segment": 8,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 153,
+      "segment": 8,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 154,
+      "segment": 8,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 155,
+      "segment": 8,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 156,
+      "segment": 8,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 157,
+      "segment": 8,
+      "language": "ru",
+      "kind": "ANCHOR",
+      "text": "Теперь сопоставим свидетельства о передвижении людей и жизни городских сообществ."
+    },
+    {
+      "position": 158,
+      "segment": 8,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 159,
+      "segment": 8,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 160,
+      "segment": 8,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 161,
+      "segment": 8,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 162,
+      "segment": 8,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 163,
+      "segment": 8,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 164,
+      "segment": 8,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 165,
+      "segment": 8,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 166,
+      "segment": 8,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 167,
+      "segment": 8,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 168,
+      "segment": 8,
+      "language": "ru",
+      "kind": "ANCHOR",
+      "text": "В заключение отметим, где выводы зависят от характера сохранившихся источников."
+    },
+    {
+      "position": 169,
+      "segment": 9,
+      "language": "en",
+      "kind": "ANCHOR",
+      "text": "Begin by locating the site and explaining the question under investigation."
+    },
+    {
+      "position": 170,
+      "segment": 9,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 171,
+      "segment": 9,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 172,
+      "segment": 9,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 173,
+      "segment": 9,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 174,
+      "segment": 9,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 175,
+      "segment": 9,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 176,
+      "segment": 9,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 177,
+      "segment": 9,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 178,
+      "segment": 9,
+      "language": "en",
+      "kind": "ANCHOR",
+      "text": "Next compare evidence from the settlement with evidence from farther away."
+    },
+    {
+      "position": 179,
+      "segment": 9,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 180,
+      "segment": 9,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 181,
+      "segment": 9,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 182,
+      "segment": 9,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 183,
+      "segment": 9,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 184,
+      "segment": 9,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 185,
+      "segment": 9,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 186,
+      "segment": 9,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 187,
+      "segment": 9,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 188,
+      "segment": 9,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 189,
+      "segment": 9,
+      "language": "en",
+      "kind": "ANCHOR",
+      "text": "Finish with a conclusion that respects the differences between those sources."
+    },
+    {
+      "position": 190,
+      "segment": 10,
+      "language": "fr",
+      "kind": "ANCHOR",
+      "text": "Situons la ville dans son espace maritime et dans son époque."
+    },
+    {
+      "position": 191,
+      "segment": 10,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 192,
+      "segment": 10,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 193,
+      "segment": 10,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 194,
+      "segment": 10,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 195,
+      "segment": 10,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 196,
+      "segment": 10,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 197,
+      "segment": 10,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 198,
+      "segment": 10,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 199,
+      "segment": 10,
+      "language": "fr",
+      "kind": "ANCHOR",
+      "text": "Changeons ensuite de point de vue pour examiner les pratiques urbaines."
+    },
+    {
+      "position": 200,
+      "segment": 10,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 201,
+      "segment": 10,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 202,
+      "segment": 10,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 203,
+      "segment": 10,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 204,
+      "segment": 10,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 205,
+      "segment": 10,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 206,
+      "segment": 10,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 207,
+      "segment": 10,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 208,
+      "segment": 10,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 209,
+      "segment": 10,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 210,
+      "segment": 10,
+      "language": "fr",
+      "kind": "ANCHOR",
+      "text": "Terminons en évaluant ensemble la portée et les limites des témoignages."
+    },
+    {
+      "position": 211,
+      "segment": 11,
+      "language": "es",
+      "kind": "ANCHOR",
+      "text": "Empecemos ubicando el Cusco y delimitando el período de la investigación."
+    },
+    {
+      "position": 212,
+      "segment": 11,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 213,
+      "segment": 11,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 214,
+      "segment": 11,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 215,
+      "segment": 11,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 216,
+      "segment": 11,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 217,
+      "segment": 11,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 218,
+      "segment": 11,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 219,
+      "segment": 11,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 220,
+      "segment": 11,
+      "language": "es",
+      "kind": "ANCHOR",
+      "text": "Pasemos a las fuentes que permiten comparar prácticas en distintos lugares."
+    },
+    {
+      "position": 221,
+      "segment": 11,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 222,
+      "segment": 11,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 223,
+      "segment": 11,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 224,
+      "segment": 11,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 225,
+      "segment": 11,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 226,
+      "segment": 11,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 227,
+      "segment": 11,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 228,
+      "segment": 11,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 229,
+      "segment": 11,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 230,
+      "segment": 11,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 231,
+      "segment": 11,
+      "language": "es",
+      "kind": "ANCHOR",
+      "text": "Concluyamos señalando los límites de una explicación general para toda la región."
+    },
+    {
+      "position": 232,
+      "segment": 12,
+      "language": "ru",
+      "kind": "ANCHOR",
+      "text": "Начнём с положения города и уточним хронологические рамки нашего рассмотрения."
+    },
+    {
+      "position": 233,
+      "segment": 12,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 234,
+      "segment": 12,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 235,
+      "segment": 12,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 236,
+      "segment": 12,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 237,
+      "segment": 12,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 238,
+      "segment": 12,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 239,
+      "segment": 12,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 240,
+      "segment": 12,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 241,
+      "segment": 12,
+      "language": "ru",
+      "kind": "ANCHOR",
+      "text": "Теперь обратимся к свидетельствам, позволяющим обсудить культурную жизнь разных сообществ."
+    },
+    {
+      "position": 242,
+      "segment": 12,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 243,
+      "segment": 12,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 244,
+      "segment": 12,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 245,
+      "segment": 12,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 246,
+      "segment": 12,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 247,
+      "segment": 12,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 248,
+      "segment": 12,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 249,
+      "segment": 12,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 250,
+      "segment": 12,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 251,
+      "segment": 12,
+      "language": "ru",
+      "kind": "OPEN"
+    },
+    {
+      "position": 252,
+      "segment": 12,
+      "language": "ru",
+      "kind": "ANCHOR",
+      "text": "Завершим сопоставлением того, что источники показывают уверенно и что остаётся спорным."
+    },
+    {
+      "position": 253,
+      "segment": 13,
+      "language": "en",
+      "kind": "ANCHOR",
+      "text": "Begin with the river corridor and set the time limits clearly."
+    },
+    {
+      "position": 254,
+      "segment": 13,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 255,
+      "segment": 13,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 256,
+      "segment": 13,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 257,
+      "segment": 13,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 258,
+      "segment": 13,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 259,
+      "segment": 13,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 260,
+      "segment": 13,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 261,
+      "segment": 13,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 262,
+      "segment": 13,
+      "language": "en",
+      "kind": "ANCHOR",
+      "text": "Bring another community’s perspective into the account without erasing the first."
+    },
+    {
+      "position": 263,
+      "segment": 13,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 264,
+      "segment": 13,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 265,
+      "segment": 13,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 266,
+      "segment": 13,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 267,
+      "segment": 13,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 268,
+      "segment": 13,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 269,
+      "segment": 13,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 270,
+      "segment": 13,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 271,
+      "segment": 13,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 272,
+      "segment": 13,
+      "language": "en",
+      "kind": "OPEN"
+    },
+    {
+      "position": 273,
+      "segment": 13,
+      "language": "en",
+      "kind": "ANCHOR",
+      "text": "Close by identifying one question the available accounts leave unresolved."
+    },
+    {
+      "position": 274,
+      "segment": 14,
+      "language": "fr",
+      "kind": "ANCHOR",
+      "text": "Plaçons Dakar dans son cadre côtier et précisons la période retenue."
+    },
+    {
+      "position": 275,
+      "segment": 14,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 276,
+      "segment": 14,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 277,
+      "segment": 14,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 278,
+      "segment": 14,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 279,
+      "segment": 14,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 280,
+      "segment": 14,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 281,
+      "segment": 14,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 282,
+      "segment": 14,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 283,
+      "segment": 14,
+      "language": "fr",
+      "kind": "ANCHOR",
+      "text": "Examinons maintenant des sources qui éclairent plusieurs expériences de la ville."
+    },
+    {
+      "position": 284,
+      "segment": 14,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 285,
+      "segment": 14,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 286,
+      "segment": 14,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 287,
+      "segment": 14,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 288,
+      "segment": 14,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 289,
+      "segment": 14,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 290,
+      "segment": 14,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 291,
+      "segment": 14,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 292,
+      "segment": 14,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 293,
+      "segment": 14,
+      "language": "fr",
+      "kind": "OPEN"
+    },
+    {
+      "position": 294,
+      "segment": 14,
+      "language": "fr",
+      "kind": "ANCHOR",
+      "text": "Terminons en distinguant les changements observés et les questions encore ouvertes."
+    },
+    {
+      "position": 295,
+      "segment": 15,
+      "language": "es",
+      "kind": "ANCHOR",
+      "text": "Comencemos por definir el lugar y los límites temporales del relato."
+    },
+    {
+      "position": 296,
+      "segment": 15,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 297,
+      "segment": 15,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 298,
+      "segment": 15,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 299,
+      "segment": 15,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 300,
+      "segment": 15,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 301,
+      "segment": 15,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 302,
+      "segment": 15,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 303,
+      "segment": 15,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 304,
+      "segment": 15,
+      "language": "es",
+      "kind": "ANCHOR",
+      "text": "Cambiemos de escala y observemos cómo vivieron esos cambios diferentes comunidades."
+    },
+    {
+      "position": 305,
+      "segment": 15,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 306,
+      "segment": 15,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 307,
+      "segment": 15,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 308,
+      "segment": 15,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 309,
+      "segment": 15,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 310,
+      "segment": 15,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 311,
+      "segment": 15,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 312,
+      "segment": 15,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 313,
+      "segment": 15,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 314,
+      "segment": 15,
+      "language": "es",
+      "kind": "OPEN"
+    },
+    {
+      "position": 315,
+      "segment": 15,
+      "language": "es",
+      "kind": "ANCHOR",
+      "text": "Terminemos con una comparación que reconozca los límites de las fuentes."
+    }
+  ]
+}

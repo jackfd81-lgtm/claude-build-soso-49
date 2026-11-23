@@ -1,0 +1,9 @@
+{
+  "inherited_orange_pi_grader_loopback": "VERIFIED_EXECUTED",
+  "local_wheel": "VERIFIED_EXECUTED",
+  "note": "Source-tree deployment profiles are inherited Build 030.1 examples.",
+  "orange_pi_physical": "NOT_RUN",
+  "physical_power_loss": "NOT_RUN",
+  "pi5_physical": "NOT_RUN",
+  "systemd_upgrade_rollback": "NOT_RUN"
+}

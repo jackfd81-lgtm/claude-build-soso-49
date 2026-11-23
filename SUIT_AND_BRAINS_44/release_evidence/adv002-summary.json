@@ -1,0 +1,39 @@
+{
+  "experiment_id": "MUSE-BUILD030-ADV002-REPLAY",
+  "wall_clock_s": 0.495,
+  "defense_trials": 1200,
+  "defense_success_rate": 1.0,
+  "false_positive_controls_50": {
+    "total": 50,
+    "false_rejections": 0
+  },
+  "challenger_trials": 1200,
+  "challenger_profile_distribution": {
+    "strict_auth0": 400,
+    "permissive_unverified": 400,
+    "drift_prone": 400
+  },
+  "challenger_blind_exact_inference_rate": 0.4742,
+  "procedure_origin": "fixture-authored fixed probe sequence",
+  "realcog_sqlite_memory_M0_M3": {
+    "recalled_method_id": "45b6595f1f3cafc4a87798b35ba8b569d3621c698049a9d41dd34cc3cd2c53e8",
+    "M0_disabled_max2": {
+      "exact_inference_rate": 0.3333,
+      "avg_probes": 2.0
+    },
+    "M1_realcog_sqlite_max2": {
+      "exact_inference_rate": 1.0,
+      "avg_probes": 1.667
+    },
+    "M2_irrelevant_max2": {
+      "exact_inference_rate": 0.0,
+      "avg_probes": 2.0
+    },
+    "M3_shuffled_max2": {
+      "exact_inference_rate": 0.0,
+      "avg_probes": 2.0
+    }
+  },
+  "whole_campaign_throughput_trials_s": 4848.5,
+  "peak_rss_kb": 23716
+}

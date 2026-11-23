@@ -1,0 +1,1151 @@
+{
+  "build": "Suit and Brains Build 040 (40.0.0)",
+  "environment": {
+    "python": "3.11.2 (main, Oct  7 2026, 12:35:07) [GCC 12.2.0]",
+    "os": "Linux-6.12.105+-x86_64-with-glibc2.36"
+  },
+  "subsystems": {
+    "soso_closet": {
+      "module": "build040_runtime/closet.py",
+      "role": "Bounded Main AI interface; cannot bypass SoSoSuitRuntime",
+      "status": "VERIFIED_EXECUTED"
+    },
+    "soso_continuity": {
+      "module": "build040_runtime/soso_continuity.py",
+      "role": "SQLite sessions, event ordering, provenance separation, experience index",
+      "status": "VERIFIED_EXECUTED"
+    },
+    "soso_suit": {
+      "module": "build040_runtime/suit_runtime.py",
+      "role": "Agent grants, block scopes, child attenuation, revocation, OD-05, budgets",
+      "status": "VERIFIED_EXECUTED"
+    },
+    "brains_49_runtime": {
+      "module": "build040_runtime/brains_49_runtime.py",
+      "role": "Lower49/Higher49 dispatch, ExperienceEngine, 2208-block utilization",
+      "status": "VERIFIED_EXECUTED"
+    },
+    "learning_loop_u11_u15": {
+      "module": "build040_runtime/learning_loop.py",
+      "role": "Closed U11-U15 gap detection, teaching, Big49 persistence, unseen transfer",
+      "status": "VERIFIED_EXECUTED"
+    },
+    "cram_pu_controller": {
+      "module": "crampu/controller.py",
+      "tiers": {
+        "HOT": "OrderedDict bounded LRU (max_hot_entries=256, max_hot_bytes=1048576)",
+        "WARM": "Atomic O_EXCL+fsync+os.replace JSON candidate snapshots",
+        "COOL": "SQLite WAL synchronous=FULL + blocks/transitions/owners/outbox (PENDING->APPLIED->ACKNOWLEDGED)"
+      },
+      "live_probe": {
+        "owners": 2,
+        "committed": 2,
+        "transitions": 2,
+        "outbox_pending": 0,
+        "hot": 2,
+        "hot_bytes": 413,
+        "hot_evictions": 0,
+        "staged": 0,
+        "big49_count": 1,
+        "small49_count": 1
+      },
+      "status": "VERIFIED_EXECUTED"
+    },
+    "big49_small49_bridge": {
+      "module": "crampu/build030_bridge.py",
+      "role": "Transactional outbox mirror + Suit OD-05 causal gate",
+      "status": "VERIFIED_EXECUTED"
+    },
+    "online_ai_gateway": {
+      "module": "build040_runtime/online_ai.py",
+      "role": "Gemini/OpenAI/Replay/Offline advisory (AUTH:0)",
+      "status": "VERIFIED_EXECUTED (offline/replay); BLOCKED_LIVE_API (no keys/net)"
+    },
+    "precision_105": {
+      "module": "build040_runtime/precision_105.py",
+      "role": "105-position constructor consuming OnlineAIGateway (no hardcoded bank)",
+      "status": "VERIFIED_EXECUTED (replay); BLOCKED_LIVE_API (offline)"
+    },
+    "bounded_grader_server": {
+      "module": "build040_runtime/grader_endpoint.py",
+      "role": "Scoped X-Grader-Token HTTP endpoint + Promptfoo/PyRIT adapters",
+      "status": "VERIFIED_EXECUTED (loopback); IMPLEMENTED_UNVERIFIED (Pi 5/Orange Pi hardware)"
+    }
+  },
+  "functional_blocks_summary": {
+    "total_slots": 98,
+    "implemented_executable": 21,
+    "default_routed_passthrough": 77,
+    "executed_in_build040_tests": [
+      "L03",
+      "L04",
+      "L16",
+      "L17",
+      "L18",
+      "L22",
+      "L31",
+      "L33",
+      "L34",
+      "U09",
+      "U11",
+      "U12",
+      "U13",
+      "U14",
+      "U15",
+      "U16",
+      "U32",
+      "U33"
+    ]
+  },
+  "functional_blocks": [
+    {
+      "function_id": "L01",
+      "tier": "LOWER_49",
+      "region": "REGION_(1, 'EVIDENCE_INTERFACE')",
+      "core_specialized": true,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(1, 'EVIDENCE_INTERFACE')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L02",
+      "tier": "LOWER_49",
+      "region": "REGION_(1, 'EVIDENCE_INTERFACE')",
+      "core_specialized": true,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(1, 'EVIDENCE_INTERFACE')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L03",
+      "tier": "LOWER_49",
+      "region": "REGION_(1, 'EVIDENCE_INTERFACE')",
+      "core_specialized": false,
+      "source_file": "contract/functions025.py",
+      "implementation_status": "IMPLEMENTED_EXECUTABLE",
+      "behavior": "parse",
+      "executed_in_build040_tests": true
+    },
+    {
+      "function_id": "L04",
+      "tier": "LOWER_49",
+      "region": "REGION_(1, 'EVIDENCE_INTERFACE')",
+      "core_specialized": false,
+      "source_file": "contract/functions025.py",
+      "implementation_status": "IMPLEMENTED_EXECUTABLE",
+      "behavior": "entities",
+      "executed_in_build040_tests": true
+    },
+    {
+      "function_id": "L05",
+      "tier": "LOWER_49",
+      "region": "REGION_(1, 'EVIDENCE_INTERFACE')",
+      "core_specialized": false,
+      "source_file": "contract/functions025.py",
+      "implementation_status": "IMPLEMENTED_EXECUTABLE",
+      "behavior": "Turn rejection metadata into a deduplicated structured evidence request.",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L06",
+      "tier": "LOWER_49",
+      "region": "REGION_(1, 'EVIDENCE_INTERFACE')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(1, 'EVIDENCE_INTERFACE')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L07",
+      "tier": "LOWER_49",
+      "region": "REGION_(1, 'EVIDENCE_INTERFACE')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(1, 'EVIDENCE_INTERFACE')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L08",
+      "tier": "LOWER_49",
+      "region": "REGION_(2, 'TOK_REPRESENTATION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(2, 'TOK_REPRESENTATION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L09",
+      "tier": "LOWER_49",
+      "region": "REGION_(2, 'TOK_REPRESENTATION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(2, 'TOK_REPRESENTATION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L10",
+      "tier": "LOWER_49",
+      "region": "REGION_(2, 'TOK_REPRESENTATION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(2, 'TOK_REPRESENTATION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L11",
+      "tier": "LOWER_49",
+      "region": "REGION_(2, 'TOK_REPRESENTATION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(2, 'TOK_REPRESENTATION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L12",
+      "tier": "LOWER_49",
+      "region": "REGION_(2, 'TOK_REPRESENTATION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(2, 'TOK_REPRESENTATION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L13",
+      "tier": "LOWER_49",
+      "region": "REGION_(2, 'TOK_REPRESENTATION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(2, 'TOK_REPRESENTATION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L14",
+      "tier": "LOWER_49",
+      "region": "REGION_(2, 'TOK_REPRESENTATION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(2, 'TOK_REPRESENTATION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L15",
+      "tier": "LOWER_49",
+      "region": "REGION_(3, 'RELATIONSHIP_CORTEX')",
+      "core_specialized": true,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(3, 'RELATIONSHIP_CORTEX')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L16",
+      "tier": "LOWER_49",
+      "region": "REGION_(3, 'RELATIONSHIP_CORTEX')",
+      "core_specialized": false,
+      "source_file": "contract/functions025.py",
+      "implementation_status": "IMPLEMENTED_EXECUTABLE",
+      "behavior": "relations",
+      "executed_in_build040_tests": true
+    },
+    {
+      "function_id": "L17",
+      "tier": "LOWER_49",
+      "region": "REGION_(3, 'RELATIONSHIP_CORTEX')",
+      "core_specialized": false,
+      "source_file": "contract/functions025.py",
+      "implementation_status": "IMPLEMENTED_EXECUTABLE",
+      "behavior": "compare",
+      "executed_in_build040_tests": true
+    },
+    {
+      "function_id": "L18",
+      "tier": "LOWER_49",
+      "region": "REGION_(3, 'RELATIONSHIP_CORTEX')",
+      "core_specialized": false,
+      "source_file": "contract/functions025.py",
+      "implementation_status": "IMPLEMENTED_EXECUTABLE",
+      "behavior": "conflicts",
+      "executed_in_build040_tests": true
+    },
+    {
+      "function_id": "L19",
+      "tier": "LOWER_49",
+      "region": "REGION_(3, 'RELATIONSHIP_CORTEX')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(3, 'RELATIONSHIP_CORTEX')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L20",
+      "tier": "LOWER_49",
+      "region": "REGION_(3, 'RELATIONSHIP_CORTEX')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(3, 'RELATIONSHIP_CORTEX')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L21",
+      "tier": "LOWER_49",
+      "region": "REGION_(3, 'RELATIONSHIP_CORTEX')",
+      "core_specialized": true,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(3, 'RELATIONSHIP_CORTEX')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L22",
+      "tier": "LOWER_49",
+      "region": "REGION_(4, 'TEMPORAL_CONTINUITY')",
+      "core_specialized": false,
+      "source_file": "contract/functions025.py",
+      "implementation_status": "IMPLEMENTED_EXECUTABLE",
+      "behavior": "temporal",
+      "executed_in_build040_tests": true
+    },
+    {
+      "function_id": "L23",
+      "tier": "LOWER_49",
+      "region": "REGION_(4, 'TEMPORAL_CONTINUITY')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(4, 'TEMPORAL_CONTINUITY')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L24",
+      "tier": "LOWER_49",
+      "region": "REGION_(4, 'TEMPORAL_CONTINUITY')",
+      "core_specialized": true,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(4, 'TEMPORAL_CONTINUITY')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L25",
+      "tier": "LOWER_49",
+      "region": "REGION_(4, 'TEMPORAL_CONTINUITY')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(4, 'TEMPORAL_CONTINUITY')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L26",
+      "tier": "LOWER_49",
+      "region": "REGION_(4, 'TEMPORAL_CONTINUITY')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(4, 'TEMPORAL_CONTINUITY')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L27",
+      "tier": "LOWER_49",
+      "region": "REGION_(4, 'TEMPORAL_CONTINUITY')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(4, 'TEMPORAL_CONTINUITY')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L28",
+      "tier": "LOWER_49",
+      "region": "REGION_(4, 'TEMPORAL_CONTINUITY')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(4, 'TEMPORAL_CONTINUITY')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L29",
+      "tier": "LOWER_49",
+      "region": "REGION_(5, 'INVESTIGATION_NAVIGATION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(5, 'INVESTIGATION_NAVIGATION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L30",
+      "tier": "LOWER_49",
+      "region": "REGION_(5, 'INVESTIGATION_NAVIGATION')",
+      "core_specialized": true,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(5, 'INVESTIGATION_NAVIGATION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L31",
+      "tier": "LOWER_49",
+      "region": "REGION_(5, 'INVESTIGATION_NAVIGATION')",
+      "core_specialized": false,
+      "source_file": "contract/functions025.py",
+      "implementation_status": "IMPLEMENTED_EXECUTABLE",
+      "behavior": "sufficiency",
+      "executed_in_build040_tests": true
+    },
+    {
+      "function_id": "L32",
+      "tier": "LOWER_49",
+      "region": "REGION_(5, 'INVESTIGATION_NAVIGATION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(5, 'INVESTIGATION_NAVIGATION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L33",
+      "tier": "LOWER_49",
+      "region": "REGION_(5, 'INVESTIGATION_NAVIGATION')",
+      "core_specialized": false,
+      "source_file": "contract/cross_specialty.py",
+      "implementation_status": "IMPLEMENTED_EXECUTABLE",
+      "behavior": "Cross-specialty operation L33",
+      "executed_in_build040_tests": true
+    },
+    {
+      "function_id": "L34",
+      "tier": "LOWER_49",
+      "region": "REGION_(5, 'INVESTIGATION_NAVIGATION')",
+      "core_specialized": false,
+      "source_file": "contract/cross_specialty.py",
+      "implementation_status": "IMPLEMENTED_EXECUTABLE",
+      "behavior": "Cross-specialty operation L34",
+      "executed_in_build040_tests": true
+    },
+    {
+      "function_id": "L35",
+      "tier": "LOWER_49",
+      "region": "REGION_(5, 'INVESTIGATION_NAVIGATION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(5, 'INVESTIGATION_NAVIGATION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L36",
+      "tier": "LOWER_49",
+      "region": "REGION_(6, 'AUDIT_METACOGNITION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(6, 'AUDIT_METACOGNITION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L37",
+      "tier": "LOWER_49",
+      "region": "REGION_(6, 'AUDIT_METACOGNITION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(6, 'AUDIT_METACOGNITION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L38",
+      "tier": "LOWER_49",
+      "region": "REGION_(6, 'AUDIT_METACOGNITION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(6, 'AUDIT_METACOGNITION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L39",
+      "tier": "LOWER_49",
+      "region": "REGION_(6, 'AUDIT_METACOGNITION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(6, 'AUDIT_METACOGNITION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L40",
+      "tier": "LOWER_49",
+      "region": "REGION_(6, 'AUDIT_METACOGNITION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(6, 'AUDIT_METACOGNITION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L41",
+      "tier": "LOWER_49",
+      "region": "REGION_(6, 'AUDIT_METACOGNITION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(6, 'AUDIT_METACOGNITION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L42",
+      "tier": "LOWER_49",
+      "region": "REGION_(6, 'AUDIT_METACOGNITION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(6, 'AUDIT_METACOGNITION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L43",
+      "tier": "LOWER_49",
+      "region": "REGION_(7, 'AI_CLOSET_GATES')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(7, 'AI_CLOSET_GATES')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L44",
+      "tier": "LOWER_49",
+      "region": "REGION_(7, 'AI_CLOSET_GATES')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(7, 'AI_CLOSET_GATES')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L45",
+      "tier": "LOWER_49",
+      "region": "REGION_(7, 'AI_CLOSET_GATES')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(7, 'AI_CLOSET_GATES')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L46",
+      "tier": "LOWER_49",
+      "region": "REGION_(7, 'AI_CLOSET_GATES')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(7, 'AI_CLOSET_GATES')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L47",
+      "tier": "LOWER_49",
+      "region": "REGION_(7, 'AI_CLOSET_GATES')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(7, 'AI_CLOSET_GATES')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L48",
+      "tier": "LOWER_49",
+      "region": "REGION_(7, 'AI_CLOSET_GATES')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(7, 'AI_CLOSET_GATES')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "L49",
+      "tier": "LOWER_49",
+      "region": "REGION_(7, 'AI_CLOSET_GATES')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(7, 'AI_CLOSET_GATES')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U01",
+      "tier": "HIGHER_49",
+      "region": "REGION_(1, 'EVIDENCE_INTERFACE')",
+      "core_specialized": true,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(1, 'EVIDENCE_INTERFACE')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U02",
+      "tier": "HIGHER_49",
+      "region": "REGION_(1, 'EVIDENCE_INTERFACE')",
+      "core_specialized": true,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(1, 'EVIDENCE_INTERFACE')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U03",
+      "tier": "HIGHER_49",
+      "region": "REGION_(1, 'EVIDENCE_INTERFACE')",
+      "core_specialized": true,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(1, 'EVIDENCE_INTERFACE')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U04",
+      "tier": "HIGHER_49",
+      "region": "REGION_(1, 'EVIDENCE_INTERFACE')",
+      "core_specialized": true,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(1, 'EVIDENCE_INTERFACE')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U05",
+      "tier": "HIGHER_49",
+      "region": "REGION_(1, 'EVIDENCE_INTERFACE')",
+      "core_specialized": true,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(1, 'EVIDENCE_INTERFACE')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U06",
+      "tier": "HIGHER_49",
+      "region": "REGION_(1, 'EVIDENCE_INTERFACE')",
+      "core_specialized": false,
+      "source_file": "contract/functions025.py",
+      "implementation_status": "IMPLEMENTED_EXECUTABLE",
+      "behavior": "Forward chaining over explicit positive and negative literals.",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U07",
+      "tier": "HIGHER_49",
+      "region": "REGION_(1, 'EVIDENCE_INTERFACE')",
+      "core_specialized": false,
+      "source_file": "contract/functions025.py",
+      "implementation_status": "IMPLEMENTED_EXECUTABLE",
+      "behavior": "hypotheses",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U08",
+      "tier": "HIGHER_49",
+      "region": "REGION_(2, 'TOK_REPRESENTATION')",
+      "core_specialized": true,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(2, 'TOK_REPRESENTATION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U09",
+      "tier": "HIGHER_49",
+      "region": "REGION_(2, 'TOK_REPRESENTATION')",
+      "core_specialized": true,
+      "source_file": "contract/disposition_engine.py",
+      "implementation_status": "IMPLEMENTED_EXECUTABLE_STANDALONE",
+      "behavior": "evaluate_motor_branches PASS/DROP/HOLD deterministic branch evaluation",
+      "executed_in_build040_tests": true
+    },
+    {
+      "function_id": "U10",
+      "tier": "HIGHER_49",
+      "region": "REGION_(2, 'TOK_REPRESENTATION')",
+      "core_specialized": true,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(2, 'TOK_REPRESENTATION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U11",
+      "tier": "HIGHER_49",
+      "region": "REGION_(2, 'TOK_REPRESENTATION')",
+      "core_specialized": false,
+      "source_file": "contract/functions025.py",
+      "implementation_status": "IMPLEMENTED_EXECUTABLE",
+      "behavior": "gaps",
+      "executed_in_build040_tests": true
+    },
+    {
+      "function_id": "U12",
+      "tier": "HIGHER_49",
+      "region": "REGION_(2, 'TOK_REPRESENTATION')",
+      "core_specialized": false,
+      "source_file": "contract/functions025.py",
+      "implementation_status": "IMPLEMENTED_EXECUTABLE",
+      "behavior": "select",
+      "executed_in_build040_tests": true
+    },
+    {
+      "function_id": "U13",
+      "tier": "HIGHER_49",
+      "region": "REGION_(2, 'TOK_REPRESENTATION')",
+      "core_specialized": false,
+      "source_file": "contract/functions025.py",
+      "implementation_status": "IMPLEMENTED_EXECUTABLE",
+      "behavior": "evaluate_cause",
+      "executed_in_build040_tests": true
+    },
+    {
+      "function_id": "U14",
+      "tier": "HIGHER_49",
+      "region": "REGION_(2, 'TOK_REPRESENTATION')",
+      "core_specialized": false,
+      "source_file": "contract/functions025.py",
+      "implementation_status": "IMPLEMENTED_EXECUTABLE",
+      "behavior": "learn",
+      "executed_in_build040_tests": true
+    },
+    {
+      "function_id": "U15",
+      "tier": "HIGHER_49",
+      "region": "REGION_(3, 'RELATIONSHIP_CORTEX')",
+      "core_specialized": false,
+      "source_file": "contract/functions025.py",
+      "implementation_status": "IMPLEMENTED_EXECUTABLE",
+      "behavior": "transfer",
+      "executed_in_build040_tests": true
+    },
+    {
+      "function_id": "U16",
+      "tier": "HIGHER_49",
+      "region": "REGION_(3, 'RELATIONSHIP_CORTEX')",
+      "core_specialized": false,
+      "source_file": "contract/functions025.py",
+      "implementation_status": "IMPLEMENTED_EXECUTABLE",
+      "behavior": "Group supporting or conflicting references by their presented source.",
+      "executed_in_build040_tests": true
+    },
+    {
+      "function_id": "U17",
+      "tier": "HIGHER_49",
+      "region": "REGION_(3, 'RELATIONSHIP_CORTEX')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(3, 'RELATIONSHIP_CORTEX')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U18",
+      "tier": "HIGHER_49",
+      "region": "REGION_(3, 'RELATIONSHIP_CORTEX')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(3, 'RELATIONSHIP_CORTEX')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U19",
+      "tier": "HIGHER_49",
+      "region": "REGION_(3, 'RELATIONSHIP_CORTEX')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(3, 'RELATIONSHIP_CORTEX')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U20",
+      "tier": "HIGHER_49",
+      "region": "REGION_(3, 'RELATIONSHIP_CORTEX')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(3, 'RELATIONSHIP_CORTEX')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U21",
+      "tier": "HIGHER_49",
+      "region": "REGION_(3, 'RELATIONSHIP_CORTEX')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(3, 'RELATIONSHIP_CORTEX')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U22",
+      "tier": "HIGHER_49",
+      "region": "REGION_(4, 'TEMPORAL_CONTINUITY')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(4, 'TEMPORAL_CONTINUITY')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U23",
+      "tier": "HIGHER_49",
+      "region": "REGION_(4, 'TEMPORAL_CONTINUITY')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(4, 'TEMPORAL_CONTINUITY')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U24",
+      "tier": "HIGHER_49",
+      "region": "REGION_(4, 'TEMPORAL_CONTINUITY')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(4, 'TEMPORAL_CONTINUITY')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U25",
+      "tier": "HIGHER_49",
+      "region": "REGION_(4, 'TEMPORAL_CONTINUITY')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(4, 'TEMPORAL_CONTINUITY')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U26",
+      "tier": "HIGHER_49",
+      "region": "REGION_(4, 'TEMPORAL_CONTINUITY')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(4, 'TEMPORAL_CONTINUITY')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U27",
+      "tier": "HIGHER_49",
+      "region": "REGION_(4, 'TEMPORAL_CONTINUITY')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(4, 'TEMPORAL_CONTINUITY')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U28",
+      "tier": "HIGHER_49",
+      "region": "REGION_(4, 'TEMPORAL_CONTINUITY')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(4, 'TEMPORAL_CONTINUITY')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U29",
+      "tier": "HIGHER_49",
+      "region": "REGION_(5, 'INVESTIGATION_NAVIGATION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(5, 'INVESTIGATION_NAVIGATION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U30",
+      "tier": "HIGHER_49",
+      "region": "REGION_(5, 'INVESTIGATION_NAVIGATION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(5, 'INVESTIGATION_NAVIGATION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U31",
+      "tier": "HIGHER_49",
+      "region": "REGION_(5, 'INVESTIGATION_NAVIGATION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(5, 'INVESTIGATION_NAVIGATION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U32",
+      "tier": "HIGHER_49",
+      "region": "REGION_(5, 'INVESTIGATION_NAVIGATION')",
+      "core_specialized": false,
+      "source_file": "contract/cross_specialty.py",
+      "implementation_status": "IMPLEMENTED_EXECUTABLE",
+      "behavior": "Cross-specialty operation U32",
+      "executed_in_build040_tests": true
+    },
+    {
+      "function_id": "U33",
+      "tier": "HIGHER_49",
+      "region": "REGION_(5, 'INVESTIGATION_NAVIGATION')",
+      "core_specialized": false,
+      "source_file": "contract/cross_specialty.py",
+      "implementation_status": "IMPLEMENTED_EXECUTABLE",
+      "behavior": "Cross-specialty operation U33",
+      "executed_in_build040_tests": true
+    },
+    {
+      "function_id": "U34",
+      "tier": "HIGHER_49",
+      "region": "REGION_(5, 'INVESTIGATION_NAVIGATION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(5, 'INVESTIGATION_NAVIGATION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U35",
+      "tier": "HIGHER_49",
+      "region": "REGION_(5, 'INVESTIGATION_NAVIGATION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(5, 'INVESTIGATION_NAVIGATION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U36",
+      "tier": "HIGHER_49",
+      "region": "REGION_(6, 'AUDIT_METACOGNITION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(6, 'AUDIT_METACOGNITION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U37",
+      "tier": "HIGHER_49",
+      "region": "REGION_(6, 'AUDIT_METACOGNITION')",
+      "core_specialized": true,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(6, 'AUDIT_METACOGNITION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U38",
+      "tier": "HIGHER_49",
+      "region": "REGION_(6, 'AUDIT_METACOGNITION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(6, 'AUDIT_METACOGNITION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U39",
+      "tier": "HIGHER_49",
+      "region": "REGION_(6, 'AUDIT_METACOGNITION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(6, 'AUDIT_METACOGNITION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U40",
+      "tier": "HIGHER_49",
+      "region": "REGION_(6, 'AUDIT_METACOGNITION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(6, 'AUDIT_METACOGNITION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U41",
+      "tier": "HIGHER_49",
+      "region": "REGION_(6, 'AUDIT_METACOGNITION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(6, 'AUDIT_METACOGNITION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U42",
+      "tier": "HIGHER_49",
+      "region": "REGION_(6, 'AUDIT_METACOGNITION')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(6, 'AUDIT_METACOGNITION')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U43",
+      "tier": "HIGHER_49",
+      "region": "REGION_(7, 'AI_CLOSET_GATES')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(7, 'AI_CLOSET_GATES')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U44",
+      "tier": "HIGHER_49",
+      "region": "REGION_(7, 'AI_CLOSET_GATES')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(7, 'AI_CLOSET_GATES')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U45",
+      "tier": "HIGHER_49",
+      "region": "REGION_(7, 'AI_CLOSET_GATES')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(7, 'AI_CLOSET_GATES')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U46",
+      "tier": "HIGHER_49",
+      "region": "REGION_(7, 'AI_CLOSET_GATES')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(7, 'AI_CLOSET_GATES')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U47",
+      "tier": "HIGHER_49",
+      "region": "REGION_(7, 'AI_CLOSET_GATES')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(7, 'AI_CLOSET_GATES')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U48",
+      "tier": "HIGHER_49",
+      "region": "REGION_(7, 'AI_CLOSET_GATES')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(7, 'AI_CLOSET_GATES')); returns status=OK",
+      "executed_in_build040_tests": false
+    },
+    {
+      "function_id": "U49",
+      "tier": "HIGHER_49",
+      "region": "REGION_(7, 'AI_CLOSET_GATES')",
+      "core_specialized": false,
+      "source_file": "contract/brains_wiring.py",
+      "implementation_status": "DEFAULT_ROUTED_PASSTHROUGH",
+      "behavior": "Default region handler (REGION_(7, 'AI_CLOSET_GATES')); returns status=OK",
+      "executed_in_build040_tests": false
+    }
+  ],
+  "memory_blocks_architecture": {
+    "total_logical_positions": 2208,
+    "big49": {
+      "block_id_range": "0..1599",
+      "total_positions": 1600,
+      "buckets": {
+        "cognitive": {
+          "slots": 1280,
+          "char_cap": 512
+        },
+        "association": {
+          "slots": 320,
+          "char_cap": 512
+        }
+      }
+    },
+    "small49": {
+      "block_id_range": "1600..2207",
+      "total_positions": 608,
+      "buckets": {
+        "history": {
+          "slots": 256,
+          "char_cap": 512
+        },
+        "active": {
+          "slots": 64,
+          "char_cap": 512
+        },
+        "workspace_micro": {
+          "slots": 24,
+          "char_cap": 64
+        },
+        "workspace_medium": {
+          "slots": 40,
+          "char_cap": 250
+        },
+        "workspace_large": {
+          "slots": 64,
+          "char_cap": 500
+        },
+        "bridge_macro": {
+          "slots": 10,
+          "char_cap": 1000
+        },
+        "bridge_projection": {
+          "slots": 40,
+          "char_cap": 500
+        },
+        "bridge_path": {
+          "slots": 20,
+          "char_cap": 250
+        },
+        "bridge_typed": {
+          "slots": 60,
+          "char_cap": 128
+        },
+        "bridge_pointer": {
+          "slots": 30,
+          "char_cap": 64
+        }
+      }
+    }
+  },
+  "unittest_suite": {
+    "tests_run": 61,
+    "errors": 0,
+    "failures": 0,
+    "passed": true
+  }
+}

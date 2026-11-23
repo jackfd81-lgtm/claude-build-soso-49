@@ -1,0 +1,25 @@
+{
+  "package": "SUIT_AND_BRAINS_BUILD040_GEMINI.zip",
+  "version": "40.0.0",
+  "python": "3.11.2 (main, Oct  7 2026, 12:35:07) [GCC 12.2.0]",
+  "os": "Linux-6.12.105+-x86_64-with-glibc2.36",
+  "verified_executed": {
+    "combined_unittest_53": {
+      "passed": 53,
+      "failed": 0
+    },
+    "qualification_030_verify": {
+      "passed": 22,
+      "failed": 0
+    },
+    "orangepi_grader_local_sim": {
+      "status": "PASS",
+      "iterations": 20
+    }
+  },
+  "implemented_unverified": [
+    "Physical Raspberry Pi 5 and Orange Pi Zero 2W hardware execution",
+    "Live GoogleGeminiProvider / OpenAIProvider network calls (no outbound internet in sandbox)",
+    "94-case pytest runner (pytest not installed in sandbox)"
+  ]
+}

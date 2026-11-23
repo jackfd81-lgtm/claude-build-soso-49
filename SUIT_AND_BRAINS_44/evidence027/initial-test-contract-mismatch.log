@@ -1,0 +1,35 @@
+F...................................................                     [100%]
+=================================== FAILURES ===================================
+_______ test_joint_retrieval_retains_budget_and_has_monitored_admission ________
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-3/test_joint_retrieval_retains_b0')
+
+    def test_joint_retrieval_retains_budget_and_has_monitored_admission(tmp_path):
+        report = run(tmp_path)["heldout"]
+        assert report["on"]["task_complete"] and report["restored"]["task_complete"]
+        assert not report["off"]["task_complete"]
+        sources = report["monitor_audit"]
+        task = report["on"]["handoff"]["task_id"]
+        assert any(row["source"]["task_id"] == task and row["source"]["kind"] == "TASK_BEGIN"
+                   and row["status"] == "ACKED" for row in sources)
+        assert sum(row["source"]["task_id"] == task and row["source"]["kind"] == "TASK_STEP_ACK"
+                   for row in sources) == 7
+        assert any(message["response_kind"] == "IOU_ACK" for row in sources for message in row["messages"])
+        for row in sources:
+>           assert row["source"]["trace_digest"] == row["disposition"]["evidence_sha256"]
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E           KeyError: 'evidence_sha256'
+
+tests/test_build027.py:31: KeyError
+=============================== warnings summary ===============================
+../../../../opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/anyio/pytest_plugin.py:14
+  /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/anyio/pytest_plugin.py:14: PytestRemovedIn10Warning: _pytest.python.CallSpec2 has been renamed to CallSpec.
+  The CallSpec2 alias will be removed in pytest 10.
+  Update imports to use CallSpec instead.
+  See https://docs.pytest.org/en/stable/deprecations.html#callspec2-renamed
+    from _pytest.python import CallSpec2
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_build027.py::test_joint_retrieval_retains_budget_and_has_monitored_admission
+1 failed, 51 passed, 1 warning in 5.30s

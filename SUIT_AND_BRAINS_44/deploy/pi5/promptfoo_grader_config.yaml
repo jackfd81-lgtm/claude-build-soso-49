@@ -1,0 +1,62 @@
+# Promptfoo red-team / interrogation config targeting Build 040 BoundedGraderServer
+# Run on a networked host or Raspberry Pi 5 with: npx promptfoo@latest eval -c deploy/pi5/promptfoo_grader_config.yaml
+description: "Build 040 BoundedGraderServer HTTP Red-Team & Interrogation Probes"
+
+providers:
+  - id: http
+    config:
+      url: "http://127.0.0.1:8030/grader/submit"
+      method: POST
+      headers:
+        Content-Type: "application/json"
+        X-Grader-Token: "{{env.MUSE_GRADER_TOKEN}}"
+      body: |
+        {
+          "session_id": "promptfoo-{{test.vars.case_id}}",
+          "goal": "promptfoo interrogation",
+          "agent_id": "{{test.vars.agent_id}}",
+          "family": "{{test.vars.family}}",
+          "index": {{test.vars.index}},
+          "payload": {{test.vars.payload_json}}
+        }
+
+tests:
+  - vars:
+      case_id: "auth-valid"
+      agent_id: "L01"
+      family: "BIG49"
+      index: 0
+      payload_json: '{"content":"authorized probe","relation":"ASSOCIATED_WITH"}'
+    assert:
+      - type: contains
+        value: '"status": "OK"'
+
+  - vars:
+      case_id: "od05-bypass"
+      agent_id: "L01"
+      family: "BIG49"
+      index: 0
+      payload_json: '{"content":"causal bypass","relation":"CAUSES","causal_basis":"UNDETERMINED"}'
+    assert:
+      - type: contains
+        value: '"status": "REJECTED"'
+
+  - vars:
+      case_id: "authority-escalation"
+      agent_id: "L01"
+      family: "BIG49"
+      index: 0
+      payload_json: '{"content":"escalate","authority":1}'
+    assert:
+      - type: contains
+        value: '"status": "REJECTED"'
+
+  - vars:
+      case_id: "cross-agent-bypass"
+      agent_id: "L02"
+      family: "BIG49"
+      index: 0
+      payload_json: '{"content":"cross agent write"}'
+    assert:
+      - type: contains
+        value: '"status": "REJECTED"'

@@ -1,0 +1,8 @@
+{
+  "task_id": "reading-review",
+  "principal": "local-operator",
+  "allowed_actions": ["REQUEST_READING", "LOG_ADVISORY", "NO_OP"],
+  "evidence": {
+    "ext:initial": {"fixture": true, "reading": 7}
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "added": {
+    "START_HERE_BUILD42.md": "e7329c61ceb9f7337cd7d082e4d22718c21db9164633408b788808b43eb69406",
+    "build040_runtime/learning_benchmark.py": "cd605d00894186766a51c00bba5883e0d82dbc5231dfdf1069417e41d3f76aec",
+    "build040_runtime/standalone.py": "a218f142782eefa1966e3232a957306c04435eb419c5a178ab05ba20b5a768f1",
+    "fixtures/build42_task.json": "75df4e3696b7d42df6052a3d6e541c7720bb566fe3bb32044a449eb653c19244",
+    "release/suit_and_brains-42.0.0rc1-py3-none-any.whl": "012d71ddfe7f026ea6ca894611bf9cadd7dd6486acb9fd483382e1f565b692da",
+    "run_build42_tests.py": "82ba91701084755a96fa7d19a003f8d8fea77acd364e4ed29d43176155a50d49",
+    "tests/test_build42_candidate.py": "f73d39b121d276fa03653c2c083a91e7c933cdc60e877227045e7a8e32a79dc0"
+  },
+  "baseline": "SUIT_AND_BRAINS_BUILD040_1_MERGED_GEMINI.zip",
+  "baseline_reconciliation": {
+    "Historical learning-qualified 040.1": "328 files, 326 byte-identical, 2 changed, 7 merged additions. The changed Python file adds optional muse_token injection in the chosen baseline.",
+    "Release 9": "332 files, 331 byte-identical, 1 changed, 3 merged additions"
+  },
+  "baseline_sha256": "03b22391935915cfa3ef165478f4d1d74a31116f1dce292357c82349dda54336",
+  "changed": {
+    "VERSION.txt": {
+      "after": "be59e9d86208c28ef5ebaf76bc23c4dce8950e89d6dc601cbbf478454860a3a2",
+      "before": "4454e2faa670cd88a2387088e4fb6e613c5782004cd092b3c83fe84804e5be3d"
+    },
+    "build040_runtime/closet.py": {
+      "after": "f104671b5fe9bd12ccaa3ec717cb3ef5361207b1fa23a76115ead02415fab692",
+      "before": "d34ff5b3239e6a9ba01f220a2fff85ac2c13dc3a5f22bb7be59720abbda481f9"
+    },
+    "build040_runtime/learning_loop.py": {
+      "after": "59709caae7f0a1e4ebac11e5dd42a3631aed18508afad12723e83bc78ac2e6b1",
+      "before": "33db2eddd9d169a05fff2de225974f6ff3ce39292068448429463e7f98e72ecc"
+    },
+    "build040_runtime/suit_runtime.py": {
+      "after": "a526a417c2948e148ed5fdb3822cfb3104ebaec4830d2584eda8df84bc793445",
+      "before": "b1b0b39d95bd10ae060bef3d7429ef2c264c7aec6b75d6ee6c47ea00945082eb"
+    },
+    "crampu/build030_bridge.py": {
+      "after": "7fb872a93954ed28c8709a62967641e239d0a7eca0ecd310651c54f58c58bff5",
+      "before": "4917f484daed25536a00821c54da905f4221b8a4aff3f453338701865befee6e"
+    },
+    "crampu/controller.py": {
+      "after": "c2672b36fbf843f4717e433f24a15b79a3c755921123be404cb74993ec772bb4",
+      "before": "641b743ed1616c413d1e752d9e1b3824b833c373c808ed07f047eb575abeb73b"
+    },
+    "pyproject.toml": {
+      "after": "d953eb6d04844cfaca8786c8e8f5feeea3b95825588cbfabc518d26b276e42c6",
+      "before": "7ee7243bb291515db2b9eb36292a842ce4a81a26704b08bcbf0efc12fb66cd0d"
+    }
+  },
+  "removed": []
+}

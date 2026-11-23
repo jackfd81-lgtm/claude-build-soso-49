@@ -1,0 +1,19 @@
+{
+  "configured": {
+    "BIG49": 1600,
+    "SMALL49": 608
+  },
+  "demo_allocated_addresses": 2,
+  "demo_confirmed_retrieved_addresses": 2,
+  "demo_cool_populated_addresses": 2,
+  "demo_pending_mirrors": 0,
+  "demo_profile_addresses_with_observed_selection_effect": 1,
+  "remaining": [
+    "all bucket families",
+    "physical power loss",
+    "quota exhaustion over repeated revisions",
+    "sustained concurrency",
+    "legacy pending row reconciliation"
+  ],
+  "revision_probe": "two ordered Big49 revisions and buckets survived replay"
+}

@@ -1,0 +1,43 @@
+{
+  "baseline_sha256": "1760a51c699eae410c071446174d0138bc3efe5b3303f592ab711418f8a04636",
+  "tests": [
+    {
+      "pattern": "test_learning_qualification_0401.py",
+      "trial": 1,
+      "exit_code": 0,
+      "output": ".\n----------------------------------------------------------------------\nRan 1 test in 0.250s\n\nOK\n"
+    },
+    {
+      "pattern": "test_learning_qualification_0401.py",
+      "trial": 2,
+      "exit_code": 0,
+      "output": ".\n----------------------------------------------------------------------\nRan 1 test in 0.202s\n\nOK\n"
+    },
+    {
+      "pattern": "test_learning_loop_u11_u15.py",
+      "trial": 1,
+      "exit_code": 0,
+      "output": ".\n----------------------------------------------------------------------\nRan 1 test in 0.050s\n\nOK\n"
+    },
+    {
+      "pattern": "test_learning_loop_u11_u15.py",
+      "trial": 2,
+      "exit_code": 0,
+      "output": ".\n----------------------------------------------------------------------\nRan 1 test in 0.057s\n\nOK\n"
+    },
+    {
+      "pattern": "test_precision_105_build040.py",
+      "trial": 1,
+      "exit_code": 0,
+      "output": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.661s\n\nOK\n"
+    },
+    {
+      "pattern": "test_precision_105_build040.py",
+      "trial": 2,
+      "exit_code": 0,
+      "output": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.685s\n\nOK\n"
+    }
+  ],
+  "all_selected_pass": true,
+  "scope": "deterministic offline learning regression; not live Gemini or hardware"
+}

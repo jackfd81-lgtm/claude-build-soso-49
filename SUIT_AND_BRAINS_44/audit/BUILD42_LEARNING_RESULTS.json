@@ -1,0 +1,744 @@
+{
+  "cases_per_seed_per_split": 8,
+  "design": "synthetic-binary-partition/1",
+  "interpretation": "Generated training feedback and held-out outcome scoring use independent fixed seeds. Novel cases change cardinality from four to six while retaining the binary-partition mechanism. The profile is exact-match by partition shape. Generalization beyond this mechanism is unqualified.",
+  "metric": "mean candidates remaining after one observation (lower is better)",
+  "provider": "offline",
+  "seeds": [
+    {
+      "holdout": {
+        "cold": 2.25,
+        "learned": 2.0,
+        "reopened": 2.0,
+        "wrong": 2.25
+      },
+      "learned_profile": [
+        2,
+        2
+      ],
+      "novel": {
+        "cold": 4.5,
+        "learned": 4.5
+      },
+      "seed": 31,
+      "training_feedback": [
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 1,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "holdout": {
+        "cold": 2.75,
+        "learned": 2.0,
+        "reopened": 2.0,
+        "wrong": 2.75
+      },
+      "learned_profile": [
+        2,
+        2
+      ],
+      "novel": {
+        "cold": 4.0,
+        "learned": 4.0
+      },
+      "seed": 79,
+      "training_feedback": [
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 1,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "holdout": {
+        "cold": 2.75,
+        "learned": 2.0,
+        "reopened": 2.0,
+        "wrong": 2.75
+      },
+      "learned_profile": [
+        2,
+        2
+      ],
+      "novel": {
+        "cold": 4.5,
+        "learned": 4.5
+      },
+      "seed": 173,
+      "training_feedback": [
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 1,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 1,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 1,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "holdout": {
+        "cold": 2.25,
+        "learned": 2.0,
+        "reopened": 2.0,
+        "wrong": 2.25
+      },
+      "learned_profile": [
+        2,
+        2
+      ],
+      "novel": {
+        "cold": 4.5,
+        "learned": 4.5
+      },
+      "seed": 257,
+      "training_feedback": [
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 1,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "holdout": {
+        "cold": 2.5,
+        "learned": 2.0,
+        "reopened": 2.0,
+        "wrong": 2.5
+      },
+      "learned_profile": [
+        2,
+        2
+      ],
+      "novel": {
+        "cold": 4.5,
+        "learned": 4.5
+      },
+      "seed": 677,
+      "training_feedback": [
+        {
+          "after": 1,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 1,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 1,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        },
+        {
+          "after": 3,
+          "before": 4,
+          "profile": [
+            1,
+            3
+          ]
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "profile": [
+            2,
+            2
+          ]
+        }
+      ]
+    }
+  ]
+}

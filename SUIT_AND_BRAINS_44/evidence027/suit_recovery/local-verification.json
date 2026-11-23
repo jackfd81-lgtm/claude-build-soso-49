@@ -1,0 +1,38 @@
+{
+  "vendored_v3_2_3_suite": "39/39 checks passed",
+  "v4_0_manifest_exact_schema_files": 9,
+  "live_receipt_schema_comparison": {
+    "receipts_compared": 54,
+    "legacy_authority_and_trace_checks": "PASS",
+    "direct_4_0_disposition_compatibility": "REJECTED",
+    "example_receipt_kind": "INVESTIGATION_HOLD",
+    "example_legacy_keys": [
+      "authority_level",
+      "confidence",
+      "disposition",
+      "evidence_ref",
+      "note",
+      "observation",
+      "protocol_version",
+      "reason",
+      "record_digest",
+      "state_change",
+      "verification"
+    ],
+    "example_missing_4_0_fields": [
+      "candidate_digest",
+      "envelope_digest",
+      "governed_state_digest",
+      "normalizer_build_hash",
+      "producer",
+      "reasons",
+      "record_version",
+      "verdict"
+    ],
+    "example_schema_error_codes": [
+      "additionalProperties",
+      "required",
+      "type"
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "candidate": "42.0.0rc1",
+  "commands": [
+    {
+      "command": "python3 run_build42_tests.py",
+      "exit": 0,
+      "log": "FOCUSED.log",
+      "passed": 50
+    },
+    {
+      "baseline_entries": 188,
+      "baseline_log": "baseline-unittest.log",
+      "candidate_entries": 197,
+      "command": "python3 -m unittest discover -s tests -v",
+      "comparison": "Failure and error identifiers match exactly.",
+      "errors_each": 59,
+      "exit": 1,
+      "failures_each": 2,
+      "log": "candidate-unittest.log"
+    },
+    {
+      "command": "python3 -m qualification_030.verify --output <fresh-directory>",
+      "exit": 0,
+      "log": "qualification-030.log",
+      "passed": 22,
+      "scope": "inherited Build 030.1 qualification"
+    },
+    {
+      "command": "python3 -m build040_runtime.standalone demo",
+      "exit": 0,
+      "log": "DEMO.json"
+    },
+    {
+      "command": "python3 -m build040_runtime.standalone run fixtures/build42_task.json",
+      "exit": 0,
+      "log": "TASK.json"
+    },
+    {
+      "command": "python3 -m build040_runtime.learning_benchmark",
+      "exit": 0,
+      "log": "BUILD42_LEARNING_RESULTS.json"
+    },
+    {
+      "command": "python3 -m pip wheel --no-deps --no-build-isolation .",
+      "exit": 0,
+      "log": "wheel.log"
+    },
+    {
+      "command": "suit-brains demo (fresh virtual environment, outside source tree)",
+      "exit": 0,
+      "log": "WHEEL_DEMO.json",
+      "matches_source_demo": true
+    }
+  ],
+  "environment": {
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "python": "3.12.14",
+    "sqlite": "3.53.1"
+  },
+  "gate_note": "PASS refers to completed scope; a gate with remaining Revision 2 acceptance work is BLOCKED regardless of any successful focused checks.",
+  "gates": {
+    "G0": {
+      "scope": "All three lineage hashes match the Revision 2 handoff. Merged sources selected.",
+      "status": "PASS"
+    },
+    "G1": {
+      "scope": "Local wheel install and CLI outside the source tree, 50 focused tests. Legacy full discovery remains red on both source trees.",
+      "status": "PASS"
+    },
+    "G10": {
+      "scope": "No Pi 5, Orange Pi or physical power-loss tests executed.",
+      "status": "NOT_RUN"
+    },
+    "G2": {
+      "focused_checks": "PASS",
+      "scope": "98 stable source-declared addresses, 21 implemented by source inspection, 77 generic routes. Direct behavioral checks for L05/U06/U07. Full per-slot contract coverage is incomplete.",
+      "status": "BLOCKED"
+    },
+    "G3": {
+      "focused_checks": "PASS",
+      "scope": "Two-revision replay and bucket binding, both stores reopened, replay after mirror write. Full quota, concurrent-writer and fault matrix remains open.",
+      "status": "BLOCKED"
+    },
+    "G4": {
+      "focused_checks": "PASS",
+      "scope": "Local bounded task capability, budget, child revocation and negative tests. Restart requires new trusted grants.",
+      "status": "BLOCKED"
+    },
+    "G5": {
+      "focused_checks": "PASS",
+      "scope": "Continuity SQLite reopen and ordered operation events in exercised path. General tamper qualification remains open.",
+      "status": "BLOCKED"
+    },
+    "G6": {
+      "scope": "Synthetic held-out mean 2.50 to 2.00; 4.40 in both six-candidate arms. Broad transfer acceptance unmet.",
+      "status": "FAIL"
+    },
+    "G7": {
+      "focused_checks": "PASS",
+      "scope": "Offline and deterministic replay passed in focused tests. Live calls and provider lifecycle unqualified.",
+      "status": "BLOCKED"
+    },
+    "G8": {
+      "scope": "Inherited loopback test passed. Revision 2 independent grading contract and rollout are unfinished.",
+      "status": "BLOCKED"
+    },
+    "G9": {
+      "scope": "Requires candidate service configs and install/upgrade/rollback qualification.",
+      "status": "BLOCKED"
+    }
+  },
+  "qualification": "BOUNDED_LOCAL_CANDIDATE",
+  "scope": "x86-64 offline engineering candidate"
+}

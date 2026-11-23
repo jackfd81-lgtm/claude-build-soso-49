@@ -1,0 +1,15 @@
+Build 44.1.0 desktop validation
+Installed wheel runner PASS. Physical Pi 5 NOT_RUN.
+118 focused regressions, 94 configured pytest tests, and 20 crash tests passed.
+Dependency-enabled unittest discovery: 286 entries, 2 failures, 39 errors.
+Missing legacy entry points and modules remain open.
+Higher-first: 15 fixture-derived two-anchor tests, each restarted from saved
+HOLD state, rejected a wrong feature and consumed both joins. The paired
+anchor texts are deliberately treated as competing values to test conflict
+routing. This is an engineered test, not historical content grading.
+Each isolated Higher-first case used Small49 global 1984, COOL revision 5.
+Lower-first: 15 sections, L31 to U16; 45 saves across blocks 1984-1998.
+Native replay: 315 writes and 315 reopen reads, structural PASS.
+Storage sweep: 2,208 addresses in 12 buckets, overflow rejected before mutation.
+Open: live provider, scored four-mode benchmark, transfer to unseen cases,
+physical Pi 5, and remaining legacy discovery repairs.

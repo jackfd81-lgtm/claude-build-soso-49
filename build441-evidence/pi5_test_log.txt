@@ -1,0 +1,141 @@
+== Build 44.1.0 Pi 5 test ==
+host: x86_64 Linux 6.18.57 | python 3.12.14 | /tmp/tmp.Zh8FbbLbiI/run/venv/bin/python
+tree: /tmp/tmp.Zh8FbbLbiI/SUIT_AND_BRAINS_44
+workdir: /tmp/tmp.Zh8FbbLbiI/run
+build040_runtime imported from: /tmp/tmp.Zh8FbbLbiI/run/venv/lib/python3.12/site-packages/build040_runtime/__init__.py
+challenge HIST-GEO-TIME-105-v1: 105 positions, 14 anchors, 91 open, words 4..9
+
+-- 1a. Offline gateway (expect BlockedGenerationError) --
+  blocked as required: OnlineAIGateway fell back to OfflineAdvisoryProvider; live/replay model required
+  [PASS] offline case raises BlockedGenerationError
+  before the block: 14 anchor writes, 14 anchor reads (anchors + chronology + recall all ran; generation never started)
+  [PASS] offline run still wrote/read the 14 anchors before blocking — writes=14 reads=14
+
+-- 1b. Replay gateway (105 positions) --
+  construct took 0.06s
+  [PASS] replay returns all 105 positions — got 105
+  [PASS] 14 locked anchors preserved verbatim
+  [PASS] 91 open positions filled from the replay provider — every open text equals the recorded replay payload
+  [PASS] generation source is replay_cache — replay_cache
+  [PASS] external_ai_used is True (replay, not fallback)
+  [PASS] execution trace reports 15 memory writes — got 15
+  [PASS] execution trace reports 14 memory reads — got 14
+  [PASS] execution trace reports 13 L22 chronology checks
+  [PASS] functions_executed is exactly [L22, U09] — ['L22', 'U09']
+  grader: structural 105/105 pass, segments 0/13 pass
+  [PASS] grader structural check passes (105/105) — failures=0
+  NOTE: segment keyword failures are expected for synthetic replay text (see trace notes)
+
+-- 2. Function map vs Build 040 trace --
+  (scoped to the replay run; the offline run's 13 L22 + 1 U09 calls are recorded separately as offline_function_calls)
+  top-level dispatches: 13 x L22, 1 x U09
+  [PASS] 13 top-level L22 dispatches — got 13
+  [PASS] 1 top-level U09 dispatch — got 1
+  U09 structural check: 3 events; first: {"authority": 0, "authorized_destination": "U37_MECH", "causal_parent_id": null, "destination_function": "U37_MECH", "disposition": "PASS", "event_id": "p105-replay-U09-EVT-001", "execution_id": "p105-replay-U09", "function_id": "U09", "input_evidence_refs": ["p105-replay"], "input_reference": "p105...<truncated 606 chars>
+  inner execution counts (observed): {'L03': 13, 'L04': 13, 'L16': 13, 'L22': 13, 'L17': 13, 'L18': 13, 'L31': 13, 'U16': 13}
+  inner execution counts (Build 040): {'L03': 13, 'L04': 13, 'L16': 13, 'L22': 13, 'L17': 13, 'L18': 13, 'L31': 13, 'U16': 13}
+  [PASS] inner function counts match Build 040 exactly (8 functions x 13) — missing/different=none extra=none
+  [PASS] every inner execution went through the bound registry (execute_operation) — registry=104 inner=104
+  [PASS] inner order per L22 check is L03 L04 L16 L22 L17 L18 L31 U16 — checks=13
+  first-check L03 accepted digests: ['81b1a9e15b635e6b643f4dfe90b6e9ca8e664eb9d174f02283b72e4faea637c0', 'af03f51909d06fedeb588f27da79159c585ef7bcf833b84bb7ba2ea2e38a4cea']
+  Build 040 sample digests:         ['81b1a9e15b635e6b643f4dfe90b6e9ca8e664eb9d174f02283b72e4faea637c0', 'af03f51909d06fedeb588f27da79159c585ef7bcf833b84bb7ba2ea2e38a4cea']
+  first-check U16 answer: pos_9 (Build 040: pos_9)
+  [PASS] first-check sample I/O digests match the Build 040 trace
+  [PASS] all 13 L22 decisions answer with the later anchor — answers=['pos_9', 'pos_17', 'pos_25', 'pos_33', 'pos_41', 'pos_49', 'pos_57', 'pos_65', 'pos_73', 'pos_81', 'pos_89', 'pos_97', 'pos_105']
+  generic registry probe (invoke, not dispatch):
+    {"function_id": "L22", "result": "{\"authority\": 0, \"function_id\": \"L22\", \"implementation_tier\": \"REGION_ROUTED\", \"layer\": \"LOWER_49\", \"region_id\": 4, \"region_name\": \"TEMPORAL_CONTINUITY\", \"status\": \"OK\", \"task_id\": null}", "via": "BrainsWiringRegistry.invoke"}
+  [PASS] generic invoke probe returned a response (recorded for contrast)
+
+-- 3. Memory map (replay run) --
+  observed: 15 writes, 14 reads
+  [PASS] memory totals are 15 writes / 14 reads — writes=15 reads=14
+  [PASS] anchor writes hit Big49 addresses 0-13 in order
+  [PASS] completion summary written to Small49 local 0 (global 1600)
+  [PASS] every write committed at COOL revision 1 — revisions=[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  [PASS] every written record is mirrored (mirror record present in the store)
+  [PASS] every anchor read came from COOL at revision 1
+  [PASS] outbox empty after every write (pending 0, blocked 0)
+  final state: big49_mirrored=14 small49_mirrored=1 cool_committed=15 pending=0 blocked=0
+
+-- 4. WARM staging (one bridge write, Small49 local 1 / global 1601) --
+  [PASS] HOT stage: record is hot only, nothing in COOL
+  HOT: address 1601, hot_count=1, cool_revision=0
+  [PASS] WARM stage: staging file name is the transaction id
+  [PASS] WARM stage: staged record is block 1601
+  WARM: file 9e504b74e4fe49a489e5ed033b234824.json, txid 9e504b74e4fe49a489e5ed033b234824, block 1601
+  [PASS] COOL stage: committed at revision 1
+  [PASS] COOL stage: one PENDING outbox row (mirror not yet run) — pending=1
+  COOL: address 1601, revision 1, outbox_pending=1
+  [PASS] mirror stage: outbox drained (pending 0, blocked 0) — pending=0 blocked=0
+  [PASS] mirror stage: a mirror record was produced — Pointer(record_id='crampu-small49-1-r1', version=1, digest='sha256:0f057f6d057fbf5147ea5235128b2b45d3496b61f8e6dbc5f17a8d91dda2a16b', owner='L01', pool='small', authority=0)
+  MIRROR: Pointer(record_id='crampu-small49-1-r1', version=1, digest='sha256:0f057f6d057fbf5147ea5235128b2b45d3496b61f8e6dbc5f17a8d91dda2a16b', owner='L01', pool='small', authority=0)
+  [PASS] reopen: committed record reads back with the same payload
+  [PASS] reopen: revision still 1
+  REOPEN: payload={'content': 'staging-demo', 'relation': 'ASSOCIATED_WITH'}, revision 1, pending=0 blocked=0
+
+-- 5. Bundled tests (installed wheel) --
+  precision_105: exit 0
+    test_offline_gateway_raises_blocked_rather_than_hardcoding (__main__.TestPrecision105Build040.test_offline_gateway_raises_blocked_rather_than_hardcoding) ... ok
+    
+    ----------------------------------------------------------------------
+    Ran 2 tests in 0.150s
+    
+    OK
+  [PASS] bundled test file test_precision_105_build040.py passes
+  crampu_controller: exit 0
+    test_warm_restart_not_committed (__main__.ControllerTests.test_warm_restart_not_committed) ... ok
+    
+    ----------------------------------------------------------------------
+    Ran 10 tests in 0.019s
+    
+    OK
+  [PASS] bundled test file test_crampu_controller.py passes
+
+-- 6. Build 043 four modes (installed wheel) --
+  modes_43.py: exit 0
+    mode                 status      decision   tiers invoked  joins
+    lower_only           COMPLETED   CONFLICT   LOWER          -
+    higher_only          UNRESOLVED  ABSTAIN    HIGHER         -
+    joined_lower_first   COMPLETED   CONFLICT   HIGHER,LOWER   ['CONSUMED']
+    joined_higher_first  COMPLETED   CONFLICT   HIGHER,LOWER   ['CONSUMED', 'CONSUMED']
+    
+    trace: /tmp/tmp.Zh8FbbLbiI/run/modes_check/traces/modes_43.json
+  [PASS] four-mode lower_only: COMPLETED / CONFLICT — lower_only           COMPLETED   CONFLICT   LOWER          -
+  [PASS] four-mode higher_only: UNRESOLVED / ABSTAIN — higher_only          UNRESOLVED  ABSTAIN    HIGHER         -
+  [PASS] four-mode joined_lower_first: COMPLETED / CONFLICT — joined_lower_first   COMPLETED   CONFLICT   HIGHER,LOWER   ['CONSUMED']
+  [PASS] four-mode joined_higher_first: COMPLETED / CONFLICT — joined_higher_first  COMPLETED   CONFLICT   HIGHER,LOWER   ['CONSUMED', 'CONSUMED']
+  [PASS] independent-mode test_higher_only_follow_up_stays_terminal — test_higher_only_follow_up_stays_terminal (test_build43.IndependentFollowUpTests.test_higher_only_follow_up_stays_terminal) ... ok
+  [PASS] independent-mode test_higher_only_follow_up_stays_terminal_after_restart — test_higher_only_follow_up_stays_terminal_after_restart (test_build43.IndependentFollowUpTests.test_higher_only_follow_up_stays_terminal_after_restart) ... ok
+  [PASS] independent-mode test_lower_only_follow_up_stays_terminal — test_lower_only_follow_up_stays_terminal (test_build43.IndependentFollowUpTests.test_lower_only_follow_up_stays_terminal) ... ok
+  [PASS] independent-mode test_lower_only_follow_up_stays_terminal_after_restart — test_lower_only_follow_up_stays_terminal_after_restart (test_build43.IndependentFollowUpTests.test_lower_only_follow_up_stays_terminal_after_restart) ... ok
+  [PASS] independent-mode test_join_against_independent_case_fails_mode_mismatch — test_join_against_independent_case_fails_mode_mismatch (test_build43.IndependentFollowUpTests.test_join_against_independent_case_fails_mode_mismatch) ... ok
+  test_build43.py: exit 0
+    test_specialist_multi_slot_review_uses_l34_u33 (test_build43.MultiSlotReviewTests.test_specialist_multi_slot_review_uses_l34_u33) ... ok
+    
+    ----------------------------------------------------------------------
+    Ran 26 tests in 0.977s
+    
+    OK
+  [PASS] bundled test file test_build43.py passes (26 tests)
+  [PASS] Build 44 join and native Precision-315 tests pass
+
+-- 7. Joined Higher-first control (installed wheel) --
+  proof_43.py: exit 0
+        decision after:  {'status': 'CONFLICT', 'support': [{'left': '72f40bb626284b5082f85ea347ed1ab555259884dfe9c92b670fad57f49b77b9', 'right': '739019fcf6da1159c040b7d1d148763ee1711a0209c83a6a9fb06da2f9577764', 'same_scope': True, 'same_value': False, 'same_polarity': True, 'same_source': False, 'certain': True, 'exclusive': True, 'both_positive': True}], 'presented_sources': {'med:early': ['72f40bb626284b5082f85ea347ed1ab555259884dfe9c92b670fad57f49b77b9'], 'med:late': ['739019fcf6da1159c040b7d1d148763ee1711a0209c83a6a9fb06da2f9577764']}}
+        changed fields:  ['decision.status']
+        resolved unknowns: ['missing:tox_screen']
+        new evidence: ['proof-higher-first-1:higher:U11:r1', 'proof-higher-first-1:higher:U12:r1', 'proof-higher-first-1:higher:U13:r1', 'proof-higher-first-1:higher:U16:r1', 'proof-higher-first-1:higher:evidence:in', 'proof-higher-first-1:lower:L03:r1', 'proof-higher-first-1:lower:L04:r1', 'proof-higher-first-1:lower:L16:r1', 'proof-higher-first-1:lower:L17:r1', 'proof-higher-first-1:lower:L18:r1', 'proof-higher-first-1:lower:L22:r1', 'proof-higher-first-1:lower:L31:r1', 'proof-higher-first-1:req:1']
+        disposition change: None
+    
+    PROOF PASS: case proof-higher-first-1 COMPLETED after restart
+    trace: /tmp/tmp.Zh8FbbLbiI/run/modes_check/traces/proof_43_higher_first.json
+  [PASS] joined Higher-first proof_43.py passes
+  [PASS] proof case COMPLETED after restart — COMPLETED
+  [PASS] proof decision changed after Higher consumed Lower — None -> {'status': 'CONFLICT', 'support': [{'left': '72f40bb626284b5082f85ea347ed1ab555259884dfe9c92b670fad57f49b77b9', 'right': '739019fcf6da1159c040b7d1d148763ee1711a0209c83a6a9fb06da2f9577764', 'same_scope': True, 'same_value': False, 'same_polarity': True, 'same_source': False, 'certain': True, 'exclusive': True, 'both_positive': True}], 'presented_sources': {'med:early': ['72f40bb626284b5082f85ea347ed1ab555259884dfe9c92b670fad57f49b77b9'], 'med:late': ['739019fcf6da1159c040b7d1d148763ee1711a0209c83a6a9fb06da2f9577764']}}
+  [PASS] proof join CONSUMED: L31 output ref consumed by U16 — [('proof-higher-first-1:lower:L31:r1', 'U16')]
+  [PASS] proof: unrelated reading held (WRONG_FEATURE), matching reading released after restart
+
+== result: PASS ==
+failures: none
+notes: 1 (see trace)
+fresh trace: /tmp/tmp.Zh8FbbLbiI/run/pi5_trace_4410.json

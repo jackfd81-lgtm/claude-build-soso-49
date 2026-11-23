@@ -1,0 +1,18 @@
+Processing ./dist/muse_build030-30.0.0-py3-none-any.whl
+Installing collected packages: muse-build030
+Successfully installed muse-build030-30.0.0
+usage: muse030 [-h] --state STATE [--json JSON] [--port PORT] [--recover]
+               {init,call,serve}
+
+Local authenticated MUSE runtime command line.
+
+positional arguments:
+  {init,call,serve}
+
+options:
+  -h, --help         show this help message and exit
+  --state STATE
+  --json JSON
+  --port PORT
+  --recover
+PASS: state init, eval025, eval026 shadow

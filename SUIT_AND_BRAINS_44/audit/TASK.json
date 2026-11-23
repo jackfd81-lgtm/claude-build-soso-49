@@ -1,0 +1,22 @@
+{
+  "authority": 0,
+  "partitions": {
+    "current_draw": [
+      1,
+      1
+    ],
+    "pressure_delta": [
+      1,
+      1
+    ]
+  },
+  "remaining": [
+    "blocked_line",
+    "open_line"
+  ],
+  "selected_feature": "current_draw",
+  "session_id": "a94073225ed54988a2cef2486ccd8dc1",
+  "transferred_from_memory": false,
+  "used_learned_method": false,
+  "version": "42.0-task/1"
+}

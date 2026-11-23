@@ -1,0 +1,13 @@
+Host: x86_64 Linux, Python 3.12.14.
+Build wheel has no external runtime dependencies.
+Audit test dependencies:
+pytest==9.2.0
+iniconfig==2.3.1
+packaging==26.3
+pluggy==1.7.0
+pygments==2.21.0
+
+From the source tree, python -m pytest -q follows pytest.ini and runs a
+configured selection. python -m unittest discover -s tests runs a different,
+broader discovery path. Their totals are not directly comparable.
+The Pi runner installs the Build wheel offline and uses stdlib unittest.

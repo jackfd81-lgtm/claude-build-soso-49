@@ -1,0 +1,19 @@
+{
+  "covered": [
+    "AUTH:0 envelope",
+    "missing task grant",
+    "shared parent budget",
+    "child revocation",
+    "memory scope and ownership",
+    "OD-05 refusal",
+    "legacy revision fail-closed behavior"
+  ],
+  "evidence_log": "FOCUSED.log",
+  "pending": [
+    "provider isolation in live operation",
+    "independent grading network hardening",
+    "persistent grant policy",
+    "tamper and deployment qualification"
+  ],
+  "scope": "local capability and integrity regression tests"
+}

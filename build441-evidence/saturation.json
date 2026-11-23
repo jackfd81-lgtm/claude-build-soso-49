@@ -1,0 +1,123 @@
+{
+  "buckets": [
+    {
+      "family": "BIG49",
+      "bucket": "cognitive",
+      "capacity": 1280,
+      "character_cap": 512,
+      "start": 0,
+      "end": 1279,
+      "overflow": "CAPACITY_EXHAUSTED"
+    },
+    {
+      "family": "BIG49",
+      "bucket": "association",
+      "capacity": 320,
+      "character_cap": 512,
+      "start": 1280,
+      "end": 1599,
+      "overflow": "CAPACITY_EXHAUSTED"
+    },
+    {
+      "family": "SMALL49",
+      "bucket": "history",
+      "capacity": 256,
+      "character_cap": 512,
+      "start": 1600,
+      "end": 1855,
+      "overflow": "CAPACITY_EXHAUSTED"
+    },
+    {
+      "family": "SMALL49",
+      "bucket": "active",
+      "capacity": 64,
+      "character_cap": 512,
+      "start": 1856,
+      "end": 1919,
+      "overflow": "CAPACITY_EXHAUSTED"
+    },
+    {
+      "family": "SMALL49",
+      "bucket": "workspace_micro",
+      "capacity": 24,
+      "character_cap": 64,
+      "start": 1920,
+      "end": 1943,
+      "overflow": "CAPACITY_EXHAUSTED"
+    },
+    {
+      "family": "SMALL49",
+      "bucket": "workspace_medium",
+      "capacity": 40,
+      "character_cap": 250,
+      "start": 1944,
+      "end": 1983,
+      "overflow": "CAPACITY_EXHAUSTED"
+    },
+    {
+      "family": "SMALL49",
+      "bucket": "workspace_large",
+      "capacity": 64,
+      "character_cap": 500,
+      "start": 1984,
+      "end": 2047,
+      "overflow": "CAPACITY_EXHAUSTED"
+    },
+    {
+      "family": "SMALL49",
+      "bucket": "bridge_macro",
+      "capacity": 10,
+      "character_cap": 1000,
+      "start": 2048,
+      "end": 2057,
+      "overflow": "CAPACITY_EXHAUSTED"
+    },
+    {
+      "family": "SMALL49",
+      "bucket": "bridge_projection",
+      "capacity": 40,
+      "character_cap": 500,
+      "start": 2058,
+      "end": 2097,
+      "overflow": "CAPACITY_EXHAUSTED"
+    },
+    {
+      "family": "SMALL49",
+      "bucket": "bridge_path",
+      "capacity": 20,
+      "character_cap": 250,
+      "start": 2098,
+      "end": 2117,
+      "overflow": "CAPACITY_EXHAUSTED"
+    },
+    {
+      "family": "SMALL49",
+      "bucket": "bridge_typed",
+      "capacity": 60,
+      "character_cap": 128,
+      "start": 2118,
+      "end": 2177,
+      "overflow": "CAPACITY_EXHAUSTED"
+    },
+    {
+      "family": "SMALL49",
+      "bucket": "bridge_pointer",
+      "capacity": 30,
+      "character_cap": 64,
+      "start": 2178,
+      "end": 2207,
+      "overflow": "CAPACITY_EXHAUSTED"
+    }
+  ],
+  "reopen": {
+    "owners": 2208,
+    "committed": 2208,
+    "transitions": 2208,
+    "outbox_pending": 0,
+    "outbox_blocked": 0,
+    "hot": 12,
+    "hot_bytes": 6837,
+    "hot_evictions": 0,
+    "staged": 0
+  }
+}

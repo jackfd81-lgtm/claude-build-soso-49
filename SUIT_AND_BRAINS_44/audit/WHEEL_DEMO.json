@@ -1,0 +1,63 @@
+{
+  "authority": 0,
+  "cold": {
+    "authority": 0,
+    "partitions": {
+      "a_noise": [
+        1,
+        1,
+        1
+      ],
+      "z_signal": [
+        1,
+        2
+      ]
+    },
+    "remaining": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "selected_feature": "a_noise",
+    "session_id": "cold",
+    "transferred_from_memory": false,
+    "used_learned_method": false,
+    "version": "42.0-task/1"
+  },
+  "pending_mirrors": 0,
+  "reopened": {
+    "authority": 0,
+    "partitions": {
+      "a_noise": [
+        1,
+        1,
+        1
+      ],
+      "z_signal": [
+        1,
+        2
+      ]
+    },
+    "remaining": [
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "selected_feature": "z_signal",
+    "session_id": "reopened",
+    "transferred_from_memory": true,
+    "used_learned_method": true,
+    "version": "42.0-task/1"
+  },
+  "small49": {
+    "content": "small"
+  },
+  "trained": {
+    "learned_profile": [
+      1,
+      2
+    ],
+    "pointer": "crampu-big49-0-r1",
+    "revision": 1
+  }
+}

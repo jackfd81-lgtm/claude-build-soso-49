@@ -1,0 +1,26 @@
+{
+  "package": "MUSE_BUILD030_1_CRAMPU_QUALIFIED_CANDIDATE.zip",
+  "python": "3.11.2 (main, Oct  7 2026, 12:35:07) [GCC 12.2.0]",
+  "os": "Linux-6.12.105+-x86_64-with-glibc2.36",
+  "verified_executed": {
+    "crampu_and_failure_injection_unittest": {
+      "passed": 33,
+      "failed": 0,
+      "duration_s": 0.1
+    },
+    "qualification_030_verify": {
+      "passed": 22,
+      "failed": 0
+    },
+    "orangepi_grader_local_sim": {
+      "status": "PASS",
+      "iterations": 20,
+      "latency_p50_ms": 0.47,
+      "latency_max_ms": 1.17
+    }
+  },
+  "implemented_unverified": [
+    "Physical Raspberry Pi 5 and Orange Pi Zero 2W hardware execution, thermal/SD I/O contention, and power-loss survival",
+    "pytest 94-case runner (pytest not installed in sandbox)"
+  ]
+}

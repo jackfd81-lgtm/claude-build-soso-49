@@ -1,0 +1,9 @@
+Processing ./.
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: suit-and-brains
+  Building wheel for suit-and-brains (pyproject.toml): started
+  Building wheel for suit-and-brains (pyproject.toml): finished with status 'done'
+  Created wheel for suit-and-brains: filename=suit_and_brains-44.1.0-py3-none-any.whl size=525281 sha256=c360ef555dff5888b9c600508887d58d9b91a4c244f0a1a95bd8845c0bfce139
+  Stored in directory: /tmp/pip-ephem-wheel-cache-2a5n_bxl/wheels/f8/1a/09/415b538305f14a84190a92570f1efb3b78cf6ec218fcbadbbf
+Successfully built suit-and-brains

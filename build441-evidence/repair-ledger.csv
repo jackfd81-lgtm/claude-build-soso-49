@@ -1,0 +1,62 @@
+test_or_collection_entry,build44_baseline_error,build441_retest_error,status
+setUpClass (test_test020.Test020Acceptance),See raw log,See raw log,STILL_FAILING
+test_01_behavioral_14_unit_handshake_and_status (test_unified_application_013.UnifiedApplication013Tests.test_01_behavioral_14_unit_handshake_and_status),See raw log,See raw log,STILL_FAILING
+test_01_realcog_cli_unified_pipeline_hold_resume_and_status (test_unified_realcog_008.UnifiedRealCog008Tests.test_01_realcog_cli_unified_pipeline_hold_resume_and_status),See raw log,See raw log,STILL_FAILING
+test_01_soso_app_cli_handshake (test_system_handshake_012.SystemHandshake012Tests.test_01_soso_app_cli_handshake),See raw log,See raw log,STILL_FAILING
+test_02_fault_injection_blocks_all_units_coherent (test_unified_application_013.UnifiedApplication013Tests.test_02_fault_injection_blocks_all_units_coherent),AssertionError: 2 != 1,AssertionError: 2 != 1,STILL_FAILING
+test_02_http_unified_pipeline_and_realcog_status (test_unified_realcog_008.UnifiedRealCog008Tests.test_02_http_unified_pipeline_and_realcog_status),"AssertionError: HTTP server failed to start: stdout='' stderr=""/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python: can't open file '/workspace/scratch/7f244f3c7b91/build44/SUIT_AND_BRAINS_44/realcog_cli.py': [Errno 2] No such file or directory\n""","AssertionError: HTTP server failed to start: stdout='' stderr=""/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python: can't open file '/workspace/scratch/7f244f3c7b91/build441/SUIT_AND_BRAINS_44/realcog_cli.py': [Errno 2] No such file or directory\n""",STILL_FAILING
+test_02_realcog_cli_and_http_handshake (test_system_handshake_012.SystemHandshake012Tests.test_02_realcog_cli_and_http_handshake),See raw log,See raw log,STILL_FAILING
+test_03_mode_run_single_shot_and_http_equivalence (test_unified_application_013.UnifiedApplication013Tests.test_03_mode_run_single_shot_and_http_equivalence),See raw log,See raw log,STILL_FAILING
+test_03_soso_app_cli_realcog_status (test_unified_realcog_008.UnifiedRealCog008Tests.test_03_soso_app_cli_realcog_status),See raw log,See raw log,STILL_FAILING
+test_agent025_modes (unittest.loader._FailedTest.test_agent025_modes),ModuleNotFoundError: No module named 'pytest',,NO_LONGER_REPORTED
+test_brain49_path_explain (unittest.loader._FailedTest.test_brain49_path_explain),ModuleNotFoundError: No module named 'brain49_path_explain',ModuleNotFoundError: No module named 'brain49_path_explain',STILL_FAILING
+test_build024 (unittest.loader._FailedTest.test_build024),ModuleNotFoundError: No module named 'pytest',,NO_LONGER_REPORTED
+test_build025 (unittest.loader._FailedTest.test_build025),ModuleNotFoundError: No module named 'pytest',,NO_LONGER_REPORTED
+test_build026 (unittest.loader._FailedTest.test_build026),ModuleNotFoundError: No module named 'pytest',,NO_LONGER_REPORTED
+test_build027 (unittest.loader._FailedTest.test_build027),ModuleNotFoundError: No module named 'pytest',,NO_LONGER_REPORTED
+test_build029 (unittest.loader._FailedTest.test_build029),ModuleNotFoundError: No module named 'pytest',,NO_LONGER_REPORTED
+test_build030_1 (unittest.loader._FailedTest.test_build030_1),ModuleNotFoundError: No module named 'pytest',,NO_LONGER_REPORTED
+test_capacity_reservation_009 (unittest.loader._FailedTest.test_capacity_reservation_009),ModuleNotFoundError: No module named 'pytest',,NO_LONGER_REPORTED
+test_claude010_in_build025 (unittest.loader._FailedTest.test_claude010_in_build025),ModuleNotFoundError: No module named 'pytest',,NO_LONGER_REPORTED
+test_claude_integrated025 (unittest.loader._FailedTest.test_claude_integrated025),ModuleNotFoundError: No module named 'pytest',,NO_LONGER_REPORTED
+test_code_quality_improvements (unittest.loader._FailedTest.test_code_quality_improvements),ModuleNotFoundError: No module named 'soso_app',ModuleNotFoundError: No module named 'soso_app',STILL_FAILING
+test_cognitive_023 (unittest.loader._FailedTest.test_cognitive_023),ModuleNotFoundError: No module named 'pytest',ModuleNotFoundError: No module named 'soso_app',STILL_FAILING
+test_cognitive_proof_019 (unittest.loader._FailedTest.test_cognitive_proof_019),ModuleNotFoundError: No module named 'eval009',ModuleNotFoundError: No module named 'eval009',STILL_FAILING
+test_contract001 (unittest.loader._FailedTest.test_contract001),ModuleNotFoundError: No module named 'pytest',ModuleNotFoundError: No module named 'adapters',STILL_FAILING
+test_contract002 (unittest.loader._FailedTest.test_contract002),ModuleNotFoundError: No module named 'pytest',ModuleNotFoundError: No module named 'adapters',STILL_FAILING
+test_contradiction002 (unittest.loader._FailedTest.test_contradiction002),ModuleNotFoundError: No module named 'pytest',ModuleNotFoundError: No module named 'adapters',STILL_FAILING
+test_disposition_runtime_007 (unittest.loader._FailedTest.test_disposition_runtime_007),ModuleNotFoundError: No module named 'adapters',ModuleNotFoundError: No module named 'adapters',STILL_FAILING
+test_eval001 (unittest.loader._FailedTest.test_eval001),ModuleNotFoundError: No module named 'pytest',ModuleNotFoundError: No module named 'adapters',STILL_FAILING
+test_eval004_audit005 (unittest.loader._FailedTest.test_eval004_audit005),ModuleNotFoundError: No module named 'eval022',ModuleNotFoundError: No module named 'eval022',STILL_FAILING
+test_evidence001 (unittest.loader._FailedTest.test_evidence001),ModuleNotFoundError: No module named 'adapters',ModuleNotFoundError: No module named 'adapters',STILL_FAILING
+test_evidence002 (unittest.loader._FailedTest.test_evidence002),ModuleNotFoundError: No module named 'pytest',,NO_LONGER_REPORTED
+test_evidence_bundle_014 (unittest.loader._FailedTest.test_evidence_bundle_014),ModuleNotFoundError: No module named 'eval014',ModuleNotFoundError: No module named 'eval014',STILL_FAILING
+test_full_98_wiring_018 (unittest.loader._FailedTest.test_full_98_wiring_018),ModuleNotFoundError: No module named 'soso_app',ModuleNotFoundError: No module named 'soso_app',STILL_FAILING
+test_function_expansion (unittest.loader._FailedTest.test_function_expansion),ModuleNotFoundError: No module named 'adapters',ModuleNotFoundError: No module named 'adapters',STILL_FAILING
+test_graph001 (unittest.loader._FailedTest.test_graph001),ModuleNotFoundError: No module named 'adapters',ModuleNotFoundError: No module named 'adapters',STILL_FAILING
+test_harden001 (unittest.loader._FailedTest.test_harden001),ModuleNotFoundError: No module named 'adapters',ModuleNotFoundError: No module named 'adapters',STILL_FAILING
+test_integrated_boundaries025 (unittest.loader._FailedTest.test_integrated_boundaries025),ModuleNotFoundError: No module named 'pytest',ModuleNotFoundError: No module named 'adapters',STILL_FAILING
+test_iou_fault_injection (unittest.loader._FailedTest.test_iou_fault_injection),ModuleNotFoundError: No module named 'pytest',,NO_LONGER_REPORTED
+test_l24_causal_001 (unittest.loader._FailedTest.test_l24_causal_001),ModuleNotFoundError: No module named 'adapters',ModuleNotFoundError: No module named 'adapters',STILL_FAILING
+test_observation_017 (unittest.loader._FailedTest.test_observation_017),ModuleNotFoundError: No module named 'soso_app',ModuleNotFoundError: No module named 'soso_app',STILL_FAILING
+test_pathway001 (unittest.loader._FailedTest.test_pathway001),ModuleNotFoundError: No module named 'pytest',ModuleNotFoundError: No module named 'adapters',STILL_FAILING
+test_pathway002 (unittest.loader._FailedTest.test_pathway002),ModuleNotFoundError: No module named 'pytest',ModuleNotFoundError: No module named 'adapters',STILL_FAILING
+test_pathway_mac002_integration (unittest.loader._FailedTest.test_pathway_mac002_integration),ModuleNotFoundError: No module named 'adapters',ModuleNotFoundError: No module named 'adapters',STILL_FAILING
+test_pathway_store (unittest.loader._FailedTest.test_pathway_store),ModuleNotFoundError: No module named 'pytest',ModuleNotFoundError: No module named 'adapters',STILL_FAILING
+test_pathway_store002 (unittest.loader._FailedTest.test_pathway_store002),ModuleNotFoundError: No module named 'pytest',ModuleNotFoundError: No module named 'adapters',STILL_FAILING
+test_reference_runtime (unittest.loader._FailedTest.test_reference_runtime),ModuleNotFoundError: No module named 'adapters',ModuleNotFoundError: No module named 'adapters',STILL_FAILING
+test_selection002 (unittest.loader._FailedTest.test_selection002),ModuleNotFoundError: No module named 'pytest',,NO_LONGER_REPORTED
+test_seven_domain_boundary_008 (unittest.loader._FailedTest.test_seven_domain_boundary_008),ModuleNotFoundError: No module named 'pytest',,NO_LONGER_REPORTED
+test_seven_domain_scored_009 (unittest.loader._FailedTest.test_seven_domain_scored_009),ModuleNotFoundError: No module named 'eval009',ModuleNotFoundError: No module named 'eval009',STILL_FAILING
+test_soso_fix001 (unittest.loader._FailedTest.test_soso_fix001),ModuleNotFoundError: No module named 'adapters',ModuleNotFoundError: No module named 'adapters',STILL_FAILING
+test_suit61 (unittest.loader._FailedTest.test_suit61),ModuleNotFoundError: No module named 'pytest',,NO_LONGER_REPORTED
+test_suit61_receipt_hardening (unittest.loader._FailedTest.test_suit61_receipt_hardening),ModuleNotFoundError: No module named 'pytest',,NO_LONGER_REPORTED
+test_suit61_unfamiliar_transfer (unittest.loader._FailedTest.test_suit61_unfamiliar_transfer),ModuleNotFoundError: No module named 'pytest',,NO_LONGER_REPORTED
+test_suit61_wiring (unittest.loader._FailedTest.test_suit61_wiring),ModuleNotFoundError: No module named 'pytest',,NO_LONGER_REPORTED
+test_test025_provenance (unittest.loader._FailedTest.test_test025_provenance),ModuleNotFoundError: No module named 'pytest',,NO_LONGER_REPORTED
+test_trace001 (unittest.loader._FailedTest.test_trace001),ModuleNotFoundError: No module named 'pytest',ModuleNotFoundError: No module named 'adapters',STILL_FAILING
+test_trace002 (unittest.loader._FailedTest.test_trace002),ModuleNotFoundError: No module named 'pytest',ModuleNotFoundError: No module named 'adapters',STILL_FAILING
+test_trace002_corrections (unittest.loader._FailedTest.test_trace002_corrections),ModuleNotFoundError: No module named 'pytest',ModuleNotFoundError: No module named 'adapters',STILL_FAILING
+test_trace003 (unittest.loader._FailedTest.test_trace003),ModuleNotFoundError: No module named 'pytest',ModuleNotFoundError: No module named 'adapters',STILL_FAILING
+test_unified025_suit61 (unittest.loader._FailedTest.test_unified025_suit61),ModuleNotFoundError: No module named 'pytest',,NO_LONGER_REPORTED
+test_visual_cognition_011 (unittest.loader._FailedTest.test_visual_cognition_011),ModuleNotFoundError: No module named 'eval011',ModuleNotFoundError: No module named 'eval011',STILL_FAILING

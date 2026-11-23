@@ -1,0 +1,688 @@
+[
+  {
+    "id": "L01",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "EVIDENCE_INTERFACE",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L02",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "EVIDENCE_INTERFACE",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L03",
+    "implementation": "contract.functions025",
+    "layer": "LOWER_49",
+    "region": "EVIDENCE_INTERFACE",
+    "status": "IMPLEMENTED"
+  },
+  {
+    "id": "L04",
+    "implementation": "contract.functions025",
+    "layer": "LOWER_49",
+    "region": "EVIDENCE_INTERFACE",
+    "status": "IMPLEMENTED"
+  },
+  {
+    "id": "L05",
+    "implementation": "contract.functions025",
+    "layer": "LOWER_49",
+    "region": "EVIDENCE_INTERFACE",
+    "status": "IMPLEMENTED"
+  },
+  {
+    "id": "L06",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "EVIDENCE_INTERFACE",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L07",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "EVIDENCE_INTERFACE",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L08",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "TOK_REPRESENTATION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L09",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "TOK_REPRESENTATION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L10",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "TOK_REPRESENTATION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L11",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "TOK_REPRESENTATION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L12",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "TOK_REPRESENTATION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L13",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "TOK_REPRESENTATION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L14",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "TOK_REPRESENTATION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L15",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "RELATIONSHIP_CORTEX",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L16",
+    "implementation": "contract.functions025",
+    "layer": "LOWER_49",
+    "region": "RELATIONSHIP_CORTEX",
+    "status": "IMPLEMENTED"
+  },
+  {
+    "id": "L17",
+    "implementation": "contract.functions025",
+    "layer": "LOWER_49",
+    "region": "RELATIONSHIP_CORTEX",
+    "status": "IMPLEMENTED"
+  },
+  {
+    "id": "L18",
+    "implementation": "contract.functions025",
+    "layer": "LOWER_49",
+    "region": "RELATIONSHIP_CORTEX",
+    "status": "IMPLEMENTED"
+  },
+  {
+    "id": "L19",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "RELATIONSHIP_CORTEX",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L20",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "RELATIONSHIP_CORTEX",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L21",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "RELATIONSHIP_CORTEX",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L22",
+    "implementation": "contract.functions025",
+    "layer": "LOWER_49",
+    "region": "TEMPORAL_CONTINUITY",
+    "status": "IMPLEMENTED"
+  },
+  {
+    "id": "L23",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "TEMPORAL_CONTINUITY",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L24",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "TEMPORAL_CONTINUITY",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L25",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "TEMPORAL_CONTINUITY",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L26",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "TEMPORAL_CONTINUITY",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L27",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "TEMPORAL_CONTINUITY",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L28",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "TEMPORAL_CONTINUITY",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L29",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "INVESTIGATION_NAVIGATION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L30",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "INVESTIGATION_NAVIGATION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L31",
+    "implementation": "contract.functions025",
+    "layer": "LOWER_49",
+    "region": "INVESTIGATION_NAVIGATION",
+    "status": "IMPLEMENTED"
+  },
+  {
+    "id": "L32",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "INVESTIGATION_NAVIGATION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L33",
+    "implementation": "contract.cross_specialty",
+    "layer": "LOWER_49",
+    "region": "INVESTIGATION_NAVIGATION",
+    "status": "IMPLEMENTED"
+  },
+  {
+    "id": "L34",
+    "implementation": "contract.cross_specialty",
+    "layer": "LOWER_49",
+    "region": "INVESTIGATION_NAVIGATION",
+    "status": "IMPLEMENTED"
+  },
+  {
+    "id": "L35",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "INVESTIGATION_NAVIGATION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L36",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "AUDIT_METACOGNITION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L37",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "AUDIT_METACOGNITION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L38",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "AUDIT_METACOGNITION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L39",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "AUDIT_METACOGNITION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L40",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "AUDIT_METACOGNITION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L41",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "AUDIT_METACOGNITION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L42",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "AUDIT_METACOGNITION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L43",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "AI_CLOSET_GATES",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L44",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "AI_CLOSET_GATES",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L45",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "AI_CLOSET_GATES",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L46",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "AI_CLOSET_GATES",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L47",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "AI_CLOSET_GATES",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L48",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "AI_CLOSET_GATES",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "L49",
+    "implementation": "contract.brains_wiring",
+    "layer": "LOWER_49",
+    "region": "AI_CLOSET_GATES",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U01",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "EVIDENCE_INTERFACE",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U02",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "EVIDENCE_INTERFACE",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U03",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "EVIDENCE_INTERFACE",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U04",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "EVIDENCE_INTERFACE",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U05",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "EVIDENCE_INTERFACE",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U06",
+    "implementation": "contract.functions025",
+    "layer": "HIGHER_49",
+    "region": "EVIDENCE_INTERFACE",
+    "status": "IMPLEMENTED"
+  },
+  {
+    "id": "U07",
+    "implementation": "contract.functions025",
+    "layer": "HIGHER_49",
+    "region": "EVIDENCE_INTERFACE",
+    "status": "IMPLEMENTED"
+  },
+  {
+    "id": "U08",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "TOK_REPRESENTATION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U09",
+    "implementation": "contract.disposition_engine",
+    "layer": "HIGHER_49",
+    "region": "TOK_REPRESENTATION",
+    "status": "IMPLEMENTED"
+  },
+  {
+    "id": "U10",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "TOK_REPRESENTATION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U11",
+    "implementation": "contract.functions025",
+    "layer": "HIGHER_49",
+    "region": "TOK_REPRESENTATION",
+    "status": "IMPLEMENTED"
+  },
+  {
+    "id": "U12",
+    "implementation": "contract.functions025",
+    "layer": "HIGHER_49",
+    "region": "TOK_REPRESENTATION",
+    "status": "IMPLEMENTED"
+  },
+  {
+    "id": "U13",
+    "implementation": "contract.functions025",
+    "layer": "HIGHER_49",
+    "region": "TOK_REPRESENTATION",
+    "status": "IMPLEMENTED"
+  },
+  {
+    "id": "U14",
+    "implementation": "contract.functions025",
+    "layer": "HIGHER_49",
+    "region": "TOK_REPRESENTATION",
+    "status": "IMPLEMENTED"
+  },
+  {
+    "id": "U15",
+    "implementation": "contract.functions025",
+    "layer": "HIGHER_49",
+    "region": "RELATIONSHIP_CORTEX",
+    "status": "IMPLEMENTED"
+  },
+  {
+    "id": "U16",
+    "implementation": "contract.functions025",
+    "layer": "HIGHER_49",
+    "region": "RELATIONSHIP_CORTEX",
+    "status": "IMPLEMENTED"
+  },
+  {
+    "id": "U17",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "RELATIONSHIP_CORTEX",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U18",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "RELATIONSHIP_CORTEX",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U19",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "RELATIONSHIP_CORTEX",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U20",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "RELATIONSHIP_CORTEX",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U21",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "RELATIONSHIP_CORTEX",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U22",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "TEMPORAL_CONTINUITY",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U23",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "TEMPORAL_CONTINUITY",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U24",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "TEMPORAL_CONTINUITY",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U25",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "TEMPORAL_CONTINUITY",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U26",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "TEMPORAL_CONTINUITY",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U27",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "TEMPORAL_CONTINUITY",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U28",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "TEMPORAL_CONTINUITY",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U29",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "INVESTIGATION_NAVIGATION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U30",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "INVESTIGATION_NAVIGATION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U31",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "INVESTIGATION_NAVIGATION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U32",
+    "implementation": "contract.cross_specialty",
+    "layer": "HIGHER_49",
+    "region": "INVESTIGATION_NAVIGATION",
+    "status": "IMPLEMENTED"
+  },
+  {
+    "id": "U33",
+    "implementation": "contract.cross_specialty",
+    "layer": "HIGHER_49",
+    "region": "INVESTIGATION_NAVIGATION",
+    "status": "IMPLEMENTED"
+  },
+  {
+    "id": "U34",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "INVESTIGATION_NAVIGATION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U35",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "INVESTIGATION_NAVIGATION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U36",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "AUDIT_METACOGNITION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U37",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "AUDIT_METACOGNITION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U38",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "AUDIT_METACOGNITION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U39",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "AUDIT_METACOGNITION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U40",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "AUDIT_METACOGNITION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U41",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "AUDIT_METACOGNITION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U42",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "AUDIT_METACOGNITION",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U43",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "AI_CLOSET_GATES",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U44",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "AI_CLOSET_GATES",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U45",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "AI_CLOSET_GATES",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U46",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "AI_CLOSET_GATES",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U47",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "AI_CLOSET_GATES",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U48",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "AI_CLOSET_GATES",
+    "status": "PASSTHROUGH"
+  },
+  {
+    "id": "U49",
+    "implementation": "contract.brains_wiring",
+    "layer": "HIGHER_49",
+    "region": "AI_CLOSET_GATES",
+    "status": "PASSTHROUGH"
+  }
+]

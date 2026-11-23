@@ -1,0 +1,8 @@
+[
+ {"id":"linear-unit","task":{"domain":"mathematics","text":"x=-0.375"},"expected":{"answer":"-3/8","status":"ANSWERED"}},
+ {"id":"linear-general","task":{"domain":"mathematics","text":"-3x + 2 = 1"},"expected":{"answer":"1/3","status":"ANSWERED"}},
+ {"id":"pair","task":{"domain":"mathematics","text":"sum=10,difference=-3"},"expected":{"answer":["7/2","13/2"],"status":"ANSWERED"}},
+ {"id":"semantic","task":{"domain":"semantic","statements":["Lee possesses key","Lee not owns key"],"query":"Lee owns key"},"expected":{"status":"CONTRADICTION"}},
+ {"id":"temporal","task":{"domain":"temporal","events":{"left":"2024-02-29T23:59:59+00:00","right":"2024-03-01T00:00:00+00:00"},"query":["left","right"]},"expected":{"status":"BEFORE","interval_seconds":1}},
+ {"id":"temporal-missing","task":{"domain":"temporal","events":{},"query":["left","right"]},"expected":{"status":"NEED_INFORMATION"}}
+]

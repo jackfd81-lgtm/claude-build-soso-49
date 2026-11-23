@@ -1,0 +1,9 @@
+{
+  "version": "42.0-task/1",
+  "operation": "select_discriminator",
+  "candidates": {
+    "blocked_line": {"pressure_delta": "high", "current_draw": "high"},
+    "open_line": {"pressure_delta": "low", "current_draw": "low"}
+  },
+  "observed": {}
+}

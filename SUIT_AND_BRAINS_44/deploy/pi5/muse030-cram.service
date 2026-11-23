@@ -1,0 +1,24 @@
+[Unit]
+Description=MUSE Build 030.1 CRAM-PU & Cognitive Memory Service
+After=local-fs.target network.target
+
+[Service]
+Type=simple
+User=muse
+Group=muse
+WorkingDirectory=/opt/muse030_1
+Environment=PYTHON_BIN=/opt/muse030_1/.venv/bin/python3
+Environment=MUSE_STATE_DIR=/var/lib/muse030_1
+ExecStartPre=/opt/muse030_1/deploy/pi5/cram-pu-setup.sh
+ExecStart=/opt/muse030_1/.venv/bin/python3 -m contract.http025 --state-dir /var/lib/muse030_1 --port 8030
+Restart=on-failure
+RestartSec=5
+MemoryMax=1536M
+CPUQuota=200%
+IOSchedulingClass=best-effort
+IOSchedulingPriority=2
+StandardOutput=append:/var/log/muse030_1/muse030-cram.log
+StandardError=append:/var/log/muse030_1/muse030-cram.err.log
+
+[Install]
+WantedBy=multi-user.target

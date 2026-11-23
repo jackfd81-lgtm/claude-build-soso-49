@@ -1,0 +1,28 @@
+name: Build 030.1 qualification
+on: [push, pull_request]
+jobs:
+  qualify:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m pip install pytest
+      - run: python -m pytest -q
+      - run: python -m qualification_030.verify --output /tmp/muse030-ci
+      - run: python -m pip wheel --no-deps --wheel-dir /tmp/muse030-wheels .
+      - run: |
+          python -m venv /tmp/muse030-venv
+          /tmp/muse030-venv/bin/pip install --no-index /tmp/muse030-wheels/*.whl
+          cd /tmp
+          /tmp/muse030-venv/bin/muse030 --help
+          /tmp/muse030-venv/bin/python -m eval026.run /tmp/muse030-wheel-eval.json --shadow029
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: qualification-${{ matrix.python-version }}
+          path: /tmp/muse030-ci

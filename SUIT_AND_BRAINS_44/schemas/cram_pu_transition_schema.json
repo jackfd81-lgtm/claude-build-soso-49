@@ -1,0 +1,16 @@
+{
+  "$schema":"http://json-schema.org/draft-07/schema#",
+  "title":"MUSE0301CRAMPUCommittedTransition",
+  "type":"object",
+  "required":["txid","block_id","revision","agent_id","action","record_sha256","committed_ns"],
+  "properties":{
+    "txid":{"type":"string","pattern":"^[a-f0-9]{32}$"},
+    "block_id":{"type":"integer","minimum":0,"maximum":2207},
+    "revision":{"type":"integer","minimum":1},
+    "agent_id":{"type":"string","minLength":1},
+    "action":{"const":"COMMIT"},
+    "record_sha256":{"type":"string","pattern":"^[a-f0-9]{64}$"},
+    "committed_ns":{"type":"integer","minimum":0}
+  },
+  "additionalProperties":false
+}

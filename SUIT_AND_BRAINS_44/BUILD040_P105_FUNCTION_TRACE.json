@@ -1,0 +1,364 @@
+{
+  "run": "p105-official-run",
+  "l22_pathway_total_ms": 31.994,
+  "per_function_invocations": {
+    "L03": 13,
+    "L04": 13,
+    "L16": 13,
+    "L22": 13,
+    "L17": 13,
+    "L18": 13,
+    "L31": 13,
+    "U16": 13
+  },
+  "sample_io_by_function": {
+    "L03": {
+      "input": [
+        [
+          {
+            "source": "anchor",
+            "subject": "era_order",
+            "predicate": "latest_anchor",
+            "value": "pos_1",
+            "event": "1492-01-01T00:00:00+00:00"
+          },
+          {
+            "source": "anchor",
+            "subject": "era_order",
+            "predicate": "latest_anchor",
+            "value": "pos_9",
+            "event": "1956-01-01T00:00:00+00:00"
+          }
+        ]
+      ],
+      "output": {
+        "accepted": [
+          {
+            "subject": "era_order",
+            "predicate": "latest_anchor",
+            "value": "pos_1",
+            "negated": false,
+            "scope": "default",
+            "event": "1492-01-01T00:00:00+00:00",
+            "arrival": null,
+            "source": "anchor",
+            "digest": "81b1a9e15b635e6b643f4dfe90b6e9ca8e664eb9d174f02283b72e4faea637c0",
+            "uncertain": false
+          },
+          {
+            "subject": "era_order",
+            "predicate": "latest_anchor",
+            "value": "pos_9",
+            "negated": false,
+            "scope": "default",
+            "event": "1956-01-01T00:00:00+00:00",
+            "arrival": null,
+            "source": "anchor",
+            "digest": "af03f51909d06fedeb588f27da79159c585ef7bcf833b84bb7ba2ea2e38a4cea",
+            "uncertain": false
+          }
+        ],
+        "rejected": []
+      }
+    },
+    "L04": {
+      "input": [
+        [
+          {
+            "subject": "era_order",
+            "predicate": "latest_anchor",
+            "value": "pos_1",
+            "negated": false,
+            "scope": "default",
+            "event": "1492-01-01T00:00:00+00:00",
+            "arrival": null,
+            "source": "anchor",
+            "digest": "81b1a9e15b635e6b643f4dfe90b6e9ca8e664eb9d174f02283b72e4faea637c0",
+            "uncertain": false
+          },
+          {
+            "subject": "era_order",
+            "predicate": "latest_anchor",
+            "value": "pos_9",
+            "negated": false,
+            "scope": "default",
+            "event": "1956-01-01T00:00:00+00:00",
+            "arrival": null,
+            "source": "anchor",
+            "digest": "af03f51909d06fedeb588f27da79159c585ef7bcf833b84bb7ba2ea2e38a4cea",
+            "uncertain": false
+          }
+        ]
+      ],
+      "output": {
+        "index": {
+          "era_order": {
+            "spellings": [
+              "era_order"
+            ],
+            "sources": [
+              "81b1a9e15b635e6b643f4dfe90b6e9ca8e664eb9d174f02283b72e4faea637c0",
+              "af03f51909d06fedeb588f27da79159c585ef7bcf833b84bb7ba2ea2e38a4cea"
+            ],
+            "facts": [
+              {
+                "subject": "era_order",
+                "predicate": "latest_anchor",
+                "value": "pos_1",
+                "negated": false,
+                "scope": "default",
+                "event": "1492-01-01T00:00:00+00:00",
+                "arrival": null,
+                "source": "anchor",
+                "digest": "81b1a9e15b635e6b643f4dfe90b6e9ca8e664eb9d174f02283b72e4faea637c0",
+                "uncertain": false
+              },
+              {
+                "subject": "era_order",
+                "predicate": "latest_anchor",
+                "value": "pos_9",
+                "negated": false,
+                "scope": "default",
+                "event": "1956-01-01T00:00:00+00:00",
+                "arrival": null,
+                "source": "anchor",
+                "digest": "af03f51909d06fedeb588f27da79159c585ef7bcf833b84bb7ba2ea2e38a4cea",
+                "uncertain": false
+              }
+            ]
+          }
+        },
+        "rejected": []
+      }
+    },
+    "L16": {
+      "input": [
+        {
+          "era_order": {
+            "spellings": [
+              "era_order"
+            ],
+            "sources": [
+              "81b1a9e15b635e6b643f4dfe90b6e9ca8e664eb9d174f02283b72e4faea637c0",
+              "af03f51909d06fedeb588f27da79159c585ef7bcf833b84bb7ba2ea2e38a4cea"
+            ],
+            "facts": [
+              {
+                "subject": "era_order",
+                "predicate": "latest_anchor",
+                "value": "pos_1",
+                "negated": false,
+                "scope": "default",
+                "event": "1492-01-01T00:00:00+00:00",
+                "arrival": null,
+                "source": "anchor",
+                "digest": "81b1a9e15b635e6b643f4dfe90b6e9ca8e664eb9d174f02283b72e4faea637c0",
+                "uncertain": false
+              },
+              {
+                "subject": "era_order",
+                "predicate": "latest_anchor",
+                "value": "pos_9",
+                "negated": false,
+                "scope": "default",
+                "event": "1956-01-01T00:00:00+00:00",
+                "arrival": null,
+                "source": "anchor",
+                "digest": "af03f51909d06fedeb588f27da79159c585ef7bcf833b84bb7ba2ea2e38a4cea",
+                "uncertain": false
+              }
+            ]
+          }
+        }
+      ],
+      "output": [
+        {
+          "subject": "era_order",
+          "predicate": "latest_anchor",
+          "value": "pos_1",
+          "negated": false,
+          "scope": "default",
+          "event": "1492-01-01T00:00:00+00:00",
+          "arrival": null,
+          "source": "anchor",
+          "digest": "81b1a9e15b635e6b643f4dfe90b6e9ca8e664eb9d174f02283b72e4faea637c0",
+          "uncertain": false
+        },
+        {
+          "subject": "era_order",
+          "predicate": "latest_anchor",
+          "value": "pos_9",
+          "negated": false,
+          "scope": "default",
+          "event": "1956-01-01T00:00:00+00:00",
+          "arrival": null,
+          "source": "anchor",
+          "digest": "af03f51909d06fedeb588f27da79159c585ef7bcf833b84bb7ba2ea2e38a4cea",
+          "uncertain": false
+        }
+      ]
+    },
+    "L22": {
+      "input": [
+        [
+          {
+            "subject": "era_order",
+            "predicate": "latest_anchor",
+            "value": "pos_1",
+            "negated": false,
+            "scope": "default",
+            "event": "1492-01-01T00:00:00+00:00",
+            "arrival": null,
+            "source": "anchor",
+            "digest": "81b1a9e15b635e6b643f4dfe90b6e9ca8e664eb9d174f02283b72e4faea637c0",
+            "uncertain": false
+          },
+          {
+            "subject": "era_order",
+            "predicate": "latest_anchor",
+            "value": "pos_9",
+            "negated": false,
+            "scope": "default",
+            "event": "1956-01-01T00:00:00+00:00",
+            "arrival": null,
+            "source": "anchor",
+            "digest": "af03f51909d06fedeb588f27da79159c585ef7bcf833b84bb7ba2ea2e38a4cea",
+            "uncertain": false
+          }
+        ]
+      ],
+      "output": {
+        "groups": [
+          {
+            "instant": "1492-01-01T00:00:00+00:00",
+            "rows": [
+              {
+                "subject": "era_order",
+                "predicate": "latest_anchor",
+                "value": "pos_1",
+                "negated": false,
+                "scope": "default",
+                "event": "1492-01-01T00:00:00+00:00",
+                "arrival": null,
+                "source": "anchor",
+                "digest": "81b1a9e15b635e6b643f4dfe90b6e9ca8e664eb9d174f02283b72e4faea637c0",
+                "uncertain": false
+              }
+            ]
+          },
+          {
+            "instant": "1956-01-01T00:00:00+00:00",
+            "rows": [
+              {
+                "subject": "era_order",
+                "predicate": "latest_anchor",
+                "value": "pos_9",
+                "negated": false,
+                "scope": "default",
+                "event": "1956-01-01T00:00:00+00:00",
+                "arrival": null,
+                "source": "anchor",
+                "digest": "af03f51909d06fedeb588f27da79159c585ef7bcf833b84bb7ba2ea2e38a4cea",
+                "uncertain": false
+              }
+            ]
+          }
+        ],
+        "undated": []
+      }
+    },
+    "L17": {
+      "input": [
+        [
+          {
+            "subject": "era_order",
+            "predicate": "latest_anchor",
+            "value": "pos_9",
+            "negated": false,
+            "scope": "default",
+            "event": "1956-01-01T00:00:00+00:00",
+            "arrival": null,
+            "source": "anchor",
+            "digest": "af03f51909d06fedeb588f27da79159c585ef7bcf833b84bb7ba2ea2e38a4cea",
+            "uncertain": false
+          }
+        ]
+      ],
+      "output": []
+    },
+    "L18": {
+      "input": [
+        []
+      ],
+      "output": []
+    },
+    "L31": {
+      "input": [
+        [
+          {
+            "subject": "era_order",
+            "predicate": "latest_anchor",
+            "value": "pos_9",
+            "negated": false,
+            "scope": "default",
+            "event": "1956-01-01T00:00:00+00:00",
+            "arrival": null,
+            "source": "anchor",
+            "digest": "af03f51909d06fedeb588f27da79159c585ef7bcf833b84bb7ba2ea2e38a4cea",
+            "uncertain": false
+          }
+        ],
+        [],
+        false
+      ],
+      "output": {
+        "status": "SUPPORTED",
+        "answer": "pos_9",
+        "negated": false,
+        "support": [
+          "af03f51909d06fedeb588f27da79159c585ef7bcf833b84bb7ba2ea2e38a4cea"
+        ]
+      }
+    },
+    "U16": {
+      "input": [
+        {
+          "status": "SUPPORTED",
+          "answer": "pos_9",
+          "negated": false,
+          "support": [
+            "af03f51909d06fedeb588f27da79159c585ef7bcf833b84bb7ba2ea2e38a4cea"
+          ]
+        },
+        [
+          {
+            "subject": "era_order",
+            "predicate": "latest_anchor",
+            "value": "pos_9",
+            "negated": false,
+            "scope": "default",
+            "event": "1956-01-01T00:00:00+00:00",
+            "arrival": null,
+            "source": "anchor",
+            "digest": "af03f51909d06fedeb588f27da79159c585ef7bcf833b84bb7ba2ea2e38a4cea",
+            "uncertain": false
+          }
+        ]
+      ],
+      "output": {
+        "status": "SUPPORTED",
+        "answer": "pos_9",
+        "negated": false,
+        "support": [
+          "af03f51909d06fedeb588f27da79159c585ef7bcf833b84bb7ba2ea2e38a4cea"
+        ],
+        "presented_sources": {
+          "anchor": [
+            "af03f51909d06fedeb588f27da79159c585ef7bcf833b84bb7ba2ea2e38a4cea"
+          ]
+        }
+      }
+    }
+  },
+  "prose_generated_by_49_brains": false
+}

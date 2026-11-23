@@ -1,0 +1,718 @@
+{
+  "id": "HIST-GEO-TIME-105-v1",
+  "total_positions": 105,
+  "anchor_count": 14,
+  "open_count": 91,
+  "word_min": 4,
+  "word_max": 9,
+  "instructions": "Fill only OPEN positions with 4 to 9 whitespace-separated words each. Preserve locked anchors exactly. Write an accurate historical progression, respecting chronological and geographical relationships. Do not invent historical facts. Submit a JSON object with positions: [{position: integer, text: string}] covering all 105 positions.",
+  "positions": [
+    {
+      "position": 1,
+      "kind": "ANCHOR",
+      "text": "Athens, 508 BCE"
+    },
+    {
+      "position": 2,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 3,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 4,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 5,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 6,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 7,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 8,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 9,
+      "kind": "ANCHOR",
+      "text": "Rome, 44 BCE"
+    },
+    {
+      "position": 10,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 11,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 12,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 13,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 14,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 15,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 16,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 17,
+      "kind": "ANCHOR",
+      "text": "Chang’an, 618 CE"
+    },
+    {
+      "position": 18,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 19,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 20,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 21,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 22,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 23,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 24,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 25,
+      "kind": "ANCHOR",
+      "text": "Baghdad, 762 CE"
+    },
+    {
+      "position": 26,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 27,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 28,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 29,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 30,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 31,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 32,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 33,
+      "kind": "ANCHOR",
+      "text": "Kyoto, 794 CE"
+    },
+    {
+      "position": 34,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 35,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 36,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 37,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 38,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 39,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 40,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 41,
+      "kind": "ANCHOR",
+      "text": "Tenochtitlan, 1325 CE"
+    },
+    {
+      "position": 42,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 43,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 44,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 45,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 46,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 47,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 48,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 49,
+      "kind": "ANCHOR",
+      "text": "Constantinople, 1453 CE"
+    },
+    {
+      "position": 50,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 51,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 52,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 53,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 54,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 55,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 56,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 57,
+      "kind": "ANCHOR",
+      "text": "Calicut, 1498 CE"
+    },
+    {
+      "position": 58,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 59,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 60,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 61,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 62,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 63,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 64,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 65,
+      "kind": "ANCHOR",
+      "text": "Wittenberg, 1517 CE"
+    },
+    {
+      "position": 66,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 67,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 68,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 69,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 70,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 71,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 72,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 73,
+      "kind": "ANCHOR",
+      "text": "Philadelphia, 1776 CE"
+    },
+    {
+      "position": 74,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 75,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 76,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 77,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 78,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 79,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 80,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 81,
+      "kind": "ANCHOR",
+      "text": "Paris, 1789 CE"
+    },
+    {
+      "position": 82,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 83,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 84,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 85,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 86,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 87,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 88,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 89,
+      "kind": "ANCHOR",
+      "text": "Haiti, 1804 CE"
+    },
+    {
+      "position": 90,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 91,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 92,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 93,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 94,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 95,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 96,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 97,
+      "kind": "ANCHOR",
+      "text": "Sarajevo, 1914 CE"
+    },
+    {
+      "position": 98,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 99,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 100,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 101,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 102,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 103,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 104,
+      "kind": "OPEN",
+      "text": null,
+      "min_words": 4,
+      "max_words": 9
+    },
+    {
+      "position": 105,
+      "kind": "ANCHOR",
+      "text": "Berlin, 1989 CE"
+    }
+  ]
+}
